@@ -3,6 +3,9 @@
     <v-card height="256" color="#00629B">
 
         <StudentBranchNav></StudentBranchNav>
+      <v-row>
+        <v-img src="@/assets/logo.svg"></v-img>
+      </v-row>
         <HomeGallery></HomeGallery>
     </v-card>
   </v-app>
