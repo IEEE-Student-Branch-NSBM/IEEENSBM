@@ -1,5 +1,6 @@
 <template>
   <v-app-bar
+      elevation="0"
       color="#00629B"
       dense
   >
