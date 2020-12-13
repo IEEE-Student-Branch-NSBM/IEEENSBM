@@ -1,7 +1,7 @@
 <template>
   <v-carousel
       cycle
-      height="400"
+      height="480"
       hide-delimiter-background
       show-arrows-on-hover
   >
@@ -9,20 +9,7 @@
         v-for="(slide, i) in slides"
         :key="i"
     >
-      <v-sheet
-          :color="colors[i]"
-          height="100%"
-      >
-        <v-row
-            class="fill-height"
-            align="center"
-            justify="center"
-        >
-          <div class="display-3">
-            {{ slide }} Slide
-          </div>
-        </v-row>
-      </v-sheet>
+      <v-img src="@/assets/Gallery/1.jpg"></v-img>
     </v-carousel-item>
   </v-carousel>
 </template>
