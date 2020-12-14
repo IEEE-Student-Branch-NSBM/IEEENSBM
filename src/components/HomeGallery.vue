@@ -1,17 +1,39 @@
 <template>
-  <v-carousel
-      cycle
-      height="480"
-      hide-delimiter-background
-      show-arrows-on-hover
-  >
-    <v-carousel-item
-        v-for="(slide, i) in slides"
-        :key="i"
+    <v-carousel
+        cycle
+        height="480px"
+        hide-delimiter-background
+        show-arrows-on-hover
     >
-      <v-img src="@/assets/Gallery/1.jpg"></v-img>
-    </v-carousel-item>
-  </v-carousel>
+      <v-carousel-item>
+        <v-img max-height="480" src="@/assets/Gallery/1.jpg"><template v-slot:placeholder>
+          <v-row
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
+          >
+            <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+            ></v-progress-circular>
+          </v-row>
+        </template></v-img>
+      </v-carousel-item>
+      <v-carousel-item>
+        <v-img max-height="480" src="@/assets/Gallery/2.jpg"><template v-slot:placeholder>
+          <v-row
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
+          >
+            <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+            ></v-progress-circular>
+          </v-row>
+        </template></v-img>
+      </v-carousel-item>
+    </v-carousel>
 </template>
 
 <script>
@@ -19,16 +41,9 @@ export default {
   name: "HomeGallery",
   data () {
     return {
-      colors: [
-        'indigo',
-        'warning',
-        'pink darken-2',
-        'red lighten-1',
-        'deep-purple accent-4',
-      ],
       slides: [
-        'First',
-        'Second',
+        '2.jpg',
+        '1.jpg',
         'Third',
         'Fourth',
         'Fifth',
