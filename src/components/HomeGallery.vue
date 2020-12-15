@@ -1,12 +1,12 @@
 <template>
     <v-carousel
         cycle
-        height="480px"
+        height="480"
         hide-delimiter-background
         show-arrows-on-hover
     >
       <v-carousel-item>
-        <v-img max-height="480" src="@/assets/Gallery/1.jpg"><template v-slot:placeholder>
+        <v-img src="@/assets/Gallery/1.jpg"><template v-slot:placeholder>
           <v-row
               class="fill-height ma-0"
               align="center"
@@ -20,7 +20,7 @@
         </template></v-img>
       </v-carousel-item>
       <v-carousel-item>
-        <v-img max-height="480" src="@/assets/Gallery/2.jpg"><template v-slot:placeholder>
+        <v-img src="@/assets/Gallery/2.jpg"><template v-slot:placeholder>
           <v-row
               class="fill-height ma-0"
               align="center"
