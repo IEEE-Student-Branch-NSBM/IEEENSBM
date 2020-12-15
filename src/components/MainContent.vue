@@ -1,5 +1,5 @@
 <template>
-  <v-app style="padding-top: 16px; padding-left: 32px;padding-right: 32px">
+  <v-app style="padding-top: 16px; padding-left: 8px;padding-right: 8px">
     <v-card elevation="8" color="#00629B">
 
       <v-row justify="space-between">
