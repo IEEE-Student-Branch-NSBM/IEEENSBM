@@ -8,23 +8,38 @@
     <v-list
         nav
         dense
+
     >
 
-        <v-list-item>
-          <v-list-item-title>Foo</v-list-item-title>
+
+
+        <v-list-item to="/" link>
+          <v-list-item-title>Home</v-list-item-title>
         </v-list-item>
 
-        <v-list-item>
-          <v-list-item-title>Bar</v-list-item-title>
+        <v-list-item link>
+          <v-list-item-title>WIE</v-list-item-title>
         </v-list-item>
 
-        <v-list-item>
-          <v-list-item-title>Fizz</v-list-item-title>
+        <v-list-item to="/events" link>
+          <v-list-item-title>Events and WorkShops</v-list-item-title>
         </v-list-item>
 
-        <v-list-item>
-          <v-list-item-title>Buzz</v-list-item-title>
+        <v-list-item link>
+          <v-list-item-title>Gallery</v-list-item-title>
         </v-list-item>
+
+        <v-list-item link>
+          <v-list-item-title>Membership</v-list-item-title>
+        </v-list-item>
+
+      <v-list-item link>
+        <v-list-item-title>Contact</v-list-item-title>
+      </v-list-item>
+
+      <v-list-item to="/about" link>
+        <v-list-item-title>About</v-list-item-title>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
