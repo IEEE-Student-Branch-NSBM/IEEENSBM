@@ -22,15 +22,33 @@
         </v-btn>
       </v-row>
       <v-row style="margin-bottom: 16px" dense justify="start" align="start">
-        <v-card width="64" height="64" rounded>
-          <v-img height="64" src="@/assets/sblogomain.png"></v-img>
-        </v-card>
-        <v-card style="margin-left: 8px" width="64" height="64" rounded>
-          <v-img height="64" src="@/assets/wielogo.png"></v-img>
-        </v-card>
-        <v-card style="margin-left: 8px" width="64" height="64" rounded>
-          <v-img height="64" src="@/assets/cslogo.jpg"></v-img>
-        </v-card>
+
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-card  v-bind="attrs" v-on="on" width="64" height="64" rounded>
+              <v-img height="64" src="@/assets/sblogomain.png"></v-img>
+            </v-card>
+          </template>
+          <span>IEEE NSBM Student Branch</span>
+        </v-tooltip>
+
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-card style="margin-left: 8px" v-bind="attrs" v-on="on" width="64" height="64" rounded>
+              <v-img height="64" src="@/assets/wielogo.png"></v-img>
+            </v-card>
+          </template>
+          <span>IEEE WIE</span>
+        </v-tooltip>
+
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-card style="margin-left: 8px" v-bind="attrs" v-on="on" width="64" height="64" rounded>
+              <v-img height="64" src="@/assets/cslogo.jpg"></v-img>
+            </v-card>
+          </template>
+          <span>IEEE Computer Society</span>
+        </v-tooltip>
       </v-row>
     </v-col>
   </v-row>
