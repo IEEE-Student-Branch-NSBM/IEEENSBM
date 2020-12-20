@@ -1,15 +1,10 @@
 <template>
-  <v-row>
-    <v-col>
-
-    </v-col>
-    <v-col></v-col>
-  </v-row>
+  <v-col></v-col>
 </template>
 
 <script>
 export default {
-  name: "WhatWeDo"
+name: "Articles"
 }
 </script>
 
