@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-col >
+    <v-col>
       <MainBase></MainBase>
       <WhatWeDo></WhatWeDo>
     </v-col>

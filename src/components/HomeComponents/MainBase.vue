@@ -1,7 +1,7 @@
 <template>
   <v-row no-gutters>
     <v-card width="256" height="256" rounded>
-      <v-img height="256" src="@/assets/sblogomain.png"></v-img>
+      <v-img  src="@/assets/sblogomain.png"></v-img>
     </v-card>
     <v-col style="margin-left: 16px">
       <h1>Welcome to IEEE NSBM Student Branch!</h1>
@@ -14,10 +14,10 @@
         computing disciplines.
       </p>
       <v-row style="margin-bottom: 16px" dense justify="start" align="start">
-        <v-btn dark color="#00629B">
+        <v-btn dark color="#00629B" style="width: 180px;margin:2px">
           Become a Member
         </v-btn>
-        <v-btn style="margin-left: 8px" dark color="#00629B">
+        <v-btn style="width: 180px;margin: 2px" dark color="#00629B">
           Meet Members
         </v-btn>
       </v-row>
