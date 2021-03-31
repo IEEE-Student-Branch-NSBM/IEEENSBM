@@ -1,11 +1,51 @@
 <template>
-  <v-row no-gutters>
-    <v-card width="256" height="256" rounded>
-      <v-img  src="@/assets/sblogomain.png"></v-img>
-    </v-card>
-    <v-col style="margin-left: 16px">
-      <h1>Welcome to IEEE NSBM Student Branch!</h1>
-      <p>
+  <v-row no-gutters justify="center">
+    <v-col cols="auto">
+      <v-card width="256" height="256" rounded>
+        <v-img max-height="256" max-width="256"  src="@/assets/sblogomain.png"></v-img>
+      </v-card>
+      <v-row no-gutters class="mt-2">
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-card class="mb-auto"  v-bind="attrs" v-on="on" width="64" height="64" rounded>
+              <v-img height="64" src="@/assets/sblogomain.png"></v-img>
+            </v-card>
+          </template>
+          <span>IEEE NSBM Student Branch</span>
+        </v-tooltip>
+        <v-spacer/>
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-card class="mb-auto" v-bind="attrs" v-on="on" width="64" height="64" rounded>
+              <v-img height="64" src="@/assets/wielogo.png"></v-img>
+            </v-card>
+          </template>
+          <span>IEEE WIE Affinity Group</span>
+        </v-tooltip>
+        <v-spacer/>
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on, attrs }">
+            <v-card class="mb-auto align-end" v-bind="attrs" v-on="on" width="64" height="64" rounded>
+              <v-img height="64" src="@/assets/cslogo.jpg"></v-img>
+            </v-card>
+          </template>
+          <span>IEEE Computer Society</span>
+        </v-tooltip>
+      </v-row>
+
+        <v-btn class="mt-2" block dark color="#00629B">
+          Become a Member
+        </v-btn>
+        <v-btn class="mt-2" block dark color="#00629B">
+          Meet Members
+        </v-btn>
+
+    </v-col>
+
+
+    <v-col class="ml-4">
+      <h1 class="text-center titleColor">Welcome to IEEE NSBM Student Branch!</h1>
+      <p class="text-justify">
         The Official page of Institute of Electrical and Electronics Engineers
         Student Branch of National School of Business Management. Institute of
         Electrical and Electronic Engineers Student Branch of National School
@@ -13,53 +53,17 @@
         the interest of undergraduate and graduate students regarding electrical and
         computing disciplines.
       </p>
-      <v-row style="margin-bottom: 16px" dense justify="start" align="start">
-        <v-btn dark color="#00629B" style="width: 180px;margin:2px">
-          Become a Member
-        </v-btn>
-        <v-btn style="width: 180px;margin: 2px" dark color="#00629B">
-          Meet Members
-        </v-btn>
-      </v-row>
-      <v-row style="margin-bottom: 16px" dense justify="start" align="start">
-
-        <v-tooltip bottom>
-          <template v-slot:activator="{ on, attrs }">
-            <v-card  v-bind="attrs" v-on="on" width="64" height="64" rounded>
-              <v-img height="64" src="@/assets/sblogomain.png"></v-img>
-            </v-card>
-          </template>
-          <span>IEEE NSBM Student Branch</span>
-        </v-tooltip>
-
-        <v-tooltip bottom>
-          <template v-slot:activator="{ on, attrs }">
-            <v-card style="margin-left: 8px" v-bind="attrs" v-on="on" width="64" height="64" rounded>
-              <v-img height="64" src="@/assets/wielogo.png"></v-img>
-            </v-card>
-          </template>
-          <span>IEEE WIE</span>
-        </v-tooltip>
-
-        <v-tooltip bottom>
-          <template v-slot:activator="{ on, attrs }">
-            <v-card style="margin-left: 8px" v-bind="attrs" v-on="on" width="64" height="64" rounded>
-              <v-img height="64" src="@/assets/cslogo.jpg"></v-img>
-            </v-card>
-          </template>
-          <span>IEEE Computer Society</span>
-        </v-tooltip>
-      </v-row>
+      <WhatWeDo/>
     </v-col>
   </v-row>
 </template>
 
 <script>
+import WhatWeDo from "@/components/HomeComponents/WhatWeDo";
 export default {
-  name: "MainBase"
+  name: "MainBase",
+  components: {WhatWeDo}
 }
 </script>
 
-<style scoped>
 
-</style>

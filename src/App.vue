@@ -29,3 +29,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.titleColor {
+  color:#00629B !important;
+}
+</style>
