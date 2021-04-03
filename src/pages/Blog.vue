@@ -4,7 +4,7 @@
       <v-row justify="start">
         <v-col
             v-for="Article in Articles"
-            :key="Article.id"
+            :key="Article.node.id"
             cols="auto"
         >
           <v-card class="HoverOnHover" elevation="4" min-width="320" width="320" rounded ripple>
@@ -12,15 +12,15 @@
                      height="128"
                      width="320"
                      blur="0"
-                     :src="''"
+                     :src="setImage(Article.node.cover)"
             >
 
             </g-image>
             <v-card-title>
-              {{ Article.title }}
+              {{ Article.node.title }}
             </v-card-title>
             <v-card-subtitle>
-              {{ Article.excerpt }}
+              {{ Article.node.excerpt }}
             </v-card-subtitle>
           </v-card>
         </v-col>
@@ -36,6 +36,8 @@ query {
       node {
         id
         title
+        excerpt
+        cover
       }
     }
   }
@@ -56,12 +58,13 @@ export default {
   },
   methods: {
     setImage: function (Image) {
-      return require("!!assets-loader?width=320&height=128!~/assets/Blog/" + Image);
+      console.log(Image)
+      return Image;
     }
   },
   mounted() {
-    this.Articles = this.$page.posts;
-    console.log(this.$page.posts);
+    this.Articles = this.$page.posts.edges;
+    console.log(this.$page.posts.edges);
   },
 }
 </script>
