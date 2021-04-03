@@ -29,7 +29,7 @@
             ></g-image>
           </v-avatar>
           <h3 class="IEEEFont">Vice President</h3>
-          <h3>Pubudu Malshan</h3>
+          <h3>Pubudu Rathnayake</h3>
         </v-col>
         <v-col cols="auto" class="text-center ma-2">
           <v-avatar width="128" height="128">
