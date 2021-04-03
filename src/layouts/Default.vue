@@ -29,6 +29,7 @@
           <v-tabs :background-color="$route.path.replaceAll('/','') ==='wie' ? '#702f8a':'#00629B'" dark slider-size="4" class="hidden-sm-and-down IEEE">
             <v-tab to="/">Home</v-tab>
             <v-tab to="/wie">WIE</v-tab>
+            <v-tab to="/cs">CS</v-tab>
             <v-tab to="/blog">Blog</v-tab>
             <v-tab to="/xcom">ExCom</v-tab>
             <v-tab to="/Membership">Membership</v-tab>
@@ -50,7 +51,7 @@ export default {
     }
   },
   mounted() {
-    this.Path = this.$route.path.replaceAll('/','');
+    //this.Path = this.$route.path.replaceAll('/','');
   }
 }
 </script>
