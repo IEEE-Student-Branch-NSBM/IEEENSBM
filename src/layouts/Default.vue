@@ -2,23 +2,23 @@
   <v-app>
     <header class="header">
       <v-app-bar
-          v-bind:class="{ WIE : Path ==='wie', IEEE : Path !== 'wie' }"
+          :color="BackColor"
           app
           dense
       >
         <v-row class="hidden-sm-and-down">
-          <v-btn v-bind:class="{ WIE : Path ==='wie', IEEE : Path !== 'wie' }"elevation="0" dark>IEEE.org</v-btn>
-          <v-btn v-bind:class="{ WIE : Path ==='wie', IEEE : Path !== 'wie' }" elevation="0" dark>IEEE Xplore Digital Library</v-btn>
-          <v-btn v-bind:class="{ WIE : Path ==='wie', IEEE : Path !== 'wie' }" elevation="0" dark>IEEE Standards</v-btn>
-          <v-btn v-bind:class="{ WIE : Path ==='wie', IEEE : Path !== 'wie' }" elevation="0" dark>IEEE Spectrum</v-btn>
-          <v-btn v-bind:class="{ WIE : Path ==='wie', IEEE : Path !== 'wie' }" elevation="0" dark>More Sites</v-btn>
+          <v-btn :color="BackColor" elevation="0" dark>IEEE.org</v-btn>
+          <v-btn :color="BackColor" elevation="0" dark>IEEE Xplore Digital Library</v-btn>
+          <v-btn :color="BackColor" elevation="0" dark>IEEE Standards</v-btn>
+          <v-btn :color="BackColor" elevation="0" dark>IEEE Spectrum</v-btn>
+          <v-btn :color="BackColor" elevation="0" dark>More Sites</v-btn>
         </v-row>
       </v-app-bar>
     </header>
 
 
       <v-main class="grey lighten-2">
-        <v-card v-bind:class="{ WIE : Path ==='wie', IEEE : Path !== 'wie' }" class="ml-4 mr-4">
+        <v-card :color="BackColor" class="ml-4 mr-4">
           <v-card-title>
             <v-row no-gutters justify="space-between" align="center">
               <g-image alt="NSBM IEEE Student" src="~/assets/Logos/IEEE_SB_Logo.png" quality="100" blur="0" width="256"/>
@@ -26,15 +26,15 @@
             </v-row>
 
           </v-card-title>
-          <v-tabs :background-color="$route.path.replaceAll('/','') ==='wie' ? '#702f8a':'#00629B'" dark slider-size="4" class="hidden-sm-and-down IEEE">
-            <v-tab to="/">Home</v-tab>
+          <v-tabs :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down IEEE">
+            <v-tab  to="/">Home</v-tab>
             <v-tab to="/wie">WIE</v-tab>
             <v-tab to="/cs">CS</v-tab>
             <v-tab to="/blog">Blog</v-tab>
-            <v-tab to="/xcom">ExCom</v-tab>
-            <v-tab to="/Membership">Membership</v-tab>
+            <v-tab to="/excom">ExCom</v-tab>
+            <v-tab to="/membership">Membership</v-tab>
             <v-tab to="/contact">Contact</v-tab>
-            <v-tab to="/About">About</v-tab>
+            <v-tab to="/about">About</v-tab>
           </v-tabs>
           <slot></slot>
         </v-card>
@@ -50,8 +50,21 @@ export default {
       Path:''
     }
   },
+
+  computed:{
+    BackColor: function (){
+      if(this.Path === 'wie'){
+        return '#702f8a';
+      } else if(this.Path === 'cs'){
+        return '#FFA300';
+      } else {
+        return '#00629B';
+      }
+    }
+  },
+
   mounted() {
-    //this.Path = this.$route.path.replaceAll('/','');
+    this.Path = this.$route.path.replaceAll('/','');
   }
 }
 </script>

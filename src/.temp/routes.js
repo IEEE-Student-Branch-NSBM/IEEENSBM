@@ -1,5 +1,5 @@
-const c1 = () => import(/* webpackChunkName: "page--src-pages-xcom-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\XCOM.vue")
-const c2 = () => import(/* webpackChunkName: "page--src-pages-wie-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\WIE.vue")
+const c1 = () => import(/* webpackChunkName: "page--src-pages-wie-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\WIE.vue")
+const c2 = () => import(/* webpackChunkName: "page--src-pages-excom-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Excom.vue")
 const c3 = () => import(/* webpackChunkName: "page--src-pages-contact-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Contact.vue")
 const c4 = () => import(/* webpackChunkName: "page--src-pages-blog-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Blog.vue")
 const c5 = () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\About.vue")
@@ -8,11 +8,11 @@ const c7 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "C:\
 
 export default [
   {
-    path: "/xcom/",
+    path: "/wie/",
     component: c1
   },
   {
-    path: "/wie/",
+    path: "/excom/",
     component: c2
   },
   {
