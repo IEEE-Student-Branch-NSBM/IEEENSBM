@@ -3,7 +3,7 @@ const c2 = () => import(/* webpackChunkName: "page--src-pages-wie-vue" */ "C:\\I
 const c3 = () => import(/* webpackChunkName: "page--src-pages-contact-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Contact.vue")
 const c4 = () => import(/* webpackChunkName: "page--src-pages-blog-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Blog.vue")
 const c5 = () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\About.vue")
-const c6 = () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\node_modules\\gridsome\\app\\pages\\404.vue")
+const c6 = () => import(/* webpackChunkName: "page--src-pages-404-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\404.vue")
 const c7 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Index.vue")
 
 export default [
