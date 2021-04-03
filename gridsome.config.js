@@ -8,17 +8,24 @@ module.exports = {
   siteName: 'IEEE NSBM Student Branch',
   plugins: [
     {
-      use: '@gridsome/source-contentful',
+      use: '@gridsome/source-filesystem',
       options: {
-        space: 'foeyko5o4as8', // required
-        accessToken: 'a74bXppS6AEyLjDWb5WzI_wlfF-vgLt4zmZRHcMAa2A', // required
-        host: 'cdn.contentful.com',
-        environment: 'master',
-        typeName: 'Contentful'
+        path: 'posts/**/*.md',
+        typeName: 'Post'
       }
-    }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    },
   ],
-  templates: {
-    ContentfulPosts: '/blog/:slug',
-  }
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link'
+    },
+  },
 }
