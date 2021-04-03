@@ -1,12 +1,23 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import vuetify from './plugins/vuetify';
+import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.min.css';
+import DefaultLayout from '~/layouts/Default.vue';
 
-Vue.config.productionTip = false
+export default function (Vue, { appOptions, head }) {
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css',
+  });
 
-new Vue({
-  router,
-  vuetify,
-  render: h => h(App)
-}).$mount('#app')
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900',
+  });
+
+  const opts = {} //opts includes, vuetify themes, icons, etc.
+  Vue.use(Vuetify);
+
+  appOptions.vuetify = new Vuetify(opts);
+
+  // Set default layout as a global component
+  Vue.component('Layout', DefaultLayout)
+}
