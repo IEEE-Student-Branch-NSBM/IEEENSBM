@@ -19,8 +19,41 @@
       </v-row>
 
         <v-row justify="center" no-gutters>
-          <h1>Welcome to IEEE NSBM Student Branch!</h1>
+          <h1 class="IEEEFont">Welcome to IEEE NSBM Student Branch!</h1>
         </v-row>
+
+      <v-container>
+
+          <v-col>
+              <v-row justify="center" no-gutters>
+                <h1 class="IEEEFont">What is IEEE?</h1>
+              </v-row>
+              <p class="text-justify">
+                IEEE is the world’s largest professional association dedicated to advancing technological innovation and excellence for the benefit of humanity. IEEE and its members inspire a global community through IEEE’s highly cited publications, conferences, technology standards, and professional and educational activities.
+                IEEE, pronounced “Eye-triple-E,” stands for the Institute of Electrical and Electronics Engineers. The association is chartered under this name and it is the full legal name. To learn more about the association’s name, for more information please read the <a href="https://www.ieee.org/about/ieee-history.html" target="_blank">History of IEEE</a>.
+              </p>
+
+            <v-row>
+              <v-col>
+                <v-row justify="center" no-gutters>
+                  <h1 class="IEEEFont">Mission</h1>
+                </v-row>
+                <p class="text-justify">
+                  IEEE’s core purpose is to foster technological innovation and excellence for the benefit of humanity.
+                </p>
+              </v-col>
+              <v-col>
+                <v-row justify="center" no-gutters>
+                  <h1 class="IEEEFont">Vision</h1>
+                </v-row>
+                <p class="text-justify">
+                  IEEE’s core purpose is to foster technological innovation and excellence for the benefit of humanity.
+                </p>
+              </v-col>
+            </v-row>
+          </v-col>
+
+      </v-container>
 
     </v-card>
   </Layout>
@@ -35,6 +68,8 @@ export default {
 </script>
 
 <style>
+
+
 .home-links a {
   margin-right: 1rem;
 }

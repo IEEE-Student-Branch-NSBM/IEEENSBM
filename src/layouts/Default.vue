@@ -30,7 +30,7 @@
             <v-tab to="/">Home</v-tab>
             <v-tab to="/wie">WIE</v-tab>
             <v-tab to="/blog">Blog</v-tab>
-            <v-tab to="/Gallery">Gallery</v-tab>
+            <v-tab to="/xcom">XCom</v-tab>
             <v-tab to="/Membership">Membership</v-tab>
             <v-tab to="/contact">Contact</v-tab>
             <v-tab to="/About">About</v-tab>
@@ -60,6 +60,10 @@ body {
 
 .IEEE{
   background-color: #00629B !important;
+}
+
+.IEEEFont{
+  color: #00629B !important;;
 }
 
 .layout {

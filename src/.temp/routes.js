@@ -1,40 +1,45 @@
-const c1 = () => import(/* webpackChunkName: "page--src-pages-wie-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\WIE.vue")
-const c2 = () => import(/* webpackChunkName: "page--src-pages-contact-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Contact.vue")
-const c3 = () => import(/* webpackChunkName: "page--src-pages-blog-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Blog.vue")
-const c4 = () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\About.vue")
-const c5 = () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\node_modules\\gridsome\\app\\pages\\404.vue")
-const c6 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src-pages-x-com-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\XCom.vue")
+const c2 = () => import(/* webpackChunkName: "page--src-pages-wie-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\WIE.vue")
+const c3 = () => import(/* webpackChunkName: "page--src-pages-contact-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Contact.vue")
+const c4 = () => import(/* webpackChunkName: "page--src-pages-blog-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Blog.vue")
+const c5 = () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\About.vue")
+const c6 = () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\node_modules\\gridsome\\app\\pages\\404.vue")
+const c7 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "C:\\IntelliJ\\IEEE\\WebSite\\src\\pages\\Index.vue")
 
 export default [
   {
-    path: "/wie/",
+    path: "/x-com/",
     component: c1
   },
   {
-    path: "/contact/",
+    path: "/wie/",
     component: c2
   },
   {
-    path: "/blog/",
+    path: "/contact/",
     component: c3
   },
   {
-    path: "/about/",
+    path: "/blog/",
     component: c4
+  },
+  {
+    path: "/about/",
+    component: c5
   },
   {
     name: "404",
     path: "/404/",
-    component: c5
+    component: c6
   },
   {
     name: "home",
     path: "/",
-    component: c6
+    component: c7
   },
   {
     name: "*",
     path: "*",
-    component: c5
+    component: c6
   }
 ]
