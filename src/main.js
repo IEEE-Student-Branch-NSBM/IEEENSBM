@@ -13,7 +13,28 @@ export default function (Vue, { appOptions, head }) {
     href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900',
   });
 
-  const opts = {} //opts includes, vuetify themes, icons, etc.
+  head.meta.push({
+    name:'title',
+    content:'IEEE NSBM Student Branch'
+  });
+  head.meta.push({
+    name:'description',
+    content:'The Official Website of Institute of Electrical and Electronics Engineers Student Branch of National School of Business Management.'
+  });
+  head.meta.push({
+    name:'keywords',
+    content:'ieee, nsbm, ieee-student-branch, student-branch, wie, wie-nsbm, ieee-wie'
+  });
+  head.meta.push({
+    name:'robots',
+    content:'index, follow'
+  });
+  head.meta.push({
+    name:'language',
+    content:'English'
+  });
+
+const opts = {} //opts includes, vuetify themes, icons, etc.
   Vue.use(Vuetify);
 
   appOptions.vuetify = new Vuetify(opts);

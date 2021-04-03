@@ -21,8 +21,8 @@
         <v-card class="IEEE ml-4 mr-4">
           <v-card-title>
             <v-row no-gutters justify="space-between" align="center">
-              <g-image src="~/assets/Logos/IEEE_SB_Logo.png" quality="100" blur="0" width="256"/>
-              <g-image class="hidden-sm-and-down" src="~/assets/Logos/IEEE_Logo.png" quality="100" blur="0" width="256"/>
+              <g-image alt="NSBM IEEE Student" src="~/assets/Logos/IEEE_SB_Logo.png" quality="100" blur="0" width="256"/>
+              <g-image alt="IEEE Logo" class="hidden-sm-and-down" src="~/assets/Logos/IEEE_Logo.png" quality="100" blur="0" width="256"/>
             </v-row>
 
           </v-card-title>
