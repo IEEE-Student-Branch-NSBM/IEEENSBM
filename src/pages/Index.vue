@@ -38,7 +38,7 @@
                 <v-row justify="center" no-gutters>
                   <h1 class="IEEEFont">Mission</h1>
                 </v-row>
-                <p class="text-justify">
+                <p class="text-center">
                   IEEE’s core purpose is to foster technological innovation and excellence for the benefit of humanity.
                 </p>
               </v-col>
@@ -47,7 +47,7 @@
                   <h1 class="IEEEFont">Vision</h1>
                 </v-row>
                 <p class="text-justify">
-                  IEEE’s core purpose is to foster technological innovation and excellence for the benefit of humanity.
+                  IEEE will be essential to the global technical community and to technical professionals everywhere, and be universally recognized for the contributions of technology and of technical professionals in improving global conditions.
                 </p>
               </v-col>
             </v-row>
