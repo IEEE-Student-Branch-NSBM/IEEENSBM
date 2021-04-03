@@ -1,0 +1,12 @@
+{
+  "name": "IEEE NSBM Student Branch",
+  "schemaPath": "netlify_cms.graphql",
+  "extensions": {
+    "endpoints": {
+      "Netlify CMS EndPoint": {
+        "url": "http://localhost:8080/___graphql",
+        "introspect": true
+      }
+    }
+  }
+}
