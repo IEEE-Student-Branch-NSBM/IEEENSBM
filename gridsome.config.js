@@ -27,7 +27,7 @@ module.exports = {
         width: 1300,
         height: 900
       }
-    }
+    },
   ],
   transformers: {
     remark: {
