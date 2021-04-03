@@ -33,7 +33,7 @@
                 IEEE, pronounced “Eye-triple-E,” stands for the Institute of Electrical and Electronics Engineers. The association is chartered under this name and it is the full legal name. To learn more about the association’s name, for more information please read the <a href="https://www.ieee.org/about/ieee-history.html" target="_blank">History of IEEE</a>.
               </p>
 
-            <v-row>
+            <v-col>
               <v-col>
                 <v-row justify="center" no-gutters>
                   <h1 class="IEEEFont">Mission</h1>
@@ -46,11 +46,11 @@
                 <v-row justify="center" no-gutters>
                   <h1 class="IEEEFont">Vision</h1>
                 </v-row>
-                <p class="text-justify">
+                <p class="text-center">
                   IEEE will be essential to the global technical community and to technical professionals everywhere, and be universally recognized for the contributions of technology and of technical professionals in improving global conditions.
                 </p>
               </v-col>
-            </v-row>
+            </v-col>
           </v-col>
 
       </v-container>
