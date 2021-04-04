@@ -9,10 +9,10 @@ export default [
   },
   {
     run: plugin_gridsome_plugin_manifest_8,
-    options: {"background_color":"#000000","icon_path":"./src/assets/Logos/SB_Logo.png","name":"IEEE NSBM Student Branch","short_name":"IEEE NSBM Student Branch","theme_color":"#00629B","lang":"en","display":"minimal-ui","file_name":"manifest.json","orientation":"any","scope":"/","start_url":"/","dir":"auto","prefer_related_applications":false,"related_applications":[]}
+    options: {"background_color":"#00629B","icon_path":"./src/assets/Logos/Icon.png","name":"IEEE NSBM Student Branch","short_name":"IEEE NSBM Student Branch","theme_color":"#00629B","lang":"en","display":"minimal-ui","file_name":"manifest.json","orientation":"any","scope":"/","start_url":"/","dir":"auto","prefer_related_applications":false,"related_applications":[]}
   },
   {
     run: plugin_gridsome_plugin_service_worker_9,
-    options: {"networkFirst":{"routes":["/"],"fileTypes":["document","script","style","image"],"cacheName":"nf-v1"},"cacheFirst":{"cacheName":"cf-v1","routes":[],"fileTypes":[]},"cacheOnly":{"cacheName":"co-v1","routes":[],"fileTypes":[]},"networkOnly":{"cacheName":"no-v1","routes":[],"fileTypes":[]},"precachedRoutes":[],"staleWhileRevalidate":{"cacheName":"swr-v1","routes":[],"fileTypes":[]}}
+    options: {"staleWhileRevalidate":{"routes":["/"],"fileTypes":["document","script","style","image"],"cacheName":"swr-v1"},"cacheFirst":{"cacheName":"cf-v1","routes":[],"fileTypes":[]},"cacheOnly":{"cacheName":"co-v1","routes":[],"fileTypes":[]},"networkFirst":{"cacheName":"nf-v1","routes":[],"fileTypes":[]},"networkOnly":{"cacheName":"no-v1","routes":[],"fileTypes":[]},"precachedRoutes":[]}
   }
 ]
