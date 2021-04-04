@@ -68,6 +68,20 @@ type Post implements Node {
         sortBy: String = "date"
     ): NodeBelongsTo
     content: String
+    cover(
+        "Background color for 'contain'"
+        background: String,
+        "Blur level for base64 string"
+        blur: Int,
+        "Fit"
+        fit: ImageFit = cover,
+        "Height"
+        height: Int,
+        "Quality (default: 75)"
+        quality: Int,
+        "Width"
+        width: Int
+    ): Image
     date(
         "Date format"
         format: String,
@@ -219,6 +233,21 @@ input IDQueryOperatorInput {
     nin: [ID]
 }
 
+input ImageQueryOperatorInput {
+    "Filter by property of (strict) equality."
+    eq: Image
+    "Filter nodes that contain the field, including nodes where the field value is null."
+    exists: Boolean
+    "Filter by property matching any of the provided values."
+    in: [Image]
+    "Filter by property not equal to provided value."
+    ne: Image
+    "Filter by property not matching any of the provided values."
+    nin: [Image]
+    "Filter by property matching provided regular expression."
+    regex: String
+}
+
 input JSONQueryOperatorInput {
     "Filter by property of (strict) equality."
     eq: JSON
@@ -241,6 +270,7 @@ input PageFilterInput {
 
 input PostFilterInput {
     content: StringQueryOperatorInput
+    cover: ImageQueryOperatorInput
     date: DateQueryOperatorInput
     excerpt: StringQueryOperatorInput
     fileInfo: Post_FileInfoFilterInput
@@ -292,9 +322,9 @@ input TypeNameQueryOperatorInput {
 
 scalar Date
 
+scalar Image
+
 "The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)."
 scalar JSON
 
 scalar File
-
-scalar Image
