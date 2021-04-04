@@ -34,6 +34,15 @@ export default function (Vue, { appOptions, head }) {
     content:'English'
   });
 
+  head.script.push({
+    src: 'https://cdn.onesignal.com/sdks/OneSignalSDK.js',
+    async:''
+  });
+
+  head.script.push({
+    src: './Onesignal.js'
+  });
+
 const opts = {} //opts includes, vuetify themes, icons, etc.
   Vue.use(Vuetify);
 
