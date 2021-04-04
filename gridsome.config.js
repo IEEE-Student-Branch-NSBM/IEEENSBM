@@ -37,11 +37,12 @@ module.exports = {
         short_name: "IEEE NSBM Student Branch",
         theme_color: "#00629B",
         lang: "en",
+
       },
     },
     {
       use: "gridsome-plugin-service-worker",options: {
-        networkFirst: {
+        staleWhileRevalidate: {
           routes: ["/"],
           fileTypes: ["document", "script", "style", "image"],
         },
