@@ -19,6 +19,7 @@
     "deepmerge": "^4.2.2",
     "fibers": "^5.0.0",
     "gridsome-plugin-manifest": "^0.3.5",
+    "gridsome-plugin-service-worker": "^0.2.6",
     "sass": "^1.32.8",
     "sass-loader": "7.3.1",
     "vuetify-loader": "^1.7.2",

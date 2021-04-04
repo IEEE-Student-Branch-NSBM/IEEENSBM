@@ -39,6 +39,15 @@ module.exports = {
         lang: "en",
       },
     },
+    {
+      use: "gridsome-plugin-service-worker",options: {
+        networkFirst: {
+          routes: ["/"],
+          fileTypes: ["document", "script", "style", "image"],
+        },
+      },
+
+    },
   ],
   transformers: {
     remark: {
