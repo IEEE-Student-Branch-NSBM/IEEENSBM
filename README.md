@@ -1,14 +1,27 @@
-# Default starter for Gridsome
+# IEEE NSBM Website
 
-This is the project you get when you run `gridsome create new-project`.
+OpenSource Website theme developed by IEEE NSBM Student Branch and the IEEE NSBM Computer Society Chapter. 
 
-### 1. Install Gridsome CLI tool if you don't have
+## License - AGPL-3.0 !
 
-`npm install --global @gridsome/cli`
+### Project Maintainers
+	Srilal Sachintha
 
-### 2. Create a Gridsome project
+### Technology Stack
+	VueJs
+	VuetifyJs
+	Gridsome
+	Netlify
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+#### Instructions for running
+	1. Install Gridsome CLI
+	yarn global add @gridsome/cli
+	
+	2. Install the dependencies
+	yarn install
+
+	3. Run Hot-realod Gridsome Server
+	gridsome develop
+
+	4. Server will be available at,
+	http://localhost:8080
