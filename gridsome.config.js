@@ -28,6 +28,17 @@ module.exports = {
         height: 900
       }
     },
+    {
+      use: "gridsome-plugin-manifest",
+      options: {
+        background_color: "#000000",
+        icon_path: "./src/assets/Logos/SB_Logo.png",
+        name: "IEEE NSBM Student Branch",
+        short_name: "IEEE NSBM Student Branch",
+        theme_color: "#00629B",
+        lang: "en",
+      },
+    },
   ],
   transformers: {
     remark: {
