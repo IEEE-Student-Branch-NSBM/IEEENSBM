@@ -1,28 +1,22 @@
 {
-  "name": "ieee",
+  "name": "ieee_nsbm",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "build": "gridsome build"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "@gridsome/plugin-critical": "^0.2.0",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.4",
-    "gridsome": "^0.7.0",
-    "gridsome-plugin-netlify-cms": "^1.0.9",
-    "netlify-cms": "^2.10.105",
-    "vuetify": "^2.4.9"
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "vuetify": "*"
   },
   "devDependencies": {
-    "deepmerge": "^4.2.2",
-    "fibers": "^5.0.0",
-    "gridsome-plugin-manifest": "^0.3.5",
-    "gridsome-plugin-service-worker": "^0.2.6",
-    "sass": "^1.32.8",
-    "sass-loader": "7.3.1",
-    "vuetify-loader": "^1.7.2",
-    "webpack-node-externals": "^2.5.2"
+    "@nuxtjs/vuetify": "^1.11.3"
   }
 }
