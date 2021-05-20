@@ -10,18 +10,15 @@ OpenSource Website theme developed by IEEE NSBM Student Branch and the IEEE NSBM
 ### Technology Stack
 	VueJs
 	VuetifyJs
-	Gridsome
+	NuxtJs
 	Netlify
 
 #### Instructions for running
-	1. Install Gridsome CLI
-	yarn global add @gridsome/cli
-	
-	2. Install the dependencies
-	yarn install
+	1. Install the dependencies
+	npm install
 
-	3. Run Hot-realod Gridsome Server
-	gridsome develop
+	3. Run Hot-reload Nuxt Server
+	npm run dev
 
-	4. Server will be available at,
-	http://localhost:8080
+	4. Server will be usually available at,
+	http://localhost:3000
