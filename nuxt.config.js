@@ -74,7 +74,7 @@ export default {
     }
   },
   loading: {
-    color: '#00629B',
+    color: 'white',
     height: '5px'
   },
 
