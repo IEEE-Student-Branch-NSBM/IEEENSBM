@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer
-      class="IEEE"
+      :color="BackColor"
       v-bind:class="{WIE : Path === 'wie' , CS : Path === 'cs'}"
       v-model="NavDrawer" temporary app>
       <v-list>
@@ -11,36 +11,8 @@
           </v-row>
         </v-list-item>
 
-        <v-list-item to="/" class="mt-4" link dark>
-          <v-list-item-title style="color:white;">Home</v-list-item-title>
-        </v-list-item>
-
-        <v-list-item to="wie" link dark>
-          <v-list-item-title style="color:white;">WIE</v-list-item-title>
-        </v-list-item>
-
-        <v-list-item to="cs" link dark>
-          <v-list-item-title style="color:white;">CS</v-list-item-title>
-        </v-list-item>
-
-        <v-list-item to="blog" link dark>
-          <v-list-item-title style="color:white;">Blog</v-list-item-title>
-        </v-list-item>
-
-        <v-list-item to="excom" link dark>
-          <v-list-item-title style="color:white;">ExCom</v-list-item-title>
-        </v-list-item>
-
-        <v-list-item to="/membership" link dark>
-          <v-list-item-title style="color:white;">Membership</v-list-item-title>
-        </v-list-item>
-
-        <v-list-item to="/contact" link dark>
-          <v-list-item-title style="color:white;">Contact</v-list-item-title>
-        </v-list-item>
-
-        <v-list-item to="/about" link dark>
-          <v-list-item-title style="color:white;">About</v-list-item-title>
+        <v-list-item :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To" link dark>
+          <v-list-item-title style="color:white;">{{ MenuItem.Name }}</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -79,14 +51,7 @@
 
         </v-card-title>
         <v-tabs @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
-          <v-tab to="/">Home</v-tab>
-          <v-tab to="/wie">WIE</v-tab>
-          <v-tab to="/cs">CS</v-tab>
-          <v-tab to="/blog">Blog</v-tab>
-          <v-tab to="/excom">ExCom</v-tab>
-          <v-tab to="/membership">Membership</v-tab>
-          <v-tab to="/contact">Contact</v-tab>
-          <v-tab to="/about">About</v-tab>
+          <v-tab :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To">{{ MenuItem.Name }}</v-tab>
         </v-tabs>
 
       </v-card>
@@ -105,6 +70,42 @@ export default {
       Path:'',
       NavDrawer:false,
       BackColor:'#00629B',
+
+      Menu:[
+        {
+          Name:'Home',
+          To:'/'
+        },
+        {
+          Name:'WIE',
+          To:'/wie'
+        },
+        {
+          Name:'CS',
+          To:'/cs'
+        },
+        {
+          Name:'Events',
+          To:'/events'
+        },
+        {
+          Name:'Blog',
+          To:'/blog'
+        },
+        {
+          Name:'EXCOM',
+          To:'/excom'
+        },
+        {
+          Name:'Membership',
+          To:'/membership'
+        },
+        {
+          Name:'Contact',
+          To:'/contact'
+        },
+
+      ]
     }
   },
   methods:{
