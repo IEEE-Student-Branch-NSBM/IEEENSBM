@@ -1,5 +1,13 @@
 <template>
   <div>
+    <v-card class="rounded-0" height="70vh">
+      <div class="BlurMa">
+        <v-container>
+          <v-img max-height="128" src="/Assets/Logos/MainLogo.png"></v-img>
+        </v-container>
+      </div>
+      <v-img position="unset" height="70vh" src="/Assets/Other/NSBM_1.jpg"></v-img>
+    </v-card>
     <v-card class="rounded-t-0" color="white">
       <v-row align="baseline" justify="center" no-gutters>
         <v-col class="hidden-sm-and-down" cols="auto">
@@ -72,3 +80,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.BlurMa {
+  height: 70vh;
+  position: absolute;
+  backdrop-filter: blur(16px);
+  z-index: 1;
+  width: 30vw !important;
+}
+</style>

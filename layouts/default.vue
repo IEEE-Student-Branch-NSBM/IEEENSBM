@@ -45,14 +45,16 @@
       <v-card :color="BackColor" class="ml-4 mr-4 rounded-b-0">
         <v-card-title>
           <v-row no-gutters justify="space-between" align="center">
-            <v-img alt="NSBM IEEE Student" src="/Assets/Logos/IEEE_SB_Logo.png" max-width="256"/>
-            <v-img alt="IEEE Logo" class="hidden-sm-and-down" src="/Assets/Logos/IEEE_Logo.png" max-width="256"/>
+            <v-img alt="NSBM IEEE Student"  src="/Assets/Logos/IEEE_SB_Logo.png" max-width="180"/>
+            <v-img alt="IEEE Logo" class="hidden-sm-and-down" src="/Assets/Logos/IEEE_Logo.png" max-width="180"/>
           </v-row>
 
         </v-card-title>
-        <v-tabs @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
-          <v-tab :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To">{{ MenuItem.Name }}</v-tab>
-        </v-tabs>
+
+          <v-tabs @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
+            <v-tab :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To">{{ MenuItem.Name }}</v-tab>
+          </v-tabs>
+
 
       </v-card>
       <v-card flat class="rounded-t-0 ml-4 mr-4 mb-4 IEEE">
