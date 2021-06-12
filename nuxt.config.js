@@ -78,7 +78,14 @@ export default {
     height: '5px'
   },
 
+
+  generate: {
+    dir: 'docs'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    analyze: {
+      analyzerMode: 'static'
+    }
   }
 }
