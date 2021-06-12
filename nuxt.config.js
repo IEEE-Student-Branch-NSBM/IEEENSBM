@@ -80,12 +80,10 @@ export default {
 
 
   generate: {
-    dir: 'docs'
+    dir: 'dist'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    analyze: {
-      analyzerMode: 'static'
-    }
+
   }
 }
