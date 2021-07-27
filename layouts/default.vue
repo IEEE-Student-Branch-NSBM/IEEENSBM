@@ -55,9 +55,11 @@
               fit="contain"
               class="hidden-sm-and-down"
               height="64"
+              alt="Brand Logo"
               src="/Assets/Logos/MainLogo.png"/>
 
             <nuxt-img
+              alt="IEEE Logo"
               quality="96"
               format="webp"
               class="hidden-sm-and-down"
@@ -79,7 +81,7 @@
         <v-footer :color="BackColor">
           <v-col>
             <v-row no-gutters justify="center">
-              <nuxt-img height="64" src="/Assets/Logos/MainLogo.png"></nuxt-img>
+              <nuxt-img alt="MainLogo" height="64" src="/Assets/Logos/MainLogo.png"></nuxt-img>
             </v-row>
             <v-row no-gutters justify="center">
               <v-btn class="ma-1">

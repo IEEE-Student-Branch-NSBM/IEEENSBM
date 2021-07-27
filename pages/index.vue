@@ -53,6 +53,7 @@
         <v-col class="hidden-sm-and-down" cols="auto">
           <v-card class="rounded-circle" rounded width="128" height="128">
             <nuxt-img
+              alt="CS logo"
               quality="96"
               format="webp"
               alt="IEEE CS Logo" class="rounded-circle" height="128" width="128"  src="/Assets/Logos/CS_Logo.png"></nuxt-img>
@@ -64,6 +65,7 @@
             quality="96"
             format="webp"
             fit="contain"
+            alt="SB Logo"
             alt="NSBM IEEE Student Logo" height="256" width="256"
             src="/Assets/Logos/SB_Logo.png"></nuxt-img>
         </v-card>
@@ -73,6 +75,7 @@
             <nuxt-img
               quality="96"
               format="webp"
+              alt="WIE Logo"
               fit="contain"
               alt="WIE Logo" class="rounded-circle" height="128" max-width="128"  src="/Assets/Logos/WIE_Logo.png"></nuxt-img>
           </v-card>
