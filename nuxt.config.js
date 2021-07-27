@@ -35,6 +35,7 @@ export default {
     '@nuxtjs/vuetify',
     '@nuxt/image',
     '@nuxtjs/pwa',
+    '@nuxtjs/web-vitals'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -50,6 +51,12 @@ export default {
   sitemap: {
     hostname: 'https://ieeensbm.org',
     gzip: true,
+  },
+
+  webVitals: {
+    // provider: '', // auto detectd
+    debug: false,
+    disabled: false
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
