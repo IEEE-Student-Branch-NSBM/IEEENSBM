@@ -27,8 +27,10 @@
         <v-btn class="hidden-md-and-up" @click="NavDrawer = true" icon>
           <v-icon color="white">mdi-menu</v-icon>
         </v-btn>
-        <v-row class="hidden-sm-and-down">
 
+        <h3 class="white--text hidden-sm-and-up text-center">IEEE Student Branch - NSBM</h3>
+
+        <v-row class="hidden-sm-and-down">
           <v-btn href="https://www.ieee.org" target="_blank" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE.org</v-btn>
           <v-btn href="https://ieeexplore.ieee.org" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE <i>Xplore</i>&nbspDigital Library</v-btn>
           <v-btn href="https://standards.ieee.org" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Standards</v-btn>
@@ -42,11 +44,26 @@
 
     <v-main class="grey lighten-2">
 
+
       <v-card :color="BackColor" class="ml-4 mr-4 rounded-b-0">
-        <v-card-title>
+        <v-card-title class="hidden-sm-and-down">
           <v-row no-gutters justify="space-between" align="center">
-            <v-img alt="NSBM IEEE Student"  src="/Assets/Logos/IEEE_SB_Logo.png" max-width="180"/>
-            <v-img alt="IEEE Logo" class="hidden-sm-and-down" src="/Assets/Logos/IEEE_Logo.png" max-width="180"/>
+
+            <nuxt-img
+              quality="96"
+              format="png"
+              fit="contain"
+              class="hidden-sm-and-down"
+              height="64"
+              src="/Assets/Logos/MainLogo.png"/>
+
+            <nuxt-img
+              quality="96"
+              format="png"
+              class="hidden-sm-and-down"
+              fit="contain"
+              height="64"
+              src="/Assets/Logos/IEEE_Logo.png"/>
           </v-row>
 
         </v-card-title>
@@ -59,6 +76,29 @@
       </v-card>
       <v-card flat class="rounded-t-0 ml-4 mr-4 mb-4 IEEE">
         <nuxt/>
+        <v-footer :color="BackColor">
+          <v-col>
+            <v-row no-gutters justify="center">
+              <v-img contain height="64" src="/Assets/Logos/MainLogo.png"></v-img>
+            </v-row>
+            <v-row no-gutters justify="center">
+              <v-btn class="ma-1">
+                <v-icon>mdi-facebook</v-icon>
+              </v-btn>
+              <v-btn class="ma-1">
+                <v-icon>mdi-instagram</v-icon>
+              </v-btn>
+              <v-btn class="ma-1">
+                <v-icon>mdi-linkedin</v-icon>
+              </v-btn>
+            </v-row>
+
+            <v-row no-gutters justify="center">
+              <kbd>&lt;/&gt; by IEEE Computer Society — NSBM</kbd>
+            </v-row>
+          </v-col>
+
+        </v-footer>
       </v-card>
     </v-main>
 
@@ -89,6 +129,10 @@ export default {
         {
           Name:'Events',
           To:'/events'
+        },
+        {
+          Name:'Volunteer',
+          To:'/volunteer'
         },
         {
           Name:'Blog',
@@ -128,6 +172,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+
+</style>
 
 <style>
 

@@ -3,14 +3,15 @@
     <v-card>
       <v-row no-gutters>
         <v-col class="hidden-sm-and-down">
+
+          <nuxt-img
+            quality="96"
+            format="png"
+            fit="contain"
+            sizes="sm:75vw md:50vw lg:100%"
+            src="/Assets/Other/Contact.jpg"/>
           <v-img
 
-            height="480"
-            width="760"
-            quality="100"
-            blur="0"
-            fit="cover"
-            src="/Assets/Other/Contact.jpg"
           ></v-img>
         </v-col>
         <v-col>

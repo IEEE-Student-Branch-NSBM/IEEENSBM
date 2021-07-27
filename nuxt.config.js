@@ -33,6 +33,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -80,7 +81,7 @@ export default {
 
 
   generate: {
-    dir: 'dist'
+    dir: 'docs'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

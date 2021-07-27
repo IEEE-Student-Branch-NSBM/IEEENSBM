@@ -2,7 +2,14 @@
   <v-container>
     <v-col>
       <v-row justify="center" no-gutters>
-        <v-img max-height="512" max-width="512" src="/Assets/Other/404.png"></v-img>
+
+        <nuxt-img
+          quality="96"
+          format="png"
+          fit="contain"
+          sizes="sm:75vw md:50vw lg:400px"
+          src="/Assets/Other/404.png"/>
+
       </v-row>
     </v-col>
   </v-container>

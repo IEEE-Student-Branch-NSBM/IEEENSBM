@@ -1,12 +1,39 @@
 <template>
   <div>
-    <v-card class="rounded-0" height="70vh">
+    <v-card class="rounded-0" height="72vh">
       <div class="BlurMa">
         <v-container>
-          <v-img max-height="128" src="/Assets/Logos/MainLogo.png"></v-img>
+
+          <v-row justify="space-between" no-gutters>
+            <h1 class="white--text">Latest...</h1>
+
+            <v-btn rounded to="/blog">More <v-icon>mdi-chevron-right-circle</v-icon></v-btn>
+          </v-row>
+          <v-row justify="start" no-gutters>
+            <v-card ripple v-for="(blog,i) in Articles" :key="i" class="floatOnHover" width="256">
+
+              <v-img class="ImgFilter" width="256" :src="blog.image"></v-img>
+              <v-card-title style="word-break: normal !important;">
+                <span>{{ blog.title }}</span>
+              </v-card-title>
+              <v-card-subtitle>
+                by {{ blog.author }} - {{ blog.date }}
+              </v-card-subtitle>
+
+              <v-card-actions>
+                <v-btn outlined block>
+                  Read More <v-icon>mdi-chevron-right-circle</v-icon>
+                </v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-row>
+
+          <v-row justify="center" no-gutters>
+            <v-btn rounded><v-icon>mdi-chevron-down-circle</v-icon></v-btn>
+          </v-row>
         </v-container>
       </div>
-      <v-img position="unset" height="70vh" src="/Assets/Other/NSBM_1.jpg"></v-img>
+      <v-img position="unset" height="72vh" src="/Assets/Other/NSBM_1.jpg"></v-img>
     </v-card>
     <v-card class="rounded-t-0" color="white">
       <v-row align="baseline" justify="center" no-gutters>
@@ -77,16 +104,39 @@ export default {
   components: {
     Logo,
     VuetifyLogo
+  },
+
+  data(){
+    return{
+      Articles:[]
+    }
+  },
+
+  mounted() {
+    this.$content('articles').limit(10).fetch().then(data=>{
+      console.log(data);
+      this.Articles = data;
+    });
   }
 }
 </script>
 
 <style scoped>
+.floatOnHover{
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.floatOnHover:hover{
+  top: -8px;
+}
 .BlurMa {
-  height: 70vh;
+  height: 72vh;
   position: absolute;
   backdrop-filter: blur(16px);
   z-index: 1;
-  width: 30vw !important;
+  width: 100% !important;
 }
 </style>

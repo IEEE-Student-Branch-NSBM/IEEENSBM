@@ -1,11 +1,11 @@
 <template>
-  <v-card class="pb-4 pt-4">
-    <v-row  no-gutters justify="center">
+  <v-card class="pa-4">
+    <v-row  no-gutters justify="start">
       <v-col cols="auto">
-        <v-card :key="blog.createdAt" v-for="blog in Blogs">
-          <v-img max-width="256" :src="blog.image"></v-img>
-          <v-card-title>{{ blog.title }}</v-card-title>
-        </v-card>
+        <BlogArticleCard
+        :blog="blog"
+        :key="blog.createdAt" v-for="blog in Blogs"
+        ></BlogArticleCard>
       </v-col>
     </v-row>
   </v-card>
@@ -20,7 +20,7 @@ export default {
     }
   },
   mounted() {
-    this.$content().fetch().then((val)=>{
+    this.$content('articles').fetch().then((val)=>{
       this.Blogs = val;
       console.log(val);
     });
@@ -29,5 +29,7 @@ export default {
 </script>
 
 <style scoped>
-
+.ImgFilter{
+  filter: brightness(500);
+}
 </style>

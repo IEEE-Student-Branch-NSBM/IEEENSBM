@@ -14,9 +14,10 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "vuetify": "*"
+    "vuetify": "^2.5.7"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.11.3"
+    "@nuxt/image": "^0.5.0",
+    "@nuxtjs/vuetify": "^1.12.1"
   }
 }

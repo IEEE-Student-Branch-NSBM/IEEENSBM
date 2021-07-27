@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/wie", {data:[{}],fetch:{},mutations:void 0});
