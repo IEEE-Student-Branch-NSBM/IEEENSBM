@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="rounded-0 hidden-sm-and-down" height="72vh">
+    <!--v-card class="rounded-0 hidden-sm-and-down" height="72vh">
       <div class="BlurMa">
         <v-container>
 
@@ -12,7 +12,14 @@
           <v-row justify="start" no-gutters>
             <v-card ripple v-for="(blog,i) in Articles" :key="i" class="floatOnHover ma-2" width="256">
 
-              <v-img class="ImgFilter" width="256" :src="blog.image"></v-img>
+              <nuxt-img
+                quality="96"
+                format="png"
+                fit="contain"
+                class="ImgFilter"
+                width="256"
+                :src="blog.image">
+              </nuxt-img>
               <v-card-title style="word-break: normal !important;">
                 <span>{{ blog.title }}</span>
               </v-card-title>
@@ -33,23 +40,41 @@
           </v-row>
         </v-container>
       </div>
-      <v-img position="unset" height="72vh" src="/Assets/Other/NSBM_1.jpg"></v-img>
-    </v-card>
+      <nuxt-img
+        quality="96"
+        format="png"
+        fit="cover"
+        style="height: 72vh;width: 100%;"
+        src="/Assets/Other/NSBM_1.jpg">
+      </nuxt-img>
+    </v-card-->
     <v-card class="rounded-t-0" color="white">
       <v-row align="baseline" justify="center" no-gutters>
         <v-col class="hidden-sm-and-down" cols="auto">
           <v-card class="rounded-circle" rounded width="128" height="128">
-            <v-img alt="IEEE CS Logo" class="rounded-circle" quality="100" height="128" width="128" blur="0" src="/Assets/Logos/CS_Logo.png"></v-img>
+            <nuxt-img
+              quality="96"
+              format="webp"
+              alt="IEEE CS Logo" class="rounded-circle" height="128" width="128"  src="/Assets/Logos/CS_Logo.png"></nuxt-img>
           </v-card>
         </v-col>
 
         <v-card height="256" width="256" class="ma-4">
-          <v-img alt="NSBM IEEE Student Logo" height="256" width="256" blur="0" src="/Assets/Logos/SB_Logo.png"></v-img>
+          <nuxt-img
+            quality="96"
+            format="webp"
+            fit="contain"
+            alt="NSBM IEEE Student Logo" height="256" width="256"
+            src="/Assets/Logos/SB_Logo.png"></nuxt-img>
         </v-card>
 
         <v-col class="hidden-sm-and-down" cols="auto">
           <v-card  class="rounded-circle"  width="128" height="128">
-            <v-img alt="WIE Logo" class="rounded-circle" quality="100" height="128" max-width="128" blur="0" src="/Assets/Logos/WIE_Logo.png"></v-img>
+            <nuxt-img
+              quality="96"
+              format="webp"
+              fit="contain"
+              alt="WIE Logo" class="rounded-circle" height="128" max-width="128"  src="/Assets/Logos/WIE_Logo.png"></nuxt-img>
           </v-card>
         </v-col>
 

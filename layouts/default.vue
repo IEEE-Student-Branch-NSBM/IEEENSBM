@@ -51,7 +51,7 @@
 
             <nuxt-img
               quality="96"
-              format="png"
+              format="webp"
               fit="contain"
               class="hidden-sm-and-down"
               height="64"
@@ -59,7 +59,7 @@
 
             <nuxt-img
               quality="96"
-              format="png"
+              format="webp"
               class="hidden-sm-and-down"
               fit="contain"
               height="64"
@@ -79,7 +79,7 @@
         <v-footer :color="BackColor">
           <v-col>
             <v-row no-gutters justify="center">
-              <v-img contain height="64" src="/Assets/Logos/MainLogo.png"></v-img>
+              <nuxt-img height="64" src="/Assets/Logos/MainLogo.png"></nuxt-img>
             </v-row>
             <v-row no-gutters justify="center">
               <v-btn class="ma-1">
