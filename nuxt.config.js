@@ -34,6 +34,7 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@nuxt/image',
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -44,7 +45,12 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://ieeensbm.org',
+    gzip: true,
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
@@ -85,6 +91,6 @@ export default {
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-
+    analyze: true,
   }
 }
