@@ -35,7 +35,8 @@ export default {
     '@nuxtjs/vuetify',
     '@nuxt/image',
     '@nuxtjs/pwa',
-    '@nuxtjs/web-vitals'
+    '@nuxtjs/web-vitals',
+    'nuxt-purgecss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

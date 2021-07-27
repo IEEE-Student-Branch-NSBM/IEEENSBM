@@ -20,6 +20,7 @@
     "@nuxt/image": "^0.5.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/vuetify": "^1.12.1",
-    "@nuxtjs/web-vitals": "^0.1.4"
+    "@nuxtjs/web-vitals": "^0.1.4",
+    "nuxt-purgecss": "^1.0.0"
   }
 }
