@@ -11,7 +11,7 @@ OpenSource Website theme developed by IEEE NSBM Student Branch and the IEEE NSBM
 	VueJs
 	VuetifyJs
 	NuxtJs
-	Netlify
+  GitHub Pages
 
 #### Instructions for running
 	1. Install the dependencies
