@@ -31,11 +31,11 @@
         <h3 class="white--text hidden-sm-and-up text-center">IEEE Student Branch - NSBM</h3>
 
         <v-row class="hidden-sm-and-down">
-          <v-btn href="https://www.ieee.org" target="_blank" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE.org</v-btn>
-          <v-btn href="https://ieeexplore.ieee.org" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE <i>Xplore</i>&nbspDigital Library</v-btn>
-          <v-btn href="https://standards.ieee.org" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Standards</v-btn>
-          <v-btn href="https://spectrum.ieee.org" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Spectrum</v-btn>
-          <v-btn href="https://www.ieee.org/sitemap" class="IEEENoCaps" color="transparent" elevation="0" dark>More Sites</v-btn>
+          <v-btn href="https://www.ieee.org" rel="noreferrer" target="_blank" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE.org</v-btn>
+          <v-btn href="https://ieeexplore.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE <i>Xplore</i>&nbspDigital Library</v-btn>
+          <v-btn href="https://standards.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Standards</v-btn>
+          <v-btn href="https://spectrum.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Spectrum</v-btn>
+          <v-btn href="https://www.ieee.org/sitemap" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>More Sites</v-btn>
           <v-spacer></v-spacer>
           <v-btn href="https://www.ieee.org/join" class="IEEENoCaps" color="transparent" elevation="0" dark>Join IEEE</v-btn>
         </v-row>
