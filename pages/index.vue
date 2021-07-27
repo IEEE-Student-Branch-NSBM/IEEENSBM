@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="rounded-0" height="72vh">
+    <v-card class="rounded-0 hidden-sm-and-down" height="72vh">
       <div class="BlurMa">
         <v-container>
 
@@ -10,7 +10,7 @@
             <v-btn rounded to="/blog">More <v-icon>mdi-chevron-right-circle</v-icon></v-btn>
           </v-row>
           <v-row justify="start" no-gutters>
-            <v-card ripple v-for="(blog,i) in Articles" :key="i" class="floatOnHover" width="256">
+            <v-card ripple v-for="(blog,i) in Articles" :key="i" class="floatOnHover ma-2" width="256">
 
               <v-img class="ImgFilter" width="256" :src="blog.image"></v-img>
               <v-card-title style="word-break: normal !important;">
