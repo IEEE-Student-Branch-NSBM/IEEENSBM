@@ -21,9 +21,14 @@
       <v-app-bar
         :color="BackColor"
         app
+
         dense
 
       >
+        <v-tabs v-if="!showNavbar" @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
+          <v-tab :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To">{{ MenuItem.Name }}</v-tab>
+        </v-tabs>
+        <div v-if="showNavbar">
         <v-btn class="hidden-md-and-up" @click="NavDrawer = true" icon>
           <v-icon color="white">mdi-menu</v-icon>
         </v-btn>
@@ -39,6 +44,8 @@
           <v-spacer></v-spacer>
           <v-btn href="https://www.ieee.org/join" class="IEEENoCaps" color="transparent" elevation="0" dark>Join IEEE</v-btn>
         </v-row>
+
+        </div>
       </v-app-bar>
     </header>
 
@@ -65,6 +72,7 @@
               class="hidden-sm-and-down"
               fit="contain"
               height="64"
+
               src="/Assets/Logos/IEEE_Logo.png"/>
           </v-row>
 
@@ -81,7 +89,12 @@
         <v-footer :color="BackColor">
           <v-col>
             <v-row no-gutters justify="center">
-              <nuxt-img alt="MainLogo" height="64" src="/Assets/Logos/MainLogo.png"></nuxt-img>
+              <nuxt-img
+                height="48"
+                alt="MainLogo"
+                quality="96"
+                format="webp"
+                src="/Assets/Logos/MainLogo.png"></nuxt-img>
             </v-row>
             <v-row no-gutters justify="center">
               <v-btn class="ma-1">
@@ -113,6 +126,8 @@ export default {
     return {
       Path:'',
       NavDrawer:false,
+      showNavbar : true,
+      lastScrollPosition:0,
       BackColor:'#00629B',
 
       Menu:[
@@ -157,6 +172,24 @@ export default {
     }
   },
   methods:{
+    onScroll () {
+
+      const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScrollPosition < 0) {
+        return
+      }
+      if (currentScrollPosition > 164) {
+        this.showNavbar = false;
+      }
+
+      if(currentScrollPosition < 128){
+        this.showNavbar = true;
+      }
+
+      //this.showNavbar = currentScrollPosition < this.lastScrollPosition;
+      this.lastScrollPosition = currentScrollPosition;
+    },
     ChangeColor(){
       console.log(this.$route.name);
       if(this.$route.name === 'wie'){
@@ -169,8 +202,13 @@ export default {
     }
   },
 
-  mounted() {
+
+  mounted () {
     this.Path = this.$route.path.replaceAll('/','');
+    window.addEventListener('scroll', this.onScroll)
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
   }
 }
 </script>

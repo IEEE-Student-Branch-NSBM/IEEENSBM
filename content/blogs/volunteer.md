@@ -1,6 +1,6 @@
 ---
 title: 'Volunteer For IEEE Student Branch - NSBM'
-description: 'Volunteer For IEEE Student Branch - NSBM'
+description: 'Volunteer For IEEE Student Branch of NSBM Green University'
 image: '/Assets/Blog/1.jpg'
 author: 'Srilal S. Sachintha'
 author_photo: '/Assets/Blog/1.jpg'

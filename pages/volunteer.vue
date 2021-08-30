@@ -13,7 +13,7 @@ export default {
     }
   },
   mounted() {
-    this.$content('articles/volunteer').fetch().then((val)=>{
+    this.$content('blogs/volunteer').fetch().then((val)=>{
       this.Article = val;
       console.log(val);
     });

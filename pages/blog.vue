@@ -1,26 +1,27 @@
 <template>
-  <v-card class="pa-4">
-    <v-row  no-gutters justify="start">
-      <v-col cols="auto">
-        <BlogArticleCard
+  <div class="pa-4">
+    <v-row  no-gutters justify="center">
+      <BlogArticleCard
         :blog="blog"
         :key="blog.createdAt" v-for="blog in Blogs"
-        ></BlogArticleCard>
-      </v-col>
+      ></BlogArticleCard>
     </v-row>
-  </v-card>
+  </div>
 </template>
 
 <script>
 export default {
   name: "blog",
-  data(){
+  data() {
     return {
       Blogs: [],
     }
   },
+  methods:{
+
+  },
   mounted() {
-    this.$content('articles').fetch().then((val)=>{
+    this.$content('blogs').fetch().then((val) => {
       this.Blogs = val;
       console.log(val);
     });
@@ -29,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
-.ImgFilter{
+.ImgFilter {
   filter: brightness(500);
 }
 </style>
