@@ -23,11 +23,11 @@ export default {
     }
   },
   mounted() {
-    this.$content(this.$route.fullPath).fetch().then((val)=>{
+    this.$content(this.$route.path.replace('/','')).fetch().then((val)=>{
       this.article = val;
       console.log(val);
     });
-    console.log(this.$route.fullPath);
+    console.log(this.$route.path.replace('/',''));
   }
 }
 </script>
