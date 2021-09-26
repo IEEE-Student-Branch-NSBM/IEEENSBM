@@ -3,9 +3,11 @@
     <v-row justify="center" no-gutters>
       <v-card-title>Upcoming Events</v-card-title>
     </v-row>
-    <v-card hover ripple height="380">
-      <v-img height="380" :src="Slides[0]"></v-img>
-    </v-card>
+    <v-row justify="center" no-gutters>
+      <v-card hover ripple width="980" height="380">
+        <v-img height="380" :src="Slides[0]"></v-img>
+      </v-card>
+    </v-row>
 
     <v-row justify="center" no-gutters>
       <v-card-title>Previous Events</v-card-title>
