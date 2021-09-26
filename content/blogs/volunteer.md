@@ -1,5 +1,5 @@
 ---
-title: 'Volunteer For IEEE Student Branch - NSBM'
+title: 'Volunteer For IEEE Student Branch of NSBM'
 description: 'Volunteer For IEEE Student Branch of NSBM Green University'
 image: '/Assets/Blog/1.jpg'
 author: 'Srilal S. Sachintha'
@@ -12,9 +12,11 @@ date: '2021 July 27'
 IEEE එකට වොලන්ටියර් කරන්න කිව්වට ගොඩක් අයට තාම ලොකු අවබෝධයක් නැතුව ඇතිනේ මොකක්ද මේකෙන් වෙන්නෙ කියල තාම.
 ගෝලීය වශයෙන් ගත්තම IEEE කියන්නෙ ලෝකෙ විශාලතම  Technical professional Organization එක වෙන්නෙ. IEEE එක Regions 10කට වෙන් කරල තියනව. ඒ අතරින් අපි අයිති වෙන්නෙ Region-10ට එහෙමත් නැත්තම් Asia and Pacific Region එකට.
 
-IEEE ක්‍රියාත්මක වෙන හැමරටකම තියනව ඒ ඒ රටේ Section එක. ලංකාවෙ නම් IEEE Srilanka Section එක. මේ IEEE Srilanka Section එක යටතේ ලංකාවෙ හැම කැම්පස් එකකම තියනව IEEE Student Branch එකක්. ලංකාවෙ පලවෙනිම ස්ටුඩන්ට් බ්‍රාන්ච් එක වෙන්නෙ 2001 පටං ගත්ත පේරාදෙණිය විශ්ව විද්‍යාලයේ IEEE Student Branch එක. ( වැඩි විස්තර : [IEEE.LK](https://ieee.lk) සහ [List of IEEE Student Branches In Srilanka](https://ieee.lk/community/student-branches)  )
+IEEE ක්‍රියාත්මක වෙන හැමරටකම තියනව ඒ ඒ රටේ Section එක. ලංකාවෙ නම් IEEE Srilanka Section එක. මේ IEEE Srilanka Section එක යටතේ ලංකාවෙ හැම කැම්පස් එකකම තියනව IEEE Student Branch එකක්. ලංකාවෙ පලවෙනිම ස්ටුඩන්ට් බ්‍රාන්ච් එක වෙන්නෙ 2001 පටං ගත්ත පේරාදෙණිය විශ්ව විද්‍යාලයේ IEEE Student Branch එක. 
 
-**ඒ අතරින් අපි තමයි NSBM IEEE Student Branch එක.**
+( වැඩි විස්තර : [IEEE.LK](https://ieee.lk) සහ [List of IEEE Student Branches In Srilanka](https://ieee.lk/community/student-branches)  )
+
+**ඒ අතරින් අපි තමයි IEEE Student Branch of NSBM**
 
 ### එතකොට මොකක්ද මේ IEEE කියන්නෙ කියල ප්‍රශ්නයක් ඇති කට්ටියට.
 
@@ -29,7 +31,7 @@ Undergraduatesල විදිහට හොඳ ප්‍රොෆෙශනල්
 
 ඉතින් NSBM IEEE Student Branch එක විදිහට අපි ඔයාලට වැදගත් වෙන Events, Workshops වගේදේවල් කරනව Industry Professionalsල ගෙන්නල. හොඳම උදාහරණය මේ ලඟදි Codification සමාගමේ Technical Recruiter කෙනෙක්වුන Hinaya Akramව ගෙන්වල තිබ්බ CV Writing එවන්ට් එක.
 
-අපි මේවගේ ඔයාලට ප්‍රොෆෙශනල් ලයිෆ් එකේදි වැදගත් වෙන Eventsවලට අමතරව Academic Related Events, Technology Workshops වගේ දේවල් කරනව. මම කිව්වනේ අපේ අරමුණ ප්‍රොෆෙශනල් නෙට්වර්කින්ග් කියල. අන්න ඒදේ කරන්න තමා අපි වොලර්න්ටියර්ලව ගන්නෙ. මේ වොලන්ටියර් කරන අයට චාන්ස් එකක් ලැබෙනව සීනියර්ස්ලත් එක්ක වගේම මේ ඉන්ඩස්ට්‍රි ප්‍රොෆෙශනල්ස්ල එක්කත් වැඩකරන්න. ඒවගේම හොඳටම ප්‍රෆෝර්ම් කරන අයට IEEE Srilanka Section එකට වොලන්ටියර් කරන්න අවස්තාවත් ලැබෙනව. IEEE Srilanka සෙක්ශන් එකට වොලන්ටියර් කරන්නෙ අපේ කැම්ප්ස් එකෙ අය විතරක් නෙවෙයි ලංකාවෙ ඔක්කොම කැම්පස් වල අය. ඒනිසා එතනට යන්න ලොකු තරඟයක් තියනව වගේම ලේසි නැහැ. එතනට යන කෙනෙක්ව කොච්චර Industry Expertsලට Expose වෙනවද කියල අමුතුවෙන් කියන්න ඔනි නැහැනේ. ඒවගේම IEEE Srilanka Section එකට වොලන්ටියර් කරනව කියන්නෙ ලොකු වගකීමක්. ඒකට ඕනේ එක්ස්පීරියන්ස් එක වගේම පැශන් එකත් ඩිවලොප් කරගන්න පුලුවන් තමංගෙ කැම්පස් එකේ IEEE Student Branch එකේ වැඩවලට වොලන්ටියර් කරන එක.
+අපි මේවගේ ඔයාලට ප්‍රොෆෙශනල් ලයිෆ් එකේදි වැදගත් වෙන Events වලට අමතරව Academic Related Events, Technology Workshops වගේ දේවල් කරනව. මම කිව්වනේ අපේ අරමුණ ප්‍රොෆෙශනල් නෙට්වර්කින්ග් කියල. අන්න ඒදේ කරන්න තමා අපි වොලර්න්ටියර්ලව ගන්නෙ. මේ වොලන්ටියර් කරන අයට චාන්ස් එකක් ලැබෙනව සීනියර්ස්ලත් එක්ක වගේම මේ ඉන්ඩස්ට්‍රි ප්‍රොෆෙශනල්ස්ල එක්කත් වැඩකරන්න. ඒවගේම හොඳටම ප්‍රෆෝර්ම් කරන අයට IEEE Srilanka Section එකට වොලන්ටියර් කරන්න අවස්තාවත් ලැබෙනව. IEEE Srilanka සෙක්ශන් එකට වොලන්ටියර් කරන්නෙ අපේ කැම්ප්ස් එකෙ අය විතරක් නෙවෙයි ලංකාවෙ ඔක්කොම කැම්පස් වල අය. ඒනිසා එතනට යන්න ලොකු තරඟයක් තියනව වගේම ලේසි නැහැ. එතනට යන කෙනෙක්ව කොච්චර Industry Expertsලට Expose වෙනවද කියල අමුතුවෙන් කියන්න ඔනි නැහැනේ. ඒවගේම IEEE Srilanka Section එකට වොලන්ටියර් කරනව කියන්නෙ ලොකු වගකීමක්. ඒකට ඕනේ එක්ස්පීරියන්ස් එක වගේම පැශන් එකත් ඩිවලොප් කරගන්න පුලුවන් තමංගෙ කැම්පස් එකේ IEEE Student Branch එකේ වැඩවලට වොලන්ටියර් කරන එක.
 
 ඔයාල අතරෙ ඉන්නෙ පුලුවන් හොද Developersල, Designersල, Content Writersල වගේ විවිධාකාර හැකියා තියන අය. මේ හැමෝටම පුලුවන් IEEE NSBM Student Branch එකටත්, එතනින් පස්සෙ IEEE Srilanka Section එකටත් වොලන්ටියර් කරන්න!.
 

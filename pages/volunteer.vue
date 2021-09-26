@@ -23,10 +23,10 @@ export default {
 
 <style scoped>
 .ArticleStyle{
-  color:white !important;
+  text-align: justify;
 }
 
 .ArticleStyle >>> a {
-  color: white !important;
+
 }
 </style>

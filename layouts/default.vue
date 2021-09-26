@@ -19,23 +19,24 @@
 
     <header class="header">
       <v-app-bar
+        elevate-on-scroll
         :color="BackColor"
         app
-
         dense
-
       >
         <v-tabs v-if="!showNavbar" @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
           <v-tab :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To">{{ MenuItem.Name }}</v-tab>
         </v-tabs>
         <div v-if="showNavbar">
-        <v-btn class="hidden-md-and-up" @click="NavDrawer = true" icon>
-          <v-icon color="white">mdi-menu</v-icon>
-        </v-btn>
+        <v-row no-gutters align="center">
+          <v-btn class="hidden-md-and-up" @click="NavDrawer = true" icon>
+            <v-icon color="white">mdi-menu</v-icon>
+          </v-btn>
 
-        <h3 class="white--text hidden-sm-and-up text-center">IEEE Student Branch - NSBM</h3>
+          <h3 class="white--text hidden-sm-and-up text-center">IEEE Student Branch - NSBM</h3>
+        </v-row>
 
-        <v-row class="hidden-sm-and-down">
+        <v-row no-gutters class="hidden-sm-and-down">
           <v-btn href="https://www.ieee.org" rel="noreferrer" target="_blank" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE.org</v-btn>
           <v-btn href="https://ieeexplore.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE <i>Xplore</i>&nbspDigital Library</v-btn>
           <v-btn href="https://standards.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Standards</v-btn>
@@ -51,8 +52,7 @@
 
     <v-main class="grey lighten-2">
 
-
-      <v-card :color="BackColor" class="ml-4 mr-4 rounded-b-0">
+      <v-card :color="BackColor" class="rounded-0">
         <v-card-title class="hidden-sm-and-down">
           <v-row no-gutters justify="space-between" align="center">
 
@@ -78,43 +78,45 @@
 
         </v-card-title>
 
-          <v-tabs @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
-            <v-tab :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To">{{ MenuItem.Name }}</v-tab>
-          </v-tabs>
+        <v-tabs @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
+          <v-tab :key="MenuItem.Name" v-for="MenuItem in Menu" :to="MenuItem.To">{{ MenuItem.Name }}</v-tab>
+        </v-tabs>
 
 
       </v-card>
-      <v-card flat class="rounded-t-0 ml-4 mr-4 mb-4 IEEE">
+
+      <v-card flat class="rounded-t-0">
         <nuxt/>
-        <v-footer :color="BackColor">
-          <v-col>
-            <v-row no-gutters justify="center">
-              <nuxt-img
-                height="48"
-                alt="MainLogo"
-                quality="96"
-                format="webp"
-                src="/Assets/Logos/MainLogo.png"></nuxt-img>
-            </v-row>
-            <v-row no-gutters justify="center">
-              <v-btn class="ma-1">
-                <v-icon>mdi-facebook</v-icon>
-              </v-btn>
-              <v-btn class="ma-1">
-                <v-icon>mdi-instagram</v-icon>
-              </v-btn>
-              <v-btn class="ma-1">
-                <v-icon>mdi-linkedin</v-icon>
-              </v-btn>
-            </v-row>
-
-            <v-row no-gutters justify="center">
-              <kbd>&lt;/&gt; by IEEE Computer Society — NSBM</kbd>
-            </v-row>
-          </v-col>
-
-        </v-footer>
       </v-card>
+
+      <v-footer :color="BackColor">
+        <v-col>
+          <v-row no-gutters justify="center">
+            <nuxt-img
+              height="48"
+              alt="MainLogo"
+              quality="96"
+              format="webp"
+              src="/Assets/Logos/MainLogo.png"></nuxt-img>
+          </v-row>
+          <v-row no-gutters justify="center">
+            <v-btn class="ma-1">
+              <v-icon>mdi-facebook</v-icon>
+            </v-btn>
+            <v-btn class="ma-1">
+              <v-icon>mdi-instagram</v-icon>
+            </v-btn>
+            <v-btn class="ma-1">
+              <v-icon>mdi-linkedin</v-icon>
+            </v-btn>
+          </v-row>
+
+          <v-row no-gutters justify="center">
+            <kbd>&lt;/&gt; by IEEE Computer Society — NSBM</kbd>
+          </v-row>
+        </v-col>
+
+      </v-footer>
     </v-main>
 
   </v-app>
@@ -213,7 +215,6 @@ export default {
 }
 </script>
 <style scoped>
-
 </style>
 
 <style>
