@@ -37,13 +37,13 @@
         </v-row>
 
         <v-row no-gutters class="hidden-sm-and-down">
-          <v-btn href="https://www.ieee.org" rel="noreferrer" target="_blank" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE.org</v-btn>
-          <v-btn href="https://ieeexplore.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE <i>Xplore</i>&nbspDigital Library</v-btn>
-          <v-btn href="https://standards.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Standards</v-btn>
-          <v-btn href="https://spectrum.ieee.org" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>IEEE Spectrum</v-btn>
-          <v-btn href="https://www.ieee.org/sitemap" rel="noreferrer" class="IEEENoCaps" color="transparent" elevation="0" dark>More Sites</v-btn>
+          <v-btn small text href="https://www.ieee.org" rel="noreferrer" target="_blank" class="IEEENoCaps">IEEE.org</v-btn>
+          <v-btn small text href="https://ieeexplore.ieee.org" rel="noreferrer" class="IEEENoCaps">IEEE <i>Xplore</i>&nbspDigital Library</v-btn>
+          <v-btn small text href="https://standards.ieee.org" rel="noreferrer" class="IEEENoCaps">IEEE Standards</v-btn>
+          <v-btn small text href="https://spectrum.ieee.org" rel="noreferrer" class="IEEENoCaps">IEEE Spectrum</v-btn>
+          <v-btn small text href="https://www.ieee.org/sitemap" rel="noreferrer" class="IEEENoCaps">More Sites</v-btn>
           <v-spacer></v-spacer>
-          <v-btn href="https://www.ieee.org/join" class="IEEENoCaps" color="transparent" elevation="0" dark>Join IEEE</v-btn>
+          <v-btn small text href="https://www.ieee.org/join" class="IEEENoCaps">Join IEEE</v-btn>
         </v-row>
 
         </div>
@@ -53,7 +53,7 @@
     <v-main class="grey lighten-2">
 
       <v-card :color="BackColor" class="rounded-0">
-        <v-card-title class="hidden-sm-and-down">
+        <v-card-title class="hidden-sm-and-down pt-2">
           <v-row no-gutters justify="space-between" align="center">
 
             <nuxt-img
@@ -75,7 +75,6 @@
 
               src="/Assets/Logos/IEEE_Logo.png"/>
           </v-row>
-
         </v-card-title>
 
         <v-tabs @change="ChangeColor" :background-color="BackColor" dark slider-size="4" class="hidden-sm-and-down">
@@ -178,14 +177,15 @@ export default {
 
       const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
+      console.log(currentScrollPosition);
       if (currentScrollPosition < 0) {
         return
       }
-      if (currentScrollPosition > 164) {
+      if (currentScrollPosition >= 135) {
         this.showNavbar = false;
       }
 
-      if(currentScrollPosition < 128){
+      if(currentScrollPosition <= 115){
         this.showNavbar = true;
       }
 
@@ -263,6 +263,8 @@ body {
 
 .IEEENoCaps {
   text-transform: none !important;
+  font-size: 13px !important;
+  color: white !important;
 }
 
 .IEEEHand{
@@ -280,7 +282,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .nav__link {
