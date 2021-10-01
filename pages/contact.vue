@@ -8,8 +8,9 @@
             quality="96"
             format="png"
             fit="contain"
-            sizes="sm:75vw md:50vw lg:100%"
-            src="/Assets/Other/Contact.jpg"/>
+            sizes="sm:90vw md:35vw lg:100%"
+            class="align-content-center"
+            src="/Assets/Other/ContactUS3.png"/>
           <v-img
 
           ></v-img>
