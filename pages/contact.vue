@@ -2,7 +2,7 @@
   <div>
     <v-card>
       <v-row no-gutters>
-        <v-col class="hidden-sm-and-down">
+        <v-col align="center" class="hidden-sm-and-down" >
 
           <nuxt-img
             quality="96"
