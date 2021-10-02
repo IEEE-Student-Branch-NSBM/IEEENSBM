@@ -30,8 +30,20 @@
         the Computer Society empowers the people who advance technology by delivering tools for individuals
         at all stages of their professional careers. Our trusted resources include international conferences,
         peer-reviewed publications, a robust digital library, globally recognized standards,
-        and continuous learning opportunities.
+        and continuous learning opportunities.<a rel="noreferrer" href="https://www.computer.org/about/cs-history.html" target="_blank">History Of Computer Society</a>
       </p>
+    </v-col>
+
+    <v-col>
+      <h1 class="text-center CSFont">Vision</h1>
+      <p class="text-justify">
+        To be the leading provider of technical information, community services, and personalized services to the world’s computing professionals.<a rel="noreferrer" href="https://www.computer.org/about/vision.html" target="_blank">Vision of Computer Society</a>
+      </p>
+    </v-col>
+    <v-col>
+      <v-row justify="center">
+        <v-btn class="WIE" dark>Join Us</v-btn>
+      </v-row>
     </v-col>
 
   </v-container>
