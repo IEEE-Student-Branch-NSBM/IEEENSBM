@@ -1,6 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center" no-gutters>
+
       <v-card class="rounded-circle" rounded width="128" height="128">
         <nuxt-img
           alt="CS logo"
@@ -18,6 +19,7 @@
     </v-row>
     <v-row no-gutters justify="center">
       <v-card-title class="text-center">IEEE NSBM Computer Society</v-card-title>
+
     </v-row>
 
     <v-col>
