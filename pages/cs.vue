@@ -42,7 +42,7 @@
     </v-col>
     <v-col>
       <v-row justify="center">
-        <v-btn class="WIE" dark>Join Us</v-btn>
+        <v-btn class="CS" dark>Join Us</v-btn>
       </v-row>
     </v-col>
 
