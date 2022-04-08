@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <v-card>
-      <v-container>
+  <v-container>
         <v-row no-gutters justify="center">
           <v-img
 
@@ -33,6 +31,4 @@
         </v-col>
 
       </v-container>
-    </v-card>
-  </div>
 </template>

@@ -1,12 +1,12 @@
 <template>
-  <div class="pa-4">
-    <v-row  no-gutters justify="center">
+  <v-container>
+    <v-row no-gutters justify="center">
       <BlogArticleCard
         :blog="blog"
         :key="blog.createdAt" v-for="blog in Blogs"
       ></BlogArticleCard>
     </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script>

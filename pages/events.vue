@@ -1,5 +1,4 @@
 <template>
-  <v-card elevation="0" class="IEEE">
     <v-container>
       <div v-if="CurrentEvent !== null">
       <v-row justify="center" no-gutters>
@@ -20,7 +19,7 @@
         </v-card>
       </v-row>
     </v-container>
-  </v-card>
+
 </template>
 
 <script>

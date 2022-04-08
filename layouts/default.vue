@@ -50,7 +50,7 @@
       </v-app-bar>
     </header>
 
-    <v-main class="grey lighten-2">
+    <v-main class="white lighten-2">
 
       <v-card :color="BackColor" class="rounded-0">
         <v-card-title class="hidden-sm-and-down pt-2">
@@ -83,41 +83,36 @@
 
 
       </v-card>
-
-      <v-card flat class="rounded-t-0">
         <nuxt/>
-      </v-card>
-
-      <v-footer :color="BackColor">
-        <v-col>
-          <v-row no-gutters justify="center">
-            <nuxt-img
-              height="48"
-              alt="MainLogo"
-              quality="96"
-              format="webp"
-              src="/Assets/Logos/MainLogo.png"></nuxt-img>
-          </v-row>
-          <v-row no-gutters justify="center">
-            <v-btn class="ma-1">
-              <v-icon>mdi-facebook</v-icon>
-            </v-btn>
-            <v-btn class="ma-1">
-              <v-icon>mdi-instagram</v-icon>
-            </v-btn>
-            <v-btn class="ma-1">
-              <v-icon>mdi-linkedin</v-icon>
-            </v-btn>
-          </v-row>
-
-          <v-row no-gutters justify="center">
-            <kbd>&lt;/&gt; by IEEE Computer Society — NSBM</kbd>
-          </v-row>
-        </v-col>
-
-      </v-footer>
     </v-main>
+    <v-footer :color="BackColor">
+      <v-col>
+        <v-row no-gutters justify="center">
+          <nuxt-img
+            height="48"
+            alt="MainLogo"
+            quality="96"
+            format="webp"
+            src="/Assets/Logos/MainLogo.png"></nuxt-img>
+        </v-row>
+        <v-row no-gutters justify="center">
+          <v-btn class="ma-1">
+            <v-icon>mdi-facebook</v-icon>
+          </v-btn>
+          <v-btn class="ma-1">
+            <v-icon>mdi-instagram</v-icon>
+          </v-btn>
+          <v-btn class="ma-1">
+            <v-icon>mdi-linkedin</v-icon>
+          </v-btn>
+        </v-row>
 
+        <v-row no-gutters justify="center">
+          <kbd>&lt;/&gt; by IEEE Computer Society — NSBM</kbd>
+        </v-row>
+      </v-col>
+
+    </v-footer>
   </v-app>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <v-card>
+
+    <v-container>
       <v-row no-gutters>
         <v-col class="hidden-sm-and-down">
 
@@ -28,8 +28,8 @@
           </v-container>
         </v-col>
       </v-row>
-    </v-card>
-  </div>
+    </v-container>
+
 </template>
 
 <script>

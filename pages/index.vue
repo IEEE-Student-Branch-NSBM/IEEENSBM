@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <v-card class="rounded-t-0" color="white">
+  <v-container>
       <v-row align="center" justify="center" no-gutters>
         <v-col class="hidden-sm-and-down" cols="auto">
           <v-card class="rounded-lg" rounded width="128" height="128">
@@ -33,11 +32,9 @@
         </v-col>
 
       </v-row>
-
       <v-row justify="center" no-gutters>
         <h1 class="IEEEFont text-center">Welcome to IEEE NSBM Student Branch!</h1>
       </v-row>
-
       <v-container>
 
         <v-col>
@@ -70,9 +67,7 @@
         </v-col>
 
       </v-container>
-
-    </v-card>
-  </div>
+  </v-container>
 </template>
 
 <script>
