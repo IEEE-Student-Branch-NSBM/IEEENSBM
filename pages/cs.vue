@@ -2,26 +2,26 @@
   <v-container>
     <v-row justify="center" no-gutters>
 
-      <v-card class="rounded-circle" rounded width="128" height="128">
         <nuxt-img
           alt="CS logo"
           quality="96"
           format="webp"
-          class="rounded-circle" height="128" width="128"  src="/Assets/Logos/CS_Logo.png"></nuxt-img>
 
-      </v-card>
-
-    </v-row>
-    <v-row no-gutters justify="center">
-      <h1 class="CSFont">
-        IEEE Computer Society
-      </h1>
-    </v-row>
-    <v-row no-gutters justify="center">
-      <v-card-title class="text-center">IEEE NSBM Computer Society</v-card-title>
+          class="rounded-lg mt-4" height="128" src="/Assets/Logos/CS_Logo_Long.png"></nuxt-img>
 
     </v-row>
 
+    <v-col class="ml-4">
+      <v-row no-gutters justify="center">
+        <h1 class="CSFont">
+          IEEE Computer Society
+        </h1>
+      </v-row>
+      <v-row no-gutters justify="center">
+        <v-card-title class="text-center pa-0">IEEE Computer Society of NSBM</v-card-title>
+
+      </v-row>
+    </v-col>
     <v-col>
       <h1 class="text-center CSFont">Who Are We?</h1>
       <p class="text-justify">

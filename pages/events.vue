@@ -1,6 +1,7 @@
 <template>
   <v-card elevation="0" class="IEEE">
     <v-container>
+      <div v-if="CurrentEvent !== null">
       <v-row justify="center" no-gutters>
         <v-card-title class="white--text text-h4">Upcoming Events</v-card-title>
       </v-row>
@@ -9,7 +10,7 @@
           <v-img height="480" :src="CurrentEvent.image"></v-img>
         </v-card>
       </v-row>
-
+      </div>
       <v-row justify="center" no-gutters>
         <v-card-title class="white--text text-h5">Previous Events</v-card-title>
       </v-row>

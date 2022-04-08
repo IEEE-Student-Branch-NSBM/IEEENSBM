@@ -1,62 +1,14 @@
 <template>
   <div>
-    <!--v-card class="rounded-0 hidden-sm-and-down" height="72vh">
-      <div class="BlurMa">
-        <v-container>
-
-          <v-row justify="space-between" no-gutters>
-            <h1 class="white--text">Latest...</h1>
-
-            <v-btn rounded to="/blog">More <v-icon>mdi-chevron-right-circle</v-icon></v-btn>
-          </v-row>
-          <v-row justify="start" no-gutters>
-            <v-card ripple v-for="(blog,i) in Articles" :key="i" class="floatOnHover ma-2" width="256">
-
-              <nuxt-img
-                quality="96"
-                format="png"
-                fit="contain"
-                class="ImgFilter"
-                width="256"
-                :src="blog.image">
-              </nuxt-img>
-              <v-card-title style="word-break: normal !important;">
-                <span>{{ blog.title }}</span>
-              </v-card-title>
-              <v-card-subtitle>
-                by {{ blog.author }} - {{ blog.date }}
-              </v-card-subtitle>
-
-              <v-card-actions>
-                <v-btn outlined block>
-                  Read More <v-icon>mdi-chevron-right-circle</v-icon>
-                </v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-row>
-
-          <v-row justify="center" no-gutters>
-            <v-btn rounded><v-icon>mdi-chevron-down-circle</v-icon></v-btn>
-          </v-row>
-        </v-container>
-      </div>
-      <nuxt-img
-        quality="96"
-        format="png"
-        fit="cover"
-        style="height: 72vh;width: 100%;"
-        src="/Assets/Other/NSBM_1.jpg">
-      </nuxt-img>
-    </v-card-->
     <v-card class="rounded-t-0" color="white">
-      <v-row align="baseline" justify="center" no-gutters>
+      <v-row align="center" justify="center" no-gutters>
         <v-col class="hidden-sm-and-down" cols="auto">
-          <v-card class="rounded-circle" rounded width="128" height="128">
+          <v-card class="rounded-lg" rounded width="128" height="128">
             <nuxt-img
               alt="CS logo"
               quality="96"
               format="webp"
-              class="rounded-circle" height="128" width="128"  src="/Assets/Logos/CS_Logo.png"></nuxt-img>
+              class="rounded-lg" height="128" width="128"  src="/Assets/Logos/CS_Logo.png"></nuxt-img>
           </v-card>
         </v-col>
 
@@ -70,13 +22,13 @@
         </v-card>
 
         <v-col class="hidden-sm-and-down" cols="auto">
-          <v-card  class="rounded-circle"  width="128" height="128">
+          <v-card  class="rounded-lg"  width="128" height="128">
             <nuxt-img
               quality="96"
               format="webp"
               alt="WIE Logo"
               fit="contain"
-              class="rounded-circle" height="128" max-width="128"  src="/Assets/Logos/WIE_Logo.png"></nuxt-img>
+              class="rounded-lg" height="128" max-width="128"  src="/Assets/Logos/WIE_Logo.png"></nuxt-img>
           </v-card>
         </v-col>
 

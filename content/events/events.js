@@ -1,9 +1,17 @@
-export const CurrentEvent = {
+export const CurrentEvent = null; /// Put null if there is none.
+/// otherwise use the below format.
+/*
+{
   image: '/events/ieeeday21.png',
-  link: 'https://www.facebook.com/events/389076479284226'
-};
+    link: 'https://www.facebook.com/events/389076479284226'
+},
+*/
 
 export const PrevEvents = [
+  {
+    image: '/events/ieeeday21.png',
+    link: 'https://www.facebook.com/events/389076479284226'
+  },
   {
     image: '/events/road_to_fullstack.jpg',
     link: 'https://www.facebook.com/events/1692543347615684/'

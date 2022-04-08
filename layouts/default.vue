@@ -33,7 +33,7 @@
             <v-icon color="white">mdi-menu</v-icon>
           </v-btn>
 
-          <h3 class="white--text hidden-sm-and-up text-center">IEEE Student Branch - NSBM</h3>
+          <h3 class="white--text hidden-sm-and-up text-center">IEEE Student Branch of NSBM</h3>
         </v-row>
 
         <v-row no-gutters class="hidden-sm-and-down">
@@ -57,7 +57,7 @@
           <v-row no-gutters justify="space-between" align="center">
 
             <nuxt-img
-              quality="96"
+              quality="98"
               format="webp"
               fit="contain"
               class="hidden-sm-and-down"
@@ -67,7 +67,7 @@
 
             <nuxt-img
               alt="IEEE Logo"
-              quality="96"
+              quality="98"
               format="webp"
               class="hidden-sm-and-down"
               fit="contain"
