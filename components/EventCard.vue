@@ -1,5 +1,5 @@
 <template>
-  <v-card width="300" class="ma-2">
+  <v-card outlined width="300" class="ma-2">
     <nuxt-img
       quality="98"
       format="webp"

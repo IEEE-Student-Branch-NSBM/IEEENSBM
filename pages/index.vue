@@ -51,7 +51,7 @@
       </v-row>
     </v-sheet>
 
-    <v-sheet color="#F3FBFF">
+    <v-sheet color="#F3FBFF" class="pt-8 pb-8">
         <v-container>
           <v-row align="center" no-gutters class="DontBreakWords mt-8">
             <v-col class="mr-4">
@@ -125,6 +125,44 @@
       </v-slide-group>
     </v-container>
 
+    <v-sheet color="#F3FBFF" class="pt-8 pb-8">
+      <v-container>
+        <v-row no-gutters justify="center">
+          <span class="text-h4 font-weight-bold mt-8">
+            Title Here
+          </span>
+        </v-row>
+        <v-row no-gutters justify="center">
+          <span class="text-h6 font-weight-bold mb-8">
+            Subtitle Here
+          </span>
+        </v-row>
+        <v-row justify="center" no-gutters class="DontBreakWords mt-8">
+          <v-card width="256" flat color="transparent" v-for="(lecturer,i) in Lecturers" :key="i">
+            <v-row no-gutters justify="center">
+              <v-avatar size="128">
+                <nuxt-img
+                  quality="98"
+                  format="webp"
+                  fit="contain"
+                  :src="lecturer.image"/>
+              </v-avatar>
+            </v-row>
+            <v-card-title class="text-h7 font-weight-bold text-center">
+              <v-row no-gutters justify="center">
+                {{ lecturer.name }}
+              </v-row>
+            </v-card-title>
+            <v-card-subtitle class="text-center font-weight-bold">
+              {{ lecturer.designation }}
+              <br>
+              {{ lecturer.ieee_designation }}
+            </v-card-subtitle>
+          </v-card>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
   </div>
 </template>
 
@@ -141,7 +179,33 @@ export default {
       'slide_5.jpg',
       'slide_6.jpg',
     ],
-    Events:[]
+    Events:[],
+    Lecturers:[
+      {
+        name: 'Prof. Chaminda Rathnayake',
+        designation: 'Deputy Vice Chancellor at NSBM',
+        ieee_designation: 'Branch Counsellor',
+        image: '/Assets/Lecturers/ChamindaRathnayake.png',
+      },
+      {
+        name: 'Mr. Mohamed Shafraz',
+        designation: 'Senior Lecturer at NSBM',
+        ieee_designation: 'Senior Adviser',
+        image: '/Assets/Lecturers/MohamedShafraz.png',
+      },
+      {
+        name: 'Mr. Iman Ashly',
+        designation: 'Senior Lecturer at NSBM',
+        ieee_designation: 'Lecturer in Charge',
+        image: '/Assets/Lecturers/ImanAshly.png',
+      },
+      {
+        name: 'Mrs. Narmada Ranaweera',
+        designation: 'Senior Lecturer at NSBM',
+        ieee_designation: 'Mistress In Charge',
+        image: '/Assets/Lecturers/NarmadaRanaweera.png',
+      },
+    ]
   }),
   mounted() {
     this.Events = PrevEvents;
@@ -150,6 +214,10 @@ export default {
 </script>
 
 <style scoped>
+.text-h7 {
+  font-size: 1rem;
+}
+
 .DontBreakWords {
   word-break: keep-all !important;
 }
