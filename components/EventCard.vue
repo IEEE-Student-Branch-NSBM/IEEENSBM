@@ -1,10 +1,8 @@
 <template>
   <v-card outlined width="300" class="ma-2">
-    <nuxt-img
-      quality="98"
-      format="webp"
+    <v-img
+      max-height="160"
       width="300"
-      height="300"
       :src="event.image"/>
     <v-card-title class="font-weight-bold">
       {{ event.title }}
