@@ -85,34 +85,114 @@
       </v-card>
         <nuxt/>
     </v-main>
-    <v-footer :color="BackColor">
-      <v-col>
-        <v-row no-gutters justify="center">
-          <nuxt-img
-            height="48"
-            alt="MainLogo"
-            quality="96"
-            format="webp"
-            src="/Assets/Logos/MainLogo.png"></nuxt-img>
-        </v-row>
-        <v-row no-gutters justify="center">
-          <v-btn class="ma-1">
-            <v-icon>mdi-facebook</v-icon>
-          </v-btn>
-          <v-btn class="ma-1">
-            <v-icon>mdi-instagram</v-icon>
-          </v-btn>
-          <v-btn class="ma-1">
-            <v-icon>mdi-linkedin</v-icon>
-          </v-btn>
-        </v-row>
 
-        <v-row no-gutters justify="center">
-          <kbd>&lt;/&gt; by IEEE Computer Society — NSBM</kbd>
+    <v-footer padless>
+      <v-sheet dark width="100%" color="#00273E">
+        <v-row no-gutters>
+
+          <v-col align="center" cols="12" sm="12" md="3" lg="3">
+            <v-card
+              color="#00629b"
+              class="ml-8 mb-16 rounded-b-xl"
+              max-width="250px"
+            >
+
+              <v-container></v-container>
+
+              <v-img
+                class="mb-4"
+                width="250px"
+                src="/Assets/Logos/IEEE_Logo_White.png"
+              >
+              </v-img>
+
+              <v-card-actions class="justify-center">
+
+                <v-btn
+                  elevation="3"
+                  fab
+                  x-small
+                  color="#00629b"
+                ><v-icon>mdi-facebook</v-icon></v-btn>
+
+                <v-btn
+                  elevation="3"
+                  fab
+                  x-small
+                  color="#00629b"
+                ><v-icon>mdi-linkedin</v-icon></v-btn>
+
+                <v-btn
+                  elevation="3"
+                  fab
+                  x-small
+                  color="#00629b"
+                ><v-icon>mdi-twitter</v-icon></v-btn>
+
+                <v-btn
+                  elevation="3"
+                  fab
+                  x-small
+                  color="#00629b"
+                ><v-icon>mdi-instagram</v-icon></v-btn>
+
+                <v-btn
+                  elevation="3"
+                  fab
+                  x-small
+                  color="#00629b"
+                ><v-icon>mdi-youtube</v-icon></v-btn>
+
+              </v-card-actions>
+
+              <v-container></v-container>
+
+            </v-card>
+          </v-col>
+          <v-col cols="4" sm="4" md="3" lg="3">
+
+          </v-col >
+
+          <v-col cols="4" sm="4" md="3" lg="3">
+
+          </v-col>
+
+          <v-col cols="4" sm="4" md="3" lg="3">
+
+          </v-col>
+
         </v-row>
-      </v-col>
+      </v-sheet>
+
+<!--      <v-col>-->
+<!--        <v-row no-gutters justify="center">-->
+<!--          <nuxt-img-->
+<!--            height="48"-->
+<!--            alt="MainLogo"-->
+<!--            quality="96"-->
+<!--            format="webp"-->
+<!--            src="/Assets/Logos/MainLogo.png"></nuxt-img>-->
+<!--        </v-row>-->
+<!--        <v-row no-gutters justify="center">-->
+<!--          <v-btn class="ma-1">-->
+<!--            <v-icon>mdi-facebook</v-icon>-->
+<!--          </v-btn>-->
+<!--          <v-btn class="ma-1">-->
+<!--            <v-icon>mdi-instagram</v-icon>-->
+<!--          </v-btn>-->
+<!--          <v-btn class="ma-1">-->
+<!--            <v-icon>mdi-linkedin</v-icon>-->
+<!--          </v-btn>-->
+<!--        </v-row>-->
+
+<!--        <v-row no-gutters justify="center">-->
+<!--          <kbd>&lt;/&gt; by IEEE Computer Society — NSBM</kbd>-->
+<!--        </v-row>-->
+<!--      </v-col>-->
 
     </v-footer>
+
+
   </v-app>
 </template>
 
