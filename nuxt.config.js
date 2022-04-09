@@ -78,6 +78,7 @@ export default {
     font: {
       family: 'Poppins'
     },
+    treeShake: true,
     theme: {
       dark: false,
       themes: {

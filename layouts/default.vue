@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="DefaultFont">
     <v-navigation-drawer
       :color="BackColor"
       v-bind:class="{WIE : Path === 'wie' , CS : Path === 'cs'}"
@@ -218,16 +218,29 @@ html{
 }
 
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
   margin:0;
   padding:0;
   line-height: 1.5;
+}
 
+.DefaultFont {
+  font-family:'Poppins',sans-serif !important;
 }
 
 .v-tabs-bar{
   background-color: #ffffff00 !important;
   border-color: #ffffff00 !important;
+}
+
+.v-btn{
+  font-weight: bold !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.v-tab{
+  font-weight: bold !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 .IEEE{

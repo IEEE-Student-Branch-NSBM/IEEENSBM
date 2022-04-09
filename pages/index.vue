@@ -51,36 +51,55 @@
       </v-row>
     </v-sheet>
 
-    <v-container>
 
-      <v-row align="center" no-gutters class="DontBreakWords mt-8">
-        <v-col class="mr-4">
-          <v-card-title class="pa-0 text-h5 font-weight-bold">Mission</v-card-title>
-          <v-card-text class="pa-0 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </v-card-text>
+      <v-sheet color="#F3FBFF">
+        <v-container>
+          <v-row align="center" no-gutters class="DontBreakWords mt-8">
+            <v-col class="mr-4">
+              <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold">Lorem Ipsum</v-card-title>
+              <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular">Lorem Ipsum</v-card-title>
+              <v-card-text class="pa-0 pb-2 text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat.
+              </v-card-text>
+            </v-col>
+            <v-col>
+              <v-img
+                quality="98"
+                format="webp"
+                fit="contain"
+                class="rounded-lg"
+                height="350"
+                alt="Brand Logo"
+                src="https://picsum.photos/510"/>
+            </v-col>
+          </v-row>
+          <v-row align="center" no-gutters class="DontBreakWords mt-8">
+            <v-col>
+              <v-img
+                quality="98"
+                format="webp"
+                fit="contain"
+                class="rounded-lg"
+                height="350"
+                alt="Brand Logo"
+                src="https://picsum.photos/510"/>
+            </v-col>
+            <v-col class="ml-4">
+              <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold">Lorem Ipsum</v-card-title>
+              <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular">Lorem Ipsum</v-card-title>
+              <v-card-text class="pa-0 pb-2 text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat.
+              </v-card-text>
+            </v-col>
 
-          <v-card-title class="pa-0 text-h5 font-weight-bold">Vision</v-card-title>
-          <v-card-text class="pa-0 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </v-card-text>
-        </v-col>
-        <v-col>
-          <v-img
-            quality="98"
-            format="webp"
-            fit="contain"
-            class="rounded-lg"
-            height="350"
-            alt="Brand Logo"
-            src="https://picsum.photos/510"/>
-        </v-col>
-      </v-row>
-    </v-container>
+          </v-row>
+        </v-container>
+      </v-sheet>
+
   </div>
 </template>
 
