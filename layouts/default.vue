@@ -64,7 +64,6 @@
               height="64"
               alt="Brand Logo"
               src="/Assets/Logos/MainLogo.png"/>
-
             <nuxt-img
               alt="IEEE Logo"
               quality="98"
@@ -72,7 +71,6 @@
               class="hidden-sm-and-down"
               fit="contain"
               height="64"
-
               src="/Assets/Logos/IEEE_Logo.png"/>
           </v-row>
         </v-card-title>

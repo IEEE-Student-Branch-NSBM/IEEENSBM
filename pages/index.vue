@@ -1,13 +1,24 @@
 <template>
   <div>
+    <div class="CSSOverlay"></div>
     <v-carousel
       height="55vh"
       :cycle="true"
       :show-arrows="false"
       hide-delimiter-background
       delimiter-icon="mdi-minus">
-      <v-carousel-item v-for="(color, i) in colors" :key="i">
-        <v-sheet :color="color" height="100%" tile></v-sheet>
+      <v-carousel-item v-for="(slide, i) in Slides" :key="i">
+        <v-sheet :color="slide" height="100%" tile>
+
+          <v-img
+            quality="98"
+            format="webp"
+            fit="contain"
+            height="55vh"
+            width="100%"
+            alt="Brand Logo"
+            :src="'/Assets/HomeSlider/' + slide"/>
+        </v-sheet>
       </v-carousel-item>
     </v-carousel>
 
@@ -78,12 +89,13 @@
 
 export default {
   data: () => ({
-    colors: [
-      'primary',
-      'secondary',
-      'yellow darken-2',
-      'red',
-      'orange',
+    Slides: [
+      'slide_1.jpg',
+      'slide_2.jpg',
+      'slide_3.jpg',
+      'slide_4.jpg',
+      'slide_5.jpg',
+      'slide_6.jpg',
     ],
   }),
   mounted() {
@@ -95,5 +107,14 @@ export default {
 <style scoped>
 .DontBreakWords {
   word-break: keep-all !important;
+}
+
+.CSSOverlay{
+  width: 100vw;
+  height: 55vh;
+  position: absolute;
+  z-index: 1;
+  background: rgb(0,39,62);
+  background: linear-gradient(180deg, rgba(0,39,62,1) 0%, rgba(255,255,255,0) 50%, rgba(0,39,62,1) 100%);
 }
 </style>
