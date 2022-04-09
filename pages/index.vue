@@ -51,8 +51,7 @@
       </v-row>
     </v-sheet>
 
-
-      <v-sheet color="#F3FBFF">
+    <v-sheet color="#F3FBFF">
         <v-container>
           <v-row align="center" no-gutters class="DontBreakWords mt-8">
             <v-col class="mr-4">
@@ -100,11 +99,37 @@
         </v-container>
       </v-sheet>
 
+    <v-container>
+      <v-row no-gutters justify="center">
+        <span class="text-h4 font-weight-bold mb-8 mt-8">
+        Latest Events
+      </span>
+      </v-row>
+      <v-slide-group show-arrows>
+        <template v-slot:next>
+          <v-btn x-large icon>
+            <v-icon size="64">mdi-chevron-right</v-icon>
+          </v-btn>
+        </template>
+
+        <template v-slot:prev>
+          <v-btn x-large icon>
+            <v-icon size="64">mdi-chevron-left</v-icon>
+          </v-btn>
+        </template>
+        <v-slide-item
+          v-for="(event,i) in Events"
+          :key="i">
+          <EventCard :event="event"/>
+        </v-slide-item>
+      </v-slide-group>
+    </v-container>
+
   </div>
 </template>
 
 <script>
-
+import { PrevEvents } from "@/content/events/events";
 
 export default {
   data: () => ({
@@ -116,9 +141,10 @@ export default {
       'slide_5.jpg',
       'slide_6.jpg',
     ],
+    Events:[]
   }),
   mounted() {
-
+    this.Events = PrevEvents;
   }
 }
 </script>
