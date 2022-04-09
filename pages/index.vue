@@ -2,7 +2,7 @@
   <div>
     <div class="CSSOverlay"></div>
     <v-carousel
-      height="55vh"
+      height="80vh"
       :cycle="true"
       :show-arrows="false"
       hide-delimiter-background
@@ -14,7 +14,7 @@
             quality="98"
             format="webp"
             fit="contain"
-            height="55vh"
+            height="80vh"
             width="100%"
             alt="Brand Logo"
             :src="'/Assets/HomeSlider/' + slide"/>
@@ -111,7 +111,7 @@ export default {
 
 .CSSOverlay{
   width: 100vw;
-  height: 55vh;
+  height: 80vh;
   position: absolute;
   z-index: 1;
   background: rgb(0,39,62);
