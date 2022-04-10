@@ -1,21 +1,26 @@
 <template>
-    <v-container>
-      <div v-if="CurrentEvent !== null">
+    <v-container class="eventCardContainer">
       <v-row justify="center" no-gutters>
-        <v-card-title class="white--text text-h4">Upcoming Events</v-card-title>
+        <v-card-title class="heading-event">Events</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card :href="CurrentEvent.link" target="_blank" hover ripple width="980" height="480">
-          <v-img height="480" :src="CurrentEvent.image"></v-img>
-        </v-card>
+        <v-card :href="event.link" target="_blank" v-for="(event,i) in PrevEvents" :key="i" class="cardSection rounded-lg ma-2 mx-6" height="420" width="300" hover ripple>
+          <v-row justify="center" no-gutters>
+          <v-img
+              :src="event.image"/>
+            <v-card-title class="font-weight-bold">
+              {{ event.title }}
+            </v-card-title>
+            <v-card-subtitle> {{ event.date }} </v-card-subtitle>
+            <v-card-text>
+            {{ event.description }}
+            </v-card-text>
+            <v-card-actions>
+              <v-btn class="moreButton" outlined :href="event.link">
+                View More
+              </v-btn>
+            </v-card-actions>
       </v-row>
-      </div>
-      <v-row justify="center" no-gutters>
-        <v-card-title class="white--text text-h5">Previous Events</v-card-title>
-      </v-row>
-      <v-row justify="center" no-gutters>
-        <v-card :href="event.link" target="_blank" v-for="(event,i) in PrevEvents" :key="i" class="rounded-lg ma-2" height="256" width="480" hover ripple>
-          <v-img height="256" :src="event.image"></v-img>
         </v-card>
       </v-row>
     </v-container>
@@ -39,6 +44,39 @@ export default {
 }
 </script>
 
-<style scoped>
 
+<style scoped>
+.heading-event {
+  font-size: 96px;
+  font-weight: 300;
+  margin-bottom: 50px !important;
+  margin-top: 50px !important;
+}
+
+.eventCardContainer {
+  margin-bottom: 120px;
+}
+
+.moreButton {
+  background-color: white;
+  border-radius: 10px;
+  border: #00629B 1px solid;
+  color: #00629B;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cardSection{
+  background-color: transparent !important ;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.cardSection:hover .moreButton{
+  background-color: #00629B;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
 </style>
