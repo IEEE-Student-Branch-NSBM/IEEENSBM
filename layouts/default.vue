@@ -88,54 +88,81 @@
       <v-sheet dark width="100%" color="#00273E">
         <v-row no-gutters>
           <v-col align="center" cols="12" sm="12" md="3" lg="3">
-            <v-card
-              color="#00629b"
-              class="mb-16 rounded-b-xl"
-              max-width="250px"
-            >
+            <v-card color="#00629b" class="mb-8 rounded-b-xl" max-width="250px">
+
               <v-container></v-container>
 
-              <v-img
-                class="mb-4"
-                width="250px"
-                src="/Assets/Logos/IEEE_Logo_White.png"
-              >
-              </v-img>
+              <v-img class="mb-4" width="250px" src="/Assets/Logos/IEEE_Logo_White.png"></v-img>
 
               <v-card-actions class="justify-center">
-
                 <v-btn icon ><v-icon>mdi-facebook</v-icon></v-btn>
-
                 <v-btn icon ><v-icon>mdi-linkedin</v-icon></v-btn>
-
                 <v-btn icon ><v-icon>mdi-twitter</v-icon></v-btn>
-
                 <v-btn icon ><v-icon>mdi-instagram</v-icon></v-btn>
-
                 <v-btn icon ><v-icon>mdi-youtube</v-icon></v-btn>
-
               </v-card-actions>
 
               <v-container></v-container>
 
             </v-card>
           </v-col>
-          <v-col cols="4" sm="4" md="3" lg="3">
+
+          <v-col cols="12" sm="12" md="2" lg="2" class="mt-8 mb-8 footer-col" align="center">
+            <div>
+              <h3 style="width:75%; text-align:left" >Get Started</h3>
+              <ul style="width:75%; list-style:none; text-align:left">
+                <li>HOME</li>
+                <li>EVENTS</li>
+                <li>BLOG</li>
+                <li>EXCOM</li>
+                <li>MEMBERSHIP</li>
+              </ul>
+            </div>
 
           </v-col >
 
-          <v-col cols="4" sm="4" md="3" lg="3">
-
+          <v-col cols="12" sm="12" md="3" lg="3" class="mt-8 mb-8 footer-col" align="center">
+              <div>
+                <h3 style="width:75%; text-align:left" >Student Branch Chapters</h3>
+                <ul style="width:75%; list-style:none; text-align:left">
+                  <li>Women in Engineering</li>
+                  <li>Computer Society</li>
+                </ul>
+              </div>
           </v-col>
 
-          <v-col cols="4" sm="4" md="3" lg="3">
-
+          <v-col cols="12" sm="12" md="4" lg="4" class="mt-8 mb-8 footer-col" align="center">
+              <div>
+                <h3 style="width:75%; text-align:left" >Contact Us</h3>
+                <table style="width:75%;">
+                  <tr>
+                    <td><v-icon>mdi-phone</v-icon></td>
+                    <td class="pl-1"> +94 00 000 000</td>
+                  </tr>
+                  <tr>
+                    <td><v-icon>mdi-email</v-icon></td>
+                    <td class="pl-1"> XXXXXXXXXXX@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td><v-icon>mdi-map-marker-outline</v-icon></td>
+                    <td class="pl-1"> 345 Faulconer Drive,<br>Suite 4 • <br>Charlottesville, CA</td>
+                  </tr>
+                </table>
+              </div>
           </v-col>
 
         </v-row>
 
-        <v-row no-gutters color="#000000" class="shrink">
-          Helloo
+        <v-row no-gutters color="#000000" class="shrink" align="center" justify="end">
+          <v-col cols="12" sm="6" md="4" lg="4" align="center" >
+            <p>© Copyright 2021 | All rights reserved</p>
+          </v-col>
+
+          <v-col cols="12" sm="6" md="4" lg="4" align="right">
+            <v-card width="70%" color="#00629b" class="pa-0 rounded-tl-xl" align="center" id="developed">
+              <v-card-subtitle>Developed by IEEE Computer Society — NSBM</v-card-subtitle>
+            </v-card>
+          </v-col>
         </v-row>
       </v-sheet>
 
@@ -243,6 +270,20 @@ export default {
 
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media screen and (max-width: 600px) {
+  #developed {
+    width: 100% !important;
+    border-radius:0 !important;
+  }
+
+  .footer-col div{
+    width:50% !important;
+    margin: 0 auto !important;
+  }
+
+}
 
 html{
   overflow-y: auto;
@@ -253,6 +294,7 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
 }
 
 .DefaultFont {
@@ -324,4 +366,20 @@ body {
 .nav__link {
   margin-left: 20px;
 }
+
+.footer-col {
+  border-right:1px solid seashell;
+}
+
+
+.footer-col div ul li{
+  margin: 10px 0;
+
+}
+
+td {
+  height:50px;
+  vertical-align: center;
+}
+
 </style>
