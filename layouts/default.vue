@@ -200,10 +200,6 @@ export default {
           To:'/events'
         },
         {
-          Name:'Volunteer',
-          To:'/volunteer'
-        },
-        {
           Name:'Blog',
           To:'/blog'
         },
@@ -212,14 +208,17 @@ export default {
           To:'/excom'
         },
         {
-          Name:'Membership',
+          Name:'About US',
           To:'/membership'
         },
         {
-          Name:'Contact',
+          Name:'Contact Us',
           To:'/contact'
         },
-
+        {
+          Name:'Join Us',
+          To:'/volunteer'
+        }
       ]
     }
   },
@@ -270,7 +269,7 @@ export default {
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @media screen and (max-width: 600px) {
   #developed {
@@ -294,11 +293,29 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'sans-serif' !important;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  opacity: 0.3;
+  background-color: #00629B;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  opacity: 1;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  opacity: 0.3;
+  background-color: #00629B;
 }
 
 .DefaultFont {
-  font-family:'Poppins',sans-serif !important;
+  font-family: 'Poppins', 'sans-serif' !important;
 }
 
 .v-tabs-bar{
@@ -306,7 +323,7 @@ body {
   border-color: #ffffff00 !important;
 }
 
-.v-btn{
+/* .v-btn{
   font-weight: bold !important;
   font-family: "Roboto", sans-serif !important;
 }
@@ -314,7 +331,7 @@ body {
 .v-tab{
   font-weight: bold !important;
   font-family: "Roboto", sans-serif !important;
-}
+} */
 
 .IEEE{
   background-color: #00629B !important;
