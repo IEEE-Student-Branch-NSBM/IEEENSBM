@@ -1,5 +1,5 @@
 <template>
-  <v-card outlined width="300" class="ma-2">
+  <v-card outlined width="300" class="ma-2" >
     <v-img
       max-height="160"
       width="300"
@@ -11,11 +11,13 @@
     <v-card-text>
      {{ event.description }}
     </v-card-text>
-    <v-card-actions>
-      <v-btn outlined :href="event.link">
-        <v-icon>mdi-link</v-icon>More info
+    <v-row justify="center" class="mb-5">
+    <v-card-actions justify="center">
+      <v-btn class="moreButton" outlined :href="event.link"  justify="center">
+        More info
       </v-btn>
     </v-card-actions>
+    </v-row>
   </v-card>
 </template>
 
@@ -32,5 +34,11 @@ export default {
 </script>
 
 <style scoped>
-
+.moreButton {
+  background-color: #00609C;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
 </style>

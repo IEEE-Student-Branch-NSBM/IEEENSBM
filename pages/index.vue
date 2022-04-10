@@ -9,7 +9,6 @@
       delimiter-icon="mdi-minus">
       <v-carousel-item v-for="(slide, i) in Slides" :key="i">
         <v-sheet :color="slide" height="100%" tile>
-
           <v-img
             quality="98"
             format="webp"
@@ -152,6 +151,19 @@
       </v-container>
     </v-sheet>
 
+    <v-container>
+      <v-row no-gutters justify="center">
+          <span class="text-h4 font-weight-bold mt-6 mb-2 text-center">
+            Student Branch Chairpersons <br /> 2021/22
+          </span>
+        </v-row>
+        <v-row  justify="center">
+          <v-btn class="moreButton" outlined justify="center">
+            View More
+          </v-btn>
+      </v-row>
+    </v-container>
+
     <v-container class="my-10">
       <v-row no-gutters justify="center">
         <span class="text-h4 font-weight-bold mb-8 mt-2">
@@ -164,6 +176,8 @@
       </section>
      </v-row>
     </v-container>
+
+    
   </div>
 </template>
 
@@ -252,5 +266,13 @@ export default {
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+.moreButton {
+  background-color: #00609C;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 </style>
