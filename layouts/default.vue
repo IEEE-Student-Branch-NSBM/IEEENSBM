@@ -294,6 +294,8 @@ body {
   padding:0;
   line-height: 1.5;
   font-family: 'Poppins', 'sans-serif' !important;
+
+  
 }
 
 ::-webkit-scrollbar-track {
