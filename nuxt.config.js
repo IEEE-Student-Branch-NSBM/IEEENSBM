@@ -24,6 +24,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: "~/plugins/vue2-google-maps", ssr: true }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -103,5 +104,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     analyze: false,
-  }
+    vendor: ["vue2-google-maps"],
+    transpile: [/^vue2-google-maps($|\/)/]
+  },
 }
