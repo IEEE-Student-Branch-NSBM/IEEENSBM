@@ -93,13 +93,13 @@
         </v-container>
       </v-sheet>
 
-    <v-container>
+    <v-container class="my-10">
       <v-row no-gutters justify="center">
         <span class="text-h4 font-weight-bold mb-8 mt-8">
         Latest Events
       </span>
       </v-row>
-      <v-slide-group show-arrows>
+      <v-slide-group show-arrows class="mb-10">
         <template v-slot:next>
           <v-btn x-large icon>
             <v-icon size="64">mdi-chevron-right</v-icon>
@@ -122,21 +122,16 @@
     <v-sheet color="#F3FBFF" class="pt-8 pb-8">
       <v-container>
         <v-row no-gutters justify="center">
-          <span class="text-h4 font-weight-bold mt-8">
-            Title Here
-          </span>
-        </v-row>
-        <v-row no-gutters justify="center">
-          <span class="text-h6 font-weight-bold mb-8">
-            Subtitle Here
+          <span class="text-h4 font-weight-bold mt-6 mb-10">
+            Student Branch Counsellors
           </span>
         </v-row>
         <v-row justify="center" no-gutters class="DontBreakWords mt-8">
-          <v-card width="256" flat color="transparent" v-for="(lecturer,i) in Lecturers" :key="i">
+          <v-card class="mb-5" width="300" flat color="transparent" v-for="(lecturer,i) in Lecturers" :key="i">
             <v-row no-gutters justify="center">
               <v-avatar size="128">
                 <nuxt-img
-                  quality="98"
+                  quality="100"
                   format="webp"
                   fit="contain"
                   :src="lecturer.image"/>
@@ -157,6 +152,18 @@
       </v-container>
     </v-sheet>
 
+    <v-container class="my-10">
+      <v-row no-gutters justify="center">
+        <span class="text-h4 font-weight-bold mb-8 mt-2">
+        Lorem ipsum
+      </span>
+      </v-row>
+     <v-row justify="center"> 
+        <section>
+        <iframe width="1000" height="500" src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg" title="IEEE NSBM VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+     </v-row>
+    </v-container>
   </div>
 </template>
 
@@ -199,6 +206,12 @@ export default {
         ieee_designation: 'Mistress In Charge',
         image: '/Assets/Lecturers/NarmadaRanaweera.png',
       },
+      {
+        name: 'Ms. Kaumadee Samarakoon',
+        designation: 'Senior Lecturer at NSBM',
+        ieee_designation: 'Mistress In Charge',
+        image: '/Assets/Lecturers/KaumadeeSamarakooon.png',
+      }
     ]
   }),
   mounted() {
