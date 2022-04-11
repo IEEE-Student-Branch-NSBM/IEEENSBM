@@ -9,7 +9,6 @@
       delimiter-icon="mdi-minus">
       <v-carousel-item v-for="(slide, i) in Slides" :key="i">
         <v-sheet :color="slide" height="100%" tile>
-
           <v-img
             quality="98"
             format="webp"
@@ -22,25 +21,19 @@
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet dark width="100%" class="pa-4" color="#00273E">
-      <v-row align="center" no-gutters>
-        <v-col class="pa-4">
-          <v-card-title class="DontBreakWords pa-0 text-h3 font-weight-bold">Welcome To IEEE Student Branch of NSBM
+    <v-sheet dark width="100%" class="bannerImg pa-4">
+      <v-row align="center" no-gutters class="mt-3">
+        <v-col class="pa-4" cols="7">
+          <v-card-title class="DontBreakWords pa-0 font-weight-bold">Welcome to IEEE Student Branch of NSBM
           </v-card-title>
-          <v-card-text class="pa-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+          <v-card-text class="pa-0 py-4 headingPara">
+            IEEE is the world’s largest professional association dedicated to advancing technological innovation and excellence for the benefit of humanity. IEEE and its members inspire a global community through IEEE’s highly cited publications, conferences, technology standards, and professional and educational activities.
           </v-card-text>
-          <v-btn color="primary">
-            <v-icon class="mr-1">mdi-motion-play-outline</v-icon>
-            Watch Video
-          </v-btn>
         </v-col>
-        <v-col>
+        <v-col cols="5">
           <v-row no-gutters justify="center">
             <nuxt-img
-              quality="98"
+              quality="100"
               format="webp"
               fit="contain"
               height="200"
@@ -99,13 +92,13 @@
         </v-container>
       </v-sheet>
 
-    <v-container>
+    <v-container class="my-10">
       <v-row no-gutters justify="center">
         <span class="text-h4 font-weight-bold mb-8 mt-8">
         Latest Events
       </span>
       </v-row>
-      <v-slide-group show-arrows>
+      <v-slide-group show-arrows class="mb-10">
         <template v-slot:next>
           <v-btn x-large icon>
             <v-icon size="64">mdi-chevron-right</v-icon>
@@ -128,21 +121,16 @@
     <v-sheet color="#F3FBFF" class="pt-8 pb-8">
       <v-container>
         <v-row no-gutters justify="center">
-          <span class="text-h4 font-weight-bold mt-8">
-            Title Here
-          </span>
-        </v-row>
-        <v-row no-gutters justify="center">
-          <span class="text-h6 font-weight-bold mb-8">
-            Subtitle Here
+          <span class="text-h4 font-weight-bold mt-6 mb-10">
+            Student Branch Counsellors
           </span>
         </v-row>
         <v-row justify="center" no-gutters class="DontBreakWords mt-8">
-          <v-card width="256" flat color="transparent" v-for="(lecturer,i) in Lecturers" :key="i">
+          <v-card class="mb-5" width="300" flat color="transparent" v-for="(lecturer,i) in Lecturers" :key="i">
             <v-row no-gutters justify="center">
               <v-avatar size="128">
                 <nuxt-img
-                  quality="98"
+                  quality="100"
                   format="webp"
                   fit="contain"
                   :src="lecturer.image"/>
@@ -163,6 +151,33 @@
       </v-container>
     </v-sheet>
 
+    <v-container>
+      <v-row no-gutters justify="center">
+          <span class="text-h4 font-weight-bold mt-6 mb-2 text-center">
+            Student Branch Chairpersons <br /> 2021/22
+          </span>
+        </v-row>
+        <v-row  justify="center">
+          <v-btn class="moreButton" outlined justify="center">
+            View More
+          </v-btn>
+      </v-row>
+    </v-container>
+
+    <v-container class="my-10">
+      <v-row no-gutters justify="center">
+        <span class="text-h4 font-weight-bold mb-8 mt-2">
+        Lorem ipsum
+      </span>
+      </v-row>
+     <v-row justify="center"> 
+        <section>
+        <iframe width="1000" height="500" src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg" title="IEEE NSBM VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+     </v-row>
+    </v-container>
+
+    
   </div>
 </template>
 
@@ -205,6 +220,12 @@ export default {
         ieee_designation: 'Mistress In Charge',
         image: '/Assets/Lecturers/NarmadaRanaweera.png',
       },
+      {
+        name: 'Ms. Kaumadee Samarakoon',
+        designation: 'Senior Lecturer at NSBM',
+        ieee_designation: 'Mistress In Charge',
+        image: '/Assets/Lecturers/KaumadeeSamarakooon.png',
+      }
     ]
   }),
   mounted() {
@@ -220,6 +241,8 @@ export default {
 
 .DontBreakWords {
   word-break: keep-all !important;
+  font-size: 45px;
+  line-height: 45px;
 }
 
 .CSSOverlay{
@@ -229,5 +252,27 @@ export default {
   z-index: 1;
   background: rgb(0,39,62);
   background: linear-gradient(180deg, rgba(0,39,62,1) 0%, rgba(255,255,255,0) 50%, rgba(0,39,62,1) 100%);
+}
+
+.bannerImg{
+  background-image: url('../docs/Assets/Other/IEEE_BANNER.png');
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.headingPara{
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.moreButton {
+  background-color: #00609C;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 </style>

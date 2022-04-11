@@ -1,20 +1,68 @@
-export const excom_2021 = {
-  chairman: {
+export const excom_2021 = [
+  {
     name: 'Denver Shenal',
     position: 'Chairman',
-    image_path: 'https://picsum.photos/512',
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
     facebook: '',
     linkedin: '',
     github: '',
   },
-  vice_chairman: {
+  {
     name: 'Pubudu Rathnayake',
     position: 'Vice Chairman',
-    image_path: 'https://picsum.photos/512',
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
     facebook: 'https://www.facebook.com/pubudu.malshan',
     linkedin: 'https://www.linkedin.com/in/pubudur/',
     github: 'https://github.com/PubuduR',
   },
-}
+  {
+    name: "Nirasha Herath",
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
+    position: "Assistant Secretary",
+    facebook: "https://www.facebook.com/nirasha.herath.14",
+    linkedin: "https://www.linkedin.com/in/nirasha-herath",
+    github: "https://github.com/kavindihmn",
+  },
+  {
+    name: "Nirasha Herath",
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
+    position: "Assistant Secretary",
+    facebook: "https://www.facebook.com/nirasha.herath.14",
+    linkedin: "https://www.linkedin.com/in/nirasha-herath",
+    github: "https://github.com/kavindihmn",
+  },
+  {
+    name: "Nirasha Herath",
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
+    position: "Assistant Secretary",
+    facebook: "https://www.facebook.com/nirasha.herath.14",
+    linkedin: "https://www.linkedin.com/in/nirasha-herath",
+    github: "https://github.com/kavindihmn",
+  },
+  {
+    name: "Nirasha Herath",
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
+    position: "Assistant Secretary",
+    facebook: "https://www.facebook.com/nirasha.herath.14",
+    linkedin: "https://www.linkedin.com/in/nirasha-herath",
+    github: "https://github.com/kavindihmn",
+  },
+  {
+    name: "Nirasha Herath",
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
+    position: "Assistant Secretary",
+    facebook: "https://www.facebook.com/nirasha.herath.14",
+    linkedin: "https://www.linkedin.com/in/nirasha-herath",
+    github: "https://github.com/kavindihmn",
+  },
+  {
+    name: "Nirasha Herath",
+    image_path: '/Assets/Excom/VicePresident_A.jpg',
+    position: "Assistant Secretary",
+    facebook: "https://www.facebook.com/nirasha.herath.14",
+    linkedin: "https://www.linkedin.com/in/nirasha-herath",
+    github: "https://github.com/kavindihmn",
+  },
+]
 
 export default { excom_2021 };

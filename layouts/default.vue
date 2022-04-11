@@ -110,11 +110,11 @@
           <v-col cols="12" sm="12" md="2" lg="2" class="mt-8 mb-8 footer-col" align="center">
             <div>
               <h3 style="width:75%; text-align:left" >Get Started</h3>
-              <ul style="width:75%; list-style:none; text-align:left">
+              <ul style="width:88%; list-style:none; text-align:left; margin-right:20px">
                 <li>HOME</li>
                 <li>EVENTS</li>
                 <li>BLOG</li>
-                <li>EXCOM</li>
+                <li>EXECUTIVE COMMITTEE</li>
                 <li>MEMBERSHIP</li>
               </ul>
             </div>
@@ -124,7 +124,7 @@
           <v-col cols="12" sm="12" md="3" lg="3" class="mt-8 mb-8 footer-col" align="center">
               <div>
                 <h3 style="width:75%; text-align:left" >Student Branch Chapters</h3>
-                <ul style="width:75%; list-style:none; text-align:left">
+                <ul style="width:88%; list-style:none; text-align:left">
                   <li>Women in Engineering</li>
                   <li>Computer Society</li>
                 </ul>
@@ -294,6 +294,8 @@ body {
   padding:0;
   line-height: 1.5;
   font-family: 'Poppins', 'sans-serif' !important;
+
+  
 }
 
 ::-webkit-scrollbar-track {
