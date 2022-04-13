@@ -81,7 +81,7 @@ export default {
 
 <style scoped>
 .excom_2021_name {
-  font-size: 20px;
+  font-size: 18px;
   word-wrap: break-word !important;
   overflow-wrap: break-word !important;
   font-weight: bold;
