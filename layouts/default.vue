@@ -38,7 +38,7 @@
 
         <v-row no-gutters class="hidden-sm-and-down">
           <v-btn small text href="https://www.ieee.org" rel="noreferrer" target="_blank" class="IEEENoCaps">IEEE.org</v-btn>
-          <v-btn small text href="https://ieeexplore.ieee.org" rel="noreferrer" class="IEEENoCaps">IEEE <i>Xplore</i>&nbspDigital Library</v-btn>
+          <v-btn small text href="https://ieeexplore.ieee.org" rel="noreferrer" class="IEEENoCaps">IEEE <i>Xplore &nbsp</i> Digital Library</v-btn>
           <v-btn small text href="https://standards.ieee.org" rel="noreferrer" class="IEEENoCaps">IEEE Standards</v-btn>
           <v-btn small text href="https://spectrum.ieee.org" rel="noreferrer" class="IEEENoCaps">IEEE Spectrum</v-btn>
           <v-btn small text href="https://www.ieee.org/sitemap" rel="noreferrer" class="IEEENoCaps">More Sites</v-btn>
