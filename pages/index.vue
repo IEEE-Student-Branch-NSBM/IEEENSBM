@@ -47,8 +47,8 @@
     <v-sheet color="#F3FBFF" class="pt-8 pb-8">
         <v-container>
           <v-row align="center" no-gutters class="DontBreakWords mt-8">
-            <v-col class="mr-4">
-              <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold">Lorem Ipsum</v-card-title>
+            <v-col class="px-10 firstCard">
+              <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold">Team Work</v-card-title>
               <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular">Lorem Ipsum</v-card-title>
               <v-card-text class="pa-0 pb-2 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -78,8 +78,8 @@
                 alt="Brand Logo"
                 src="https://picsum.photos/510"/>
             </v-col>
-            <v-col class="ml-4">
-              <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold">Lorem Ipsum</v-card-title>
+            <v-col class="ml-4 px-10">
+              <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold">Volunteering</v-card-title>
               <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular">Lorem Ipsum</v-card-title>
               <v-card-text class="pa-0 pb-2 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -243,6 +243,10 @@ export default {
   word-break: keep-all !important;
   font-size: 45px;
   line-height: 45px;
+}
+
+.firstCard{
+  margin-right: 20px;
 }
 
 .CSSOverlay{

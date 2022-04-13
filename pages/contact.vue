@@ -4,8 +4,8 @@
       <v-row no-gutters align-content="center">
         <v-col cols="6" class="px-10">
           <v-card-title class="formTitle">Contact Us
-            <span class="formSubTitle">Our friendly team want to hear from you</span>
           </v-card-title>
+          <span class="formSubTitle ml-5">Our friendly team want to hear from you</span>
           <v-container>
             <v-form method="post" action="https://formspree.io/f/mpzkzwdw">
             <v-row>
