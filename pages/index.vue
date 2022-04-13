@@ -170,10 +170,10 @@
         Lorem ipsum
       </span>
       </v-row>
-     <v-row justify="center"> 
-        <section>
-        <iframe width="1000" height="500" src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg" title="IEEE NSBM VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </section>
+     <v-row justify="center">
+        <section style="width:100%">
+        <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg" title="IEEE NSBM VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
      </v-row>
     </v-container>
 
