@@ -92,7 +92,7 @@
 
               <v-container></v-container>
 
-              <v-img class="mb-4" width="250px" src="/Assets/Logos/IEEE_Logo_White.png"></v-img>
+              <nuxt-img class="mb-4" width="250px" src="/Assets/Logos/IEEE_Logo_White.png"></nuxt-img>
 
               <v-card-actions class="justify-center">
                 <v-btn icon ><v-icon>mdi-facebook</v-icon></v-btn>
@@ -145,7 +145,7 @@
                   </tr>
                   <tr>
                     <td><v-icon>mdi-map-marker-outline</v-icon></td>
-                    <td class="pl-1"> 345 Faulconer Drive,<br>Suite 4 • <br>Charlottesville, CA</td>
+                    <td class="pl-1"> 345 Faulconer Drive,<br/>Suite 4 • <br/>Charlottesville, CA</td>
                   </tr>
                 </table>
               </div>
@@ -295,7 +295,7 @@ body {
   line-height: 1.5;
   font-family: 'Poppins', 'sans-serif' !important;
 
-  
+
 }
 
 ::-webkit-scrollbar-track {
