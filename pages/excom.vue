@@ -1,6 +1,6 @@
 <template>
-  <v-container class="mt-4">
-    <div>
+  <div>
+    <v-container class="mt-4">
       <v-row justify="center" no-gutters>
         <v-card-text class="heading-event text-center"
           >Executive Committee</v-card-text
@@ -26,46 +26,47 @@
           class="py-10"
         />
       </v-layout>
-    </div>
-    <v-sheet width="100%">
-      <v-container>
-        <v-row no-gutters justify="center">
-          <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
-            Executive Committee 2020/21
-          </span>
-        </v-row>
-        <v-row justify="center" no-gutters class="DontBreakWords mt-8">
-          <v-card
-            class="mb-5 mx-3"
-            width="200"
-            flat
-            color="transparent"
-            v-for="(excom_2021, i) in exComs"
-            :key="i"
-          >
-            <v-row no-gutters justify="center">
-              <v-avatar size="128">
-                <nuxt-img
-                  quality="100"
-                  format="webp"
-                  fit="contain"
-                  :src="excom_2021.image_path"
-                />
-              </v-avatar>
-            </v-row>
-            <v-card-title class="excom_2021_name text-center">
+      <v-sheet width="100%">
+        <v-container>
+          <v-row no-gutters justify="center">
+            <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
+              Executive Committee 2020/21
+            </span>
+          </v-row>
+          <v-row justify="center" no-gutters class="DontBreakWords mt-8">
+            <v-card
+              class="mb-5 mx-3"
+              width="200"
+              flat
+              color="transparent"
+              v-for="(excom_2021, i) in exComs"
+              :key="i"
+            >
               <v-row no-gutters justify="center">
-                {{ excom_2021.name }}
+                <v-avatar size="128">
+                  <nuxt-img
+                    quality="100"
+                    format="webp"
+                    fit="contain"
+                    :src="excom_2021.image_path"
+                  />
+                </v-avatar>
               </v-row>
-            </v-card-title>
-            <v-card-text class="excom_2021_position text-center">
-              {{ excom_2021.position }}
-            </v-card-text>
-          </v-card>
-        </v-row>
-      </v-container>
-    </v-sheet>
-  </v-container>
+              <v-card-title class="excom_2021_name text-center">
+                <v-row no-gutters justify="center">
+                  {{ excom_2021.name }}
+                </v-row>
+              </v-card-title>
+              <v-card-text class="excom_2021_position text-center">
+                {{ excom_2021.position }}
+              </v-card-text>
+            </v-card>
+          </v-row>
+        </v-container>
+      </v-sheet>
+    </v-container>
+    <JoinUs />
+  </div>
 </template>
 
 <script>
@@ -89,7 +90,7 @@ export default {
   margin-right: -30px !important;
   margin-left: -30px !important;
 }
-.excom_2021_position{
+.excom_2021_position {
   margin-top: -15px;
   font-size: 16px;
   font-weight: 500;
