@@ -236,55 +236,55 @@ export default {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       },
       {
         name: "Sanjula",
         title: "V President",
         description: "Maru habai",
-        img: "/Assets/Excom/AsstSecretary.jpg"
+        img: "/Assets/Excom/AsstTreasurer.jpg"
       }
     ],
     testimonials: [],
