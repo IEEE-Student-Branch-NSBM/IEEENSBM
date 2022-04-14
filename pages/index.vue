@@ -171,7 +171,7 @@
       <v-row justify="center" no-gutters>
         <v-col class="hidden-sm-and-down" >
           <v-carousel
-            height="350"
+            height="450"
             :cycle="true"
             :show-arrows="false"
             delimiter-icon="mdi-minus"
@@ -188,7 +188,7 @@
         </v-col>
         <v-col class="hidden-md-and-up" >
           <v-carousel :cycle="true"
-                      height="200"
+                      height="300"
                       :show-arrows="true"
                       hide-delimiters>
             <v-carousel-item v-for="(singleTestimonial, i) in singleTestimonials" :key="i">
@@ -233,58 +233,58 @@ export default {
     singleTestimonials: [
 
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       },
       {
-        name: "Sanjula",
-        title: "V President",
-        description: "Maru habai",
-        img: "/Assets/Excom/AsstTreasurer.jpg"
+        name: "Pubudu Rathnayake",
+        title: "Vice President",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        img: "/Assets/Excom/VicePresident_A.jpg"
       }
     ],
     testimonials: [],

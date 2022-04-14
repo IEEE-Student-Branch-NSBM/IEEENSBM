@@ -1,10 +1,10 @@
 <template>
   <div class="testimonial">
     <div class="pic">
-      <img :src="dataObj.img" alt=""/>
+      <nuxt-img :src="dataObj.img" alt=""> </nuxt-img>
     </div>
     <h3 class="testimonial-title">
-      {{ dataObj.name }}<small>, {{ dataObj.title }}</small>
+      {{ dataObj.name }} <br/> <small>{{ dataObj.title }}</small>
     </h3>
     <p class="description">
       <v-icon color="orange" large>mdi-format-quote-open-outline</v-icon>
