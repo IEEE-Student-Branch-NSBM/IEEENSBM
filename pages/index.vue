@@ -165,9 +165,44 @@
     </v-container>
 
     <v-container class="my-10">
+      <div class="text-h4 font-weight-bold mb-10 text-center">
+        Testimonials
+      </div>
+      <v-row justify="center" no-gutters>
+        <v-col class="hidden-sm-and-down" >
+          <v-carousel
+            height="350"
+            :cycle="true"
+            :show-arrows="false"
+            delimiter-icon="mdi-minus"
+            hide-delimiter-background
+            light>
+            <v-carousel-item v-for="(testimonial, i) in testimonials" :key="i">
+              <v-row>
+                <v-col v-for="(obj, i) in testimonial" :key="i">
+                  <Testimonial  :dataObj="obj" />
+                </v-col>
+              </v-row>
+            </v-carousel-item>
+          </v-carousel>
+        </v-col>
+        <v-col class="hidden-md-and-up" >
+          <v-carousel :cycle="true"
+                      height="200"
+                      :show-arrows="true"
+                      hide-delimiters>
+            <v-carousel-item v-for="(singleTestimonial, i) in singleTestimonials" :key="i">
+              <Testimonial  :dataObj="singleTestimonial" />
+            </v-carousel-item>
+          </v-carousel>
+        </v-col>
+      </v-row>
+    </v-container>
+
+    <v-container class="my-10">
       <v-row no-gutters justify="center">
         <span class="text-h4 font-weight-bold mb-8 mt-2">
-        Lorem ipsum
+        Our Fellowship
       </span>
       </v-row>
      <v-row justify="center">
@@ -177,7 +212,7 @@
      </v-row>
     </v-container>
 
-    
+
   </div>
 </template>
 
@@ -195,6 +230,64 @@ export default {
       'slide_6.jpg',
     ],
     Events:[],
+    singleTestimonials: [
+
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      },
+      {
+        name: "Sanjula",
+        title: "V President",
+        description: "Maru habai",
+        img: "/Assets/Excom/AsstSecretary.jpg"
+      }
+    ],
+    testimonials: [],
     Lecturers:[
       {
         name: 'Prof. Chaminda Rathnayake',
@@ -230,6 +323,11 @@ export default {
   }),
   mounted() {
     this.Events = PrevEvents;
+
+    let size = 3;
+    Array.from({length: Math.ceil(this.singleTestimonials.length / size)}, (val, i) => {
+      this.testimonials.push(this.singleTestimonials.slice(i * size, i * size + size))
+    })
   }
 }
 </script>
