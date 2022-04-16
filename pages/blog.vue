@@ -1,9 +1,13 @@
 <template>
   <v-container>
-    <v-row no-gutters justify="center">
+    <v-row justify="center" no-gutters>
+      <v-card-title class="heading-event">Blogs</v-card-title>
+    </v-row>
+    <v-row no-gutters justify="center" class="py-6">
       <BlogArticleCard
         :blog="blog"
-        :key="blog.createdAt" v-for="blog in Blogs"
+        :key="blog.id"
+        v-for="blog in Blogs"
       ></BlogArticleCard>
     </v-row>
   </v-container>
@@ -15,21 +19,27 @@ export default {
   data() {
     return {
       Blogs: [],
-    }
+    };
   },
-  methods:{
-
-  },
+  methods: {},
   mounted() {
-    this.$content('blogs').fetch().then((val) => {
-      this.Blogs = val;
-      console.log(val);
-    });
-  }
-}
+    this.$content("blogs")
+      .fetch()
+      .then((val) => {
+        this.Blogs = val;
+        console.log(val);
+      });
+  },
+};
 </script>
 
 <style scoped>
+.heading-event {
+  font-size: 96px;
+  font-weight: 300;
+  margin-bottom: 50px !important;
+  margin-top: 50px !important;
+}
 .ImgFilter {
   filter: brightness(500);
 }
