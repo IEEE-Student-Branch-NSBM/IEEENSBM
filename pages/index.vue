@@ -407,7 +407,7 @@ export default {
 }
 
 .bannerImg {
-  background-image: url("../docs/Assets/Other/IEEE_BANNER.png");
+  background-image: url("/Assets/Other/IEEE_BANNER.png");
   height: 300px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
