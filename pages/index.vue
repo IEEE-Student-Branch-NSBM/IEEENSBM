@@ -140,7 +140,7 @@
             Student Branch Counsellors
           </span>
         </v-row>
-        <v-row justify="center" no-gutters class="DontBreakWords mt-8">
+        <v-row justify="center" no-gutters class="DontBreakWords mt-8 mb-4">
           <v-card
             class="mb-5"
             width="300"
@@ -171,21 +171,20 @@
             </v-card-subtitle>
           </v-card>
         </v-row>
+        <v-row no-gutters justify="center">
+          <span class="text-h4 font-weight-bold mt-10 mb-2 text-center">
+            Student Branch Chairpersons <br />
+            2021/22
+          </span>
+        </v-row>
+        <ChairCard />
+        <v-row justify="center mt-10">
+          <v-btn class="moreButton" outlined justify="center">
+            View All Members
+          </v-btn>
+        </v-row>
       </v-container>
     </v-sheet>
-
-    <v-container>
-      <v-row no-gutters justify="center">
-        <span class="text-h4 font-weight-bold mt-6 mb-2 text-center">
-          Student Branch Chairpersons <br />
-          2021/22
-        </span>
-      </v-row>
-      <v-row justify="center">
-        <v-btn class="moreButton" outlined justify="center"> View More </v-btn>
-      </v-row>
-    </v-container>
-
     <v-container class="my-10">
       <div class="text-h4 font-weight-bold mb-10 text-center">Testimonials</div>
       <v-row justify="center" no-gutters>
@@ -250,8 +249,10 @@
 
 <script>
 import { PrevEvents } from "@/content/events/events";
+import ChairCard from "@/components/ChairCard";
 
 export default {
+  component: { ChairCard },
   data: () => ({
     Slides: [
       "slide_1.jpg",
