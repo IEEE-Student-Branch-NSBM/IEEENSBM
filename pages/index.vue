@@ -56,13 +56,14 @@
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
-            <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold"
+            <v-card-title
+              class="pa-0 pb-2 text-h4 font-weight-bold"
               >Team Work</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
               >Lorem Ipsum</v-card-title
             >
-            <v-card-text class="pa-0 pb-2 text-justify">
+            <v-card-text class=" pa-0 pb-2 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -82,7 +83,7 @@
           </v-col>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
-          <v-col>
+          <v-col class="order-last order-md-first">
             <v-img
               quality="98"
               format="webp"
@@ -94,13 +95,14 @@
             />
           </v-col>
           <v-col class="ml-4 px-10">
-            <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold"
+            <v-card-title
+              class="pa-0 pb-2 text-h4 font-weight-bold"
               >Volunteering</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
               >Lorem Ipsum</v-card-title
             >
-            <v-card-text class="pa-0 pb-2 text-justify">
+            <v-card-text class="pa-0 pb-2 text-justify ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -437,9 +439,11 @@ export default {
     font-size: 15px;
     text-align: center;
   }
-
   .SBC-title {
     text-align: center;
   }
+  .firstCard {
+  margin-right: 0px;
+}
 }
 </style>
