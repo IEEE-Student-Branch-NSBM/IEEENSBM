@@ -53,7 +53,7 @@
               class="pa-0 pb-2 font-weight-regular text-right float-right"
               >Lorem Ipsum</v-card-title
             >
-            <v-card-text class="pa-0 pb-2 text-justify text-right float-right">
+            <v-card-text class="pa-0 pb-2 right text-right float-right">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
