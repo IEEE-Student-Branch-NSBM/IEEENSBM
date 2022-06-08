@@ -56,7 +56,7 @@
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
-            <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-h2 font-weight-bold"
               >Team Work</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
@@ -94,7 +94,7 @@
             />
           </v-col>
           <v-col class="ml-4 px-10">
-            <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-h2 font-weight-bold"
               >Volunteering</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
@@ -250,6 +250,8 @@
 <script>
 import { PrevEvents } from "@/content/events/events";
 import ChairCard from "@/components/ChairCard";
+import { sb_testimonials } from "~/content/testimonials/SB";
+import { lecturers_sb } from "~/content/lecturers/lecturers";
 
 export default {
   component: { ChairCard },
@@ -263,104 +265,9 @@ export default {
       "slide_6.jpg",
     ],
     Events: [],
-    singleTestimonials: [
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-    ],
+    singleTestimonials: sb_testimonials,
     testimonials: [],
-    Lecturers: [
-      {
-        name: "Prof. Chaminda Rathnayake",
-        designation: "Deputy Vice Chancellor at NSBM",
-        ieee_designation: "Branch Counsellor",
-        image: "/Assets/Lecturers/ChamindaRathnayake.png",
-      },
-      {
-        name: "Mr. Mohamed Shafraz",
-        designation: "Senior Lecturer at NSBM",
-        ieee_designation: "Senior Adviser",
-        image: "/Assets/Lecturers/MohamedShafraz.png",
-      },
-      {
-        name: "Mr. Iman Ashly",
-        designation: "Senior Lecturer at NSBM",
-        ieee_designation: "Lecturer in Charge",
-        image: "/Assets/Lecturers/ImanAshly.png",
-      },
-      {
-        name: "Mrs. Narmada Ranaweera",
-        designation: "Senior Lecturer at NSBM",
-        ieee_designation: "Mistress In Charge",
-        image: "/Assets/Lecturers/NarmadaRanaweera.png",
-      },
-      {
-        name: "Ms. Kaumadee Samarakoon",
-        designation: "Senior Lecturer at NSBM",
-        ieee_designation: "Mistress In Charge",
-        image: "/Assets/Lecturers/KaumadeeSamarakooon.png",
-      },
-    ],
+    Lecturers: lecturers_sb,
   }),
   mounted() {
     this.Events = PrevEvents;
