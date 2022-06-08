@@ -56,7 +56,7 @@
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
-            <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-h2 font-weight-bold"
               >Team Work</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
@@ -94,7 +94,7 @@
             />
           </v-col>
           <v-col class="ml-4 px-10">
-            <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-h2 font-weight-bold"
               >Volunteering</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
