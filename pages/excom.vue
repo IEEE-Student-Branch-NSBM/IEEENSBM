@@ -70,12 +70,12 @@
 </template>
 
 <script>
-import { excom_2021 } from "~/content/excom/2021";
+import { excom_sb_2021 } from "~/content/excom/2021/SB";
 
 export default {
   name: "excom",
   data: () => ({
-    exComs: excom_2021,
+    exComs: excom_sb_2021,
   }),
 };
 </script>
