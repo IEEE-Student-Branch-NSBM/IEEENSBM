@@ -25,11 +25,11 @@
 
     <v-sheet dark width="100%" class="bannerImg pa-4">
       <v-row align="center" no-gutters class="mt-3">
-        <v-col class="pa-4" cols="7">
+        <v-col class="pa-4" cols="12" sm="7">
           <v-card-title class="DontBreakWords pa-0 font-weight-bold"
             >Welcome to IEEE Student Branch of NSBM
           </v-card-title>
-          <v-card-text class="pa-0 py-4 headingPara">
+          <v-card-text class="headingPara pa-0 py-4">
             IEEE is the world’s largest professional association dedicated to
             advancing technological innovation and excellence for the benefit of
             humanity. IEEE and its members inspire a global community through
@@ -37,7 +37,7 @@
             and professional and educational activities.
           </v-card-text>
         </v-col>
-        <v-col cols="5">
+        <v-col cols="12" sm="5">
           <v-row no-gutters justify="center">
             <nuxt-img
               quality="100"
@@ -136,7 +136,7 @@
     <v-sheet color="#F3FBFF" class="pt-8 pb-8">
       <v-container>
         <v-row no-gutters justify="center">
-          <span class="text-h4 font-weight-bold mt-6 mb-10">
+          <span class="SBC-title text-h4 font-weight-bold mt-6 mb-10">
             Student Branch Counsellors
           </span>
         </v-row>
@@ -409,7 +409,7 @@ export default {
 
 .bannerImg {
   background-image: url("/Assets/Other/IEEE_BANNER.png");
-  height: 300px; /* You must set a specified height */
+  height: auto; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -426,5 +426,20 @@ export default {
   color: white;
   text-align: center;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .DontBreakWords {
+    text-align: center;
+    font-size: 30px;
+  }
+  .headingPara {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .SBC-title {
+    text-align: center;
+  }
 }
 </style>
