@@ -99,7 +99,7 @@
           <v-row justify="center" no-gutters class="DontBreakWords mt-8">
             <v-card
               class="mb-5 mx-3"
-              width="200"
+              width="250"
               flat
               color="transparent"
               v-for="(excom_2021, i) in exComs"
@@ -171,76 +171,13 @@
 </template>
 
 <script>
-import { excom_sb_2021 } from "~/content/excom/2021/SB";
+import { excom_wie_2021 } from "~/content/excom/2021/WIE";
+import { wie_testimonials } from "~/content/testimonials/WIE";
 export default {
   data: () => ({
     Slides: ["slide1.jpg"],
-    exComs: excom_sb_2021,
-    singleTestimonials: [
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-      {
-        name: "Pubudu Rathnayake",
-        title: "Vice President",
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.jpg",
-      },
-    ],
+    exComs: excom_wie_2021,
+    singleTestimonials: wie_testimonials,
     testimonials: [],
   }),
   mounted() {
