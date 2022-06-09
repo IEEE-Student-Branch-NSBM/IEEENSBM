@@ -88,12 +88,12 @@
         </v-slide-group>
       </v-container>
     </v-sheet>
-    <v-container class="mt-4">
+    <v-container>
       <v-row justify="center" no-gutters>
         <v-card-text class="heading-event text-center"
           >Executive Committee</v-card-text
         >
-        <v-card-text class="heading-sub text-center">2021/21</v-card-text>
+        <v-card-text class="heading-sub text-center">2021/22</v-card-text>
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-16">
@@ -242,7 +242,6 @@ export default {
   font-size: 86px;
   font-weight: 300;
   margin-bottom: 30px !important;
-  margin-top: 50px !important;
 }
 
 .heading-sub {
