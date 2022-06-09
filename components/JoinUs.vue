@@ -21,7 +21,7 @@
           experimentation of the message and smart incentives.
         </v-card-text>
         <v-btn class="JoinUsButton px-10 py-5" outlined justify="center">
-          Join Us
+          <nuxt-link class="link" to="/contact">Join Us</nuxt-link>
         </v-btn>
       </v-col>
     </v-row>
@@ -42,10 +42,15 @@
   line-height: 25px;
 }
 
+.link {
+  color: white !important;
+  text-decoration: none !important;
+}
+
 .JoinUsButton {
   background-color: #00609c;
   border-radius: 10px;
-  color: white;
+  color: white !important;
   text-align: center;
   text-decoration: none;
   width: 40%;

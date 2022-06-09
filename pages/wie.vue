@@ -63,12 +63,37 @@
         </v-row>
       </v-container>
     </v-sheet>
-    <v-container class="mt-4">
+    <v-sheet>
+      <v-container class="my-10">
+        <v-row no-gutters justify="center">
+          <span class="text-h4 font-weight-bold mb-8 mt-8">
+            Latest Events
+          </span>
+        </v-row>
+        <v-slide-group show-arrows class="mb-10">
+          <template v-slot:next>
+            <v-btn x-large icon>
+              <v-icon size="64">mdi-chevron-right</v-icon>
+            </v-btn>
+          </template>
+
+          <template v-slot:prev>
+            <v-btn x-large icon>
+              <v-icon size="64">mdi-chevron-left</v-icon>
+            </v-btn>
+          </template>
+          <v-slide-item v-for="(event, i) in Events" :key="i">
+            <EventCard :event="event" />
+          </v-slide-item>
+        </v-slide-group>
+      </v-container>
+    </v-sheet>
+    <v-container>
       <v-row justify="center" no-gutters>
         <v-card-text class="heading-event text-center md:text-left">
           Executive Committee</v-card-text
         >
-        <v-card-text class="heading-sub text-center">2021/21</v-card-text>
+        <v-card-text class="heading-sub text-center">2021/22</v-card-text>
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-16">
@@ -89,43 +114,42 @@
           class="py-10"
         />
       </v-layout>
+
       <v-sheet width="100%">
-        <v-container>
-          <v-row no-gutters justify="center">
-            <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
-              Executive Committee 2020/21
-            </span>
-          </v-row>
-          <v-row justify="center" no-gutters class="DontBreakWords mt-8">
-            <v-card
-              class="mb-5 mx-3"
-              width="250"
-              flat
-              color="transparent"
-              v-for="(excom_2021, i) in exComs"
-              :key="i"
-            >
+        <v-row no-gutters justify="center">
+          <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
+            Executive Committee 2020/21
+          </span>
+        </v-row>
+        <v-row justify="center" no-gutters class="DontBreakWords mt-8">
+          <v-card
+            class="mb-5 mx-3"
+            width="250"
+            flat
+            color="transparent"
+            v-for="(excom_2021, i) in exComs"
+            :key="i"
+          >
+            <v-row no-gutters justify="center">
+              <v-avatar size="128">
+                <nuxt-img
+                  quality="100"
+                  format="webp"
+                  fit="contain"
+                  :src="excom_2021.image_path"
+                />
+              </v-avatar>
+            </v-row>
+            <v-card-title class="excom_2021_name text-center">
               <v-row no-gutters justify="center">
-                <v-avatar size="128">
-                  <nuxt-img
-                    quality="100"
-                    format="webp"
-                    fit="contain"
-                    :src="excom_2021.image_path"
-                  />
-                </v-avatar>
+                {{ excom_2021.name }}
               </v-row>
-              <v-card-title class="excom_2021_name text-center">
-                <v-row no-gutters justify="center">
-                  {{ excom_2021.name }}
-                </v-row>
-              </v-card-title>
-              <v-card-text class="excom_2021_position text-center">
-                {{ excom_2021.position }}
-              </v-card-text>
-            </v-card>
-          </v-row>
-        </v-container>
+            </v-card-title>
+            <v-card-text class="excom_2021_position text-center">
+              {{ excom_2021.position }}
+            </v-card-text>
+          </v-card>
+        </v-row>
       </v-sheet>
     </v-container>
     <v-container class="my-10">
@@ -171,6 +195,7 @@
 </template>
 
 <script>
+import { PrevEvents } from "@/content/events/wie";
 import { excom_wie_2021 } from "~/content/excom/2021/WIE";
 import { wie_testimonials } from "~/content/testimonials/WIE";
 export default {
@@ -179,8 +204,10 @@ export default {
     exComs: excom_wie_2021,
     singleTestimonials: wie_testimonials,
     testimonials: [],
+    Events: [],
   }),
   mounted() {
+    this.Events = PrevEvents;
     let size = 3;
     Array.from(
       { length: Math.ceil(this.singleTestimonials.length / size) },
@@ -215,7 +242,6 @@ export default {
   font-size: 86px;
   font-weight: 300;
   margin-bottom: 30px !important;
-  margin-top: 50px !important;
 }
 
 .heading-sub {
