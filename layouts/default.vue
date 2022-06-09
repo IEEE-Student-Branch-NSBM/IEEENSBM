@@ -226,8 +226,6 @@ export default {
     onScroll () {
 
       const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-      console.log(currentScrollPosition);
       if (currentScrollPosition < 0) {
         return
       }
