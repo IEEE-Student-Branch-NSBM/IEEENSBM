@@ -276,11 +276,19 @@
               <table style="width: 75%">
                 <tr>
                   <td><v-icon>mdi-phone</v-icon></td>
-                  <td class="pl-1">+94 76 987 2270</td>
+                  <td class="pl-1">
+                    <a class="mailSection" href="tel:+94769872270"
+                      >+94 76 987 2270</a
+                    >
+                  </td>
                 </tr>
                 <tr>
                   <td><v-icon>mdi-email</v-icon></td>
-                  <td class="pl-1">nsbmieee@gmail.com</td>
+                  <td class="pl-1">
+                    <a href="mailto:name@nsbmieee@gmail.com" class="mailSection"
+                      >nsbmieee@gmail.com</a
+                    >
+                  </td>
                 </tr>
                 <tr>
                   <td><v-icon>mdi-map-marker-outline</v-icon></td>
@@ -463,6 +471,11 @@ body {
   width: 8px;
   opacity: 0.3;
   background-color: #00629b;
+}
+
+.mailSection {
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .developedBy {
