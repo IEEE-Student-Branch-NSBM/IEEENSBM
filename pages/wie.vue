@@ -90,8 +90,8 @@
     </v-sheet>
     <v-container>
       <v-row justify="center" no-gutters>
-        <v-card-text class="heading-event text-center"
-          >Executive Committee</v-card-text
+        <v-card-text class="heading-event text-center md:text-left">
+          Executive Committee</v-card-text
         >
         <v-card-text class="heading-sub text-center">2021/22</v-card-text>
       </v-row>
@@ -282,5 +282,33 @@ export default {
   font-size: 60px;
   line-height: 65px;
   color: #702f8a;
+}
+
+@media only screen and (max-width: 1278px) {
+  .heading-event{
+    font-size: 70px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+
+  .heading-sub{
+    font-size: 60px;
+    /* line-height: 40px; */
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-event{
+    font-size: 40px;
+    /* line-height: 40px; */
+    font-weight: 600;
+  }
+
+  .heading-sub{
+    font-size: 60px;
+    /* line-height: 40px; */
+    font-weight: 500;
+  }
 }
 </style>
