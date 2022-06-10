@@ -5,7 +5,7 @@
         <v-card-text class="heading-event text-center"
           >Executive Committee</v-card-text
         >
-        <v-card-text class="heading-sub text-center">2021/21</v-card-text>
+        <v-card-text class="heading-sub text-center">2021/22</v-card-text>
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-16">
