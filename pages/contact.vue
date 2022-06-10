@@ -57,21 +57,15 @@
         </v-container>
       </v-col>
       <v-col class="hidden-sm-and-down" cols="12" sm="6">
-        <GmapMap
-          :center="{ lat: 6.8213, lng: 80.0416 }"
-          :zoom="18"
-          map-type-id="terrain"
-          style="width: 750px; height: 500px"
-          :options="{
-            zoomControl: true,
-            mapTypeControl: false,
-            scaleControl: false,
-            streetViewControl: false,
-            rotateControl: false,
-            fullscreenControl: true,
-            disableDefaultUi: false,
-          }"
-        />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575796299669!2d80.03938421460494!3d6.821334421522082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1654833879798!5m2!1sen!2slk"
+          width="750"
+          height="500"
+          style="border: 0"
+          allowfullscreen="true"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </v-col>
     </v-row>
   </v-sheet>
@@ -89,7 +83,6 @@ export default {
   font-weight: 500;
   letter-spacing: -0px;
 }
-
 
 .formSubTitle {
   margin-top: 12px;
@@ -115,10 +108,10 @@ export default {
     letter-spacing: -0px;
   }
   .formSubTitle {
-  margin-top: 12px;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: -0px;
-}
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0px;
+  }
 }
 </style>
