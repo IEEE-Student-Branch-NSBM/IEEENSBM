@@ -1,157 +1,97 @@
 <template>
-  <v-row no-gutters justify="center" class="ml-16 mt-10">
-    <v-col
-      ><div id="card" class="card py-4">
-        <div class="card-info">
-          <div class="card-image mb-3">
-            <v-img
-              contain
-              aspect-ratio="1"
-              quality="100"
-              format="webp"
-              alt="Chair Persons"
-              width="120px"
-              src="/Assets/Chair/Srilal.png"
-              class="card-avatar card-avatar--circle mx-auto"
-            />
-          </div>
-          <div class="card-fields py-3">
-            <h1 class="ChairName">Srilal Sachintha</h1>
-            <h3 class="ChairPosition">Chairperson - IEEE Student Branch</h3>
-          </div>
-          <div class="social-media-chairs">
-            <v-btn icon><v-icon>mdi-facebook</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-linkedin</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-twitter</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-instagram</v-icon></v-btn>
-          </div>
-          <div class="py-2">
-            <v-btn
-              height="40px"
-              width="120"
-              class="chairButtonEmail"
-              outlined
-              justify="center"
-            >
-              Email
-            </v-btn>
-            <v-btn
-              height="40px"
-              width="120"
-              class="chairButtonConnect"
-              outlined
-              justify="center"
-            >
-              Connect
-            </v-btn>
-          </div>
-        </div>
-      </div></v-col
+  <v-row no-gutters class="mt-10" justify="center">
+    <v-card
+      class="card mx-auto"
+      elevation="0"
+      v-for="(chair, i) in Chairs"
+      :key="i"
     >
-    <v-col>
-      <div id="card" class="card py-4">
-        <div class="card-info">
-          <div class="card-image mb-3">
-            <v-img
-              contain
-              aspect-ratio="1"
-              quality="100"
-              format="webp"
-              alt="Chair Persons"
-              width="120px"
-              src="/Assets/Chair/Lihini.png"
-              class="card-avatar card-avatar--circle mx-auto"
-            />
-          </div>
-          <div class="card-fields py-3">
-            <h1 class="ChairName">Lihini Nisansala</h1>
-            <h3 class="ChairPosition">
-              Chairperson - IEEE Women In Engineering
-            </h3>
-          </div>
-          <div class="social-media-chairs">
-            <v-btn icon><v-icon>mdi-facebook</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-linkedin</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-twitter</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-instagram</v-icon></v-btn>
-          </div>
-          <div class="py-2">
-            <v-btn
-              height="40px"
-              width="120"
-              class="chairButtonEmail"
-              outlined
-              justify="center"
-            >
-              Email
-            </v-btn>
-            <v-btn
-              height="40px"
-              width="120"
-              class="chairButtonConnect"
-              outlined
-              justify="center"
-            >
-              Connect
-            </v-btn>
-          </div>
-        </div>
-      </div>
-    </v-col>
-    <v-col>
-      <div id="card" class="card py-4">
-        <div class="card-info">
-          <div class="card-image mb-3">
-            <v-img
-              contain
-              aspect-ratio="1"
-              quality="100"
-              format="webp"
-              alt="Chair Persons"
-              width="120px"
-              src="/Assets/Chair/Sanjula.png"
-              class="card-avatar card-avatar--circle mx-auto"
-            />
-          </div>
-          <div class="card-fields py-3">
-            <h1 class="ChairName">Sanjula De Alwis</h1>
-            <h3 class="ChairPosition">Chairperson - IEEE Computer Society</h3>
-          </div>
-          <div class="social-media-chairs">
-            <v-btn icon><v-icon>mdi-facebook</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-linkedin</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-twitter</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-instagram</v-icon></v-btn>
-          </div>
-          <div class="py-2">
-            <v-btn
-              height="40px"
-              width="120"
-              class="chairButtonEmail"
-              outlined
-              justify="center"
-            >
-              Email
-            </v-btn>
-            <v-btn
-              height="40px"
-              width="120"
-              class="chairButtonConnect"
-              outlined
-              justify="center"
-            >
-              Connect
-            </v-btn>
-          </div>
-        </div>
-      </div>
-    </v-col>
+      <v-row no-gutters>
+        <v-img
+          contain
+          aspect-ratio="1"
+          quality="100"
+          format="webp"
+          alt="Chair Persons"
+          width="120px"
+          :src="chair.image"
+          class="card-avatar card-avatar--circle mx-auto my-7"
+        />
+      </v-row>
+      <v-row no-gutters>
+        <h1 class="ChairName">{{ chair.name }}</h1>
+      </v-row>
+      <v-row no-gutters>
+        <h3 class="ChairPosition">{{ chair.chair_role }}</h3>
+      </v-row>
+      <v-row no-gutters>
+        <v-btn icon><v-icon>mdi-facebook</v-icon></v-btn>
+        <v-btn icon><v-icon>mdi-linkedin</v-icon></v-btn>
+        <v-btn icon><v-icon>mdi-twitter</v-icon></v-btn>
+        <v-btn icon><v-icon>mdi-instagram</v-icon></v-btn>
+      </v-row>
+      <v-row no-gutters class="mb-9">
+        <v-btn
+          height="40px"
+          width="120"
+          class="chairButtonEmail"
+          outlined
+          justify="center"
+        >
+          Email
+        </v-btn>
+
+        <v-btn
+          height="40px"
+          width="120"
+          class="chairButtonConnect"
+          outlined
+          justify="center"
+        >
+          Connect
+        </v-btn>
+      </v-row>
+    </v-card>
   </v-row>
 </template>
 
 <script>
 export default {
   name: "ChairCard",
+  data: () => ({
+    Chairs: [
+      {
+        name: "Srilal Sachintha",
+        chair_role: "Chairperson - IEEE Student Branch",
+        image: "/Assets/Chair/Srilal.png",
+        facebook: "https://www.facebook.com/srilal.sachintha",
+        linkedin: "https://www.linkedin.com/in/srilal-sachintha-b9a8b917b/",
+        twitter: "https://twitter.com/SrilalSachintha",
+        instagram: "https://www.instagram.com/srilal.sachintha/",
+        email: " ",
+      },
+      {
+        name: "Lihini Nisansala",
+        chair_role: "Chairperson - IEEE Women In Engineering",
+        image: "/Assets/Chair/Lihini.png",
+        facebook: "https://www.facebook.com/lihini.nisansala",
+        linkedin: "https://www.linkedin.com/in/lihini-nisansala-a9a8b917b/",
+        twitter: "https://twitter.com/LihiniNisansala",
+        instagram: "https://www.instagram.com/lihini.nisansala/",
+        email: " ",
+      },
+      {
+        name: "Sanjula De Alwis",
+        chair_role: "Chairperson - IEEE Computer Society",
+        image: "/Assets/Chair/Sanjula.png",
+        facebook: "https://www.facebook.com/sanjula.de.alwis",
+        linkedin: "https://www.linkedin.com/in/sanjula-de-alwis-a9a8b917b/",
+        twitter: "https://twitter.com/SanjulaDeAlwis",
+        instagram: "https://www.instagram.com/sanjula.de.alwis/",
+        email: " ",
+      },
+    ],
+  }),
 };
 </script>
 
@@ -163,6 +103,7 @@ export default {
   color: #00609c;
   text-align: center;
   text-decoration: none;
+  margin-right: 4px;
 }
 .chairButtonConnect {
   background-color: #00609c;
@@ -170,6 +111,7 @@ export default {
   color: white;
   text-align: center;
   text-decoration: none;
+  margin-left: 4px;
 }
 .card {
   align-items: center;
@@ -218,5 +160,19 @@ export default {
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 0.2em;
+}
+
+#card-1 {
+  margin-right: 50px;
+}
+
+#card-3 {
+  margin-left: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+ 
 }
 </style>
