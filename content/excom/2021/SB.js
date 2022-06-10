@@ -26,7 +26,7 @@ export const excom_sb_2021 = [
     },
     {
         name: "Anne Kaushalya ",
-        image_path: '/Assets/Excom/AsstSecretary.jpg',
+        image_path: '/Assets/Excom/Anne Kaushalya.jpg',
         position: "Asst. Secretary",
     },
     {
