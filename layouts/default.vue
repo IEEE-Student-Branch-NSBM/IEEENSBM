@@ -444,8 +444,13 @@ export default {
   }
 }
 
+* {
+  text-decoration: none !important;
+}
+
 html {
   overflow-y: auto;
+  text-decoration: none !important;
 }
 
 body {
@@ -453,6 +458,7 @@ body {
   padding: 0;
   line-height: 1.5;
   font-family: "Poppins", "sans-serif" !important;
+  text-decoration: none !important;
 }
 
 ::-webkit-scrollbar-track {

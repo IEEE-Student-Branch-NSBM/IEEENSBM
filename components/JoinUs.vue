@@ -20,9 +20,11 @@
           We love what we do and we do it with passion. We value the
           experimentation of the message and smart incentives.
         </v-card-text>
-        <v-btn class="JoinUsButton px-10 py-5" outlined justify="center">
-          <nuxt-link class="link" to="/contact">Join Us</nuxt-link>
-        </v-btn>
+        <nuxt-link class="link" to="/contact">
+          <v-btn class="JoinUsButton px-10 py-5" outlined justify="center">
+            Join Us
+          </v-btn>
+        </nuxt-link>
       </v-col>
     </v-row>
   </v-container>

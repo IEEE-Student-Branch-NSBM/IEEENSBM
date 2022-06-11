@@ -25,31 +25,42 @@
         <h3 class="ChairPosition">{{ chair.chair_role }}</h3>
       </v-row>
       <v-row no-gutters>
-        <v-btn icon><v-icon>mdi-facebook</v-icon></v-btn>
-        <v-btn icon><v-icon>mdi-linkedin</v-icon></v-btn>
-        <v-btn icon><v-icon>mdi-twitter</v-icon></v-btn>
-        <v-btn icon><v-icon>mdi-instagram</v-icon></v-btn>
+        <a :href="chair.facebook" target="_blank"
+          ><v-btn icon><v-icon>mdi-facebook</v-icon></v-btn></a
+        >
+        <a :href="chair.linkedin" target="_blank"
+          ><v-btn icon><v-icon>mdi-linkedin</v-icon></v-btn></a
+        >
+        <a :href="chair.twitter" target="_blank"
+          ><v-btn icon><v-icon>mdi-twitter</v-icon></v-btn></a
+        >
+        <a :href="chair.instagram" target="_blank"
+          ><v-btn icon><v-icon>mdi-instagram</v-icon></v-btn></a
+        >
       </v-row>
-      <v-row no-gutters class="mb-9">
-        <v-btn
-          height="40px"
-          width="120"
-          class="chairButtonEmail"
-          outlined
-          justify="center"
+      <v-row no-gutters class="mb-8 mt-3">
+        <a :href="chair.email"
+          ><v-btn
+            height="40px"
+            width="120"
+            class="chairButtonEmail"
+            outlined
+            justify="center"
+          >
+            Email
+          </v-btn></a
         >
-          Email
-        </v-btn>
-
-        <v-btn
-          height="40px"
-          width="120"
-          class="chairButtonConnect"
-          outlined
-          justify="center"
-        >
-          Connect
-        </v-btn>
+        <a :href="chair.linkedin" target="_blank">
+          <v-btn
+            height="40px"
+            width="120"
+            class="chairButtonConnect"
+            outlined
+            justify="center"
+          >
+            Connect
+          </v-btn>
+        </a>
       </v-row>
     </v-card>
   </v-row>
@@ -68,7 +79,7 @@ export default {
         linkedin: "https://www.linkedin.com/in/srilal-sachintha-b9a8b917b/",
         twitter: "https://twitter.com/SrilalSachintha",
         instagram: "https://www.instagram.com/srilal.sachintha/",
-        email: " ",
+        email: "mailto:name@Srilal@ieee.org",
       },
       {
         name: "Lihini Nisansala",
@@ -78,17 +89,17 @@ export default {
         linkedin: "https://www.linkedin.com/in/lihini-nisansala-a9a8b917b/",
         twitter: "https://twitter.com/LihiniNisansala",
         instagram: "https://www.instagram.com/lihini.nisansala/",
-        email: " ",
+        email: "mailto:name@lihininisansala@ieee.org",
       },
       {
         name: "Sanjula De Alwis",
         chair_role: "Chairperson - IEEE Computer Society",
         image: "/Assets/Chair/Sanjula.png",
         facebook: "https://www.facebook.com/sanjula.de.alwis",
-        linkedin: "https://www.linkedin.com/in/sanjula-de-alwis-a9a8b917b/",
+        linkedin: "https://www.linkedin.com/in/sanjuladealwis/",
         twitter: "https://twitter.com/SanjulaDeAlwis",
         instagram: "https://www.instagram.com/sanjula.de.alwis/",
-        email: " ",
+        email: "mailto:name@sanjulade@ieee.org",
       },
     ],
   }),
@@ -173,6 +184,5 @@ export default {
   .card {
     margin-bottom: 20px;
   }
- 
 }
 </style>
