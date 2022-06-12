@@ -45,7 +45,7 @@
                 font-weight-bold
                 text-right
                 float-right
-                WIE-title
+                CS-title
               "
               >Computer Society</v-card-title
             >
@@ -277,9 +277,9 @@ export default {
   line-height: 45px;
 }
 
-.WIE-title {
+.CS-title {
   word-break: keep-all !important;
-  font-size: 60px;
+  font-size: 64px;
   line-height: 65px;
   color: #ffa300;
 }

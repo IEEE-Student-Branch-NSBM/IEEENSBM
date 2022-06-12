@@ -32,7 +32,7 @@
 
 <style>
 .JoinUs {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: bold;
   line-height: 40px;
 }
@@ -56,7 +56,7 @@
   text-align: center;
   text-decoration: none;
   width: 40%;
-  font-weight: 300;
+  font-weight: 350;
   color: #ffffff !important;
   margin-top: 10px;
 }
