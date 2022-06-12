@@ -195,7 +195,7 @@
 </template>
 
 <script>
-import { PrevEvents } from "@/content/events/wie";
+import { PrevEvents } from "@/content/events/cs";
 import { excom_cs_2021 } from "~/content/excom/2021/CS";
 import { cs_testimonials } from "~/content/testimonials/CS";
 export default {
