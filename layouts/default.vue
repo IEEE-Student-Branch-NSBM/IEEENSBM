@@ -374,7 +374,7 @@ export default {
         },
         {
           Name: "About US",
-          To: "/membership",
+          To: "/aboutus",
         },
         {
           Name: "Contact Us",
