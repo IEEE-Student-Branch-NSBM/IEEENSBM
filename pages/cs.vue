@@ -17,13 +17,13 @@
             height="80vh"
             width="100%"
             alt="Brand Logo"
-            :src="'/Assets/WIE/' + slide"
+            :src="'/Assets/HomeSlider/CS_slide.png'"
           />
         </v-sheet>
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet color="#F3FBFF" class="pt-8 pb-8">
+    <v-sheet color="#FFF4E1" class="pt-8 pb-8">
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col>
@@ -39,14 +39,7 @@
           </v-col>
           <v-col class="ml-4 px-10">
             <v-card-title
-              class="
-                pa-0
-                pb-2
-                font-weight-bold
-                text-right
-                float-right
-                CS-title
-              "
+              class="pa-0 pb-2 font-weight-bold text-right float-right CS-title"
               >Computer Society</v-card-title
             >
             <v-card-title
