@@ -124,10 +124,141 @@
     </v-sheet>
     <v-sheet>
       <v-container>
-        <v-row no-gutters justify="center mt-4">
-          <span class="text-h3 font-weight-bold">
-            Student Branch Chapters
+        <v-row no-gutters justify="center">
+          <span class="text-h3 font-weight-bold mt-4">
+            About <span style="color: #702f8a">WIE NSBM</span> Affinity Group
           </span>
+        </v-row>
+        <v-row align="center" no-gutters class="DontBreakWords mt-8">
+          <v-col class="order-last order-md-first">
+            <v-img
+              quality="98"
+              format="webp"
+              fit="contain"
+              class="rounded-lg my-4"
+              height="350"
+              alt="Brand Logo"
+              :src="'/Assets/Aboutus/WIE.png'"
+            />
+          </v-col>
+          <v-col class="ml-4 px-10">
+            <v-card-text class="pa-0 pb-2 text-justify mt-4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but alsothe leap into electronic
+              typesetting, remaining essentially unchanged. It was popularised
+              in the 1960s with the release of Letraset sheets containing Lorem
+              Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
+            </v-card-text>
+            <v-card-text
+              class="pa-0 text-justify mt-4 moreDetails pr-4"
+              style="color: #702f8a; font-weight: bold"
+            >
+              More Details
+            </v-card-text>
+            <v-card-actions class="moreDetails">
+              <v-btn
+                class="btn-icon"
+                icon
+                href="https://www.facebook.com/ieeensbm/"
+                target="_blank"
+                ><v-icon>mdi-facebook</v-icon>
+              </v-btn>
+              <v-btn
+                icon
+                class="btn-icon"
+                href="https://www.linkedin.com/company/ieee-student-branch-nsbm/mycompany/"
+                target="_blank"
+                ><v-icon>mdi-linkedin</v-icon></v-btn
+              >
+              <v-btn
+                class="btn-icon"
+                icon
+                href="https://twitter.com/nsbmieee"
+                target="_blank"
+                ><v-icon>mdi-twitter</v-icon></v-btn
+              >
+              <v-btn
+                icon
+                class="btn-icon"
+                href="https://www.instagram.com/nsbmieee/"
+                target="_blank"
+                ><v-icon>mdi-instagram</v-icon></v-btn
+              >
+            </v-card-actions>
+          </v-col>
+        </v-row>
+      </v-container>
+      <v-container class="mt-4">
+        <v-row no-gutters justify="center">
+          <span class="text-h3 font-weight-bold mt-4">
+            About <span style="color: #ffa300">Computer Society</span> NSBM
+          </span>
+        </v-row>
+        <v-row align="center" no-gutters class="DontBreakWords mt-8">
+          <v-col class="ml-4 px-10">
+            <v-card-text class="pa-0 pb-2 text-justify mt-4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but alsothe leap into electronic
+              typesetting, remaining essentially unchanged. It was popularised
+              in the 1960s with the release of Letraset sheets containing Lorem
+              Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
+            </v-card-text>
+            <v-card-text
+              class="pa-0 text-justify mt-4 CSmoreDetails pl-4"
+              style="color: #ffa300; font-weight: bold"
+            >
+              More Details
+            </v-card-text>
+            <v-card-actions class="CSmoreDetails">
+              <v-btn
+                class="cs-btn-icon"
+                icon
+                href="https://www.facebook.com/ieeensbm/"
+                target="_blank"
+                ><v-icon>mdi-facebook</v-icon>
+              </v-btn>
+              <v-btn
+                icon
+                class="cs-btn-icon"
+                href="https://www.linkedin.com/company/ieee-student-branch-nsbm/mycompany/"
+                target="_blank"
+                ><v-icon>mdi-linkedin</v-icon></v-btn
+              >
+              <v-btn
+                class="cs-btn-icon"
+                icon
+                href="https://twitter.com/nsbmieee"
+                target="_blank"
+                ><v-icon>mdi-twitter</v-icon></v-btn
+              >
+              <v-btn
+                icon
+                class="cs-btn-icon"
+                href="https://www.instagram.com/nsbmieee/"
+                target="_blank"
+                ><v-icon>mdi-instagram</v-icon></v-btn
+              >
+            </v-card-actions>
+          </v-col>
+          <v-col>
+            <v-img
+              quality="98"
+              format="webp"
+              fit="contain"
+              class="rounded-lg my-4"
+              height="350"
+              alt="Brand Logo"
+              :src="'/Assets/Aboutus/cs.png'"
+            />
+          </v-col>
         </v-row>
       </v-container>
     </v-sheet>
@@ -139,7 +270,7 @@
 import JoinUs from "../components/JoinUs.vue";
 export default {
   name: "aboutus",
-  components: { JoinUs }
+  components: { JoinUs },
 };
 </script>
 
@@ -148,6 +279,28 @@ export default {
   word-break: keep-all !important;
   font-size: 45px;
   line-height: 45px;
+}
+
+.moreDetails {
+  text-align: right !important;
+  justify-content: right !important;
+  color: #702f8a !important;
+}
+
+.btn-icon {
+  color: #702f8a !important;
+  padding: 0px !important;
+}
+
+.CSmoreDetails {
+  text-align: left !important;
+  justify-content: left !important;
+  color: #ffa300 !important;
+}
+
+.cs-btn-icon {
+  color: #ffa300 !important;
+  padding: 0px !important;
 }
 
 .IEEE-title {

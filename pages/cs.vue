@@ -83,10 +83,10 @@
     </v-sheet>
     <v-container>
       <v-row justify="center" no-gutters>
-        <v-card-text class="heading-event text-center"
-          >Executive Committee</v-card-text
+        <v-card-title class="heading-event text-center"
+          >Executive Committee</v-card-title
         >
-        <v-card-text class="heading-sub text-center">2021/22</v-card-text>
+        <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-16">
@@ -104,13 +104,13 @@
           v-bind:src="'/Assets/CS/Excom.png'"
           width="100%"
           alt="Excom image"
-          class="py-10"
+          class="py-4"
         />
       </v-layout>
 
       <v-sheet width="100%">
         <v-row no-gutters justify="center">
-          <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
+          <span class="text-h4 text-center font-weight-bold mb-4">
             Founders
           </span>
         </v-row>

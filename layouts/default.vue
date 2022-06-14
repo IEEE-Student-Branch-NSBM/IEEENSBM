@@ -493,6 +493,11 @@ body {
   font-family: "Poppins", "sans-serif" !important;
 }
 
+.v-card__text {
+  font-size: 18px !important;
+  font-weight: 200;
+}
+
 .v-tabs-bar {
   background-color: #ffffff00 !important;
   border-color: #ffffff00 !important;
