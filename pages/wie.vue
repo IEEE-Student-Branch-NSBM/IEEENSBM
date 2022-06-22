@@ -23,7 +23,7 @@
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet color="#F3FBFF" class="pt-8 pb-8">
+    <v-sheet color="#F4D9FF" class="pt-8 pb-8">
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col>
@@ -90,10 +90,10 @@
     </v-sheet>
     <v-container>
       <v-row justify="center" no-gutters>
-        <v-card-text class="heading-event text-center md:text-left">
-          Executive Committee</v-card-text
+        <v-card-title class="heading-event text-center md:text-left">
+          Executive Committee</v-card-title
         >
-        <v-card-text class="heading-sub text-center">2021/22</v-card-text>
+        <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-16">

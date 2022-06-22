@@ -94,7 +94,7 @@
             />
           </v-col>
           <v-col class="ml-4 px-10">
-            <v-card-title class="pa-0 pb-2 text-h4 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-h2 font-weight-bold"
               >Volunteering</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"

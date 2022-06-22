@@ -374,7 +374,7 @@ export default {
         },
         {
           Name: "About US",
-          To: "/membership",
+          To: "/aboutus",
         },
         {
           Name: "Contact Us",
@@ -491,6 +491,11 @@ body {
 
 .DefaultFont {
   font-family: "Poppins", "sans-serif" !important;
+}
+
+.v-card__text {
+  font-size: 18px !important;
+  font-weight: 200;
 }
 
 .v-tabs-bar {
