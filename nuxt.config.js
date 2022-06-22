@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'IEEE NSBM',
-    title: 'IEEE NSBM',
+    titleTemplate: 'IEEE NSBM Student Branch',
+    title: 'IEEE NSBM Student Branch',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

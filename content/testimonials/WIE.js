@@ -1,67 +1,11 @@
 export const wie_testimonials = [
     {
         name: "Sunali Rambukwalle",
-        title: "Presedint",
+        title: "Chair 2020/21",
         description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "I'm so proud and humbled to be the first-ever chair to take over the WIE Initiation and I would be thankful for our seniors and members who work hard beside me to get this community to the next level. Uplifting, encouraging, and getting our girls more engaged to do volunteering was the main goal and I believe we were able to achieve it! ",
         img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/Secretary.jpg",
-    },
-    {
-        name: "Sunali Rambukwalle",
-        title: "Presedint",
-        description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        img: "/Assets/Excom/VicePresident_A.wieg",
-    },
+    }
 ]
 
 export default { wie_testimonials };

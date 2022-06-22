@@ -294,7 +294,7 @@
                   <td><v-icon>mdi-map-marker-outline</v-icon></td>
                   <td class="pl-1">
                     Pitipana <br />
-                    Thalagala Rd, <br />Charlottesville, Homagama
+                    Thalagala Rd, <br /> Homagama
                   </td>
                 </tr>
               </table>
