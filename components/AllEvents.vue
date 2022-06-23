@@ -9,7 +9,7 @@
       hover
       ripple
     ></v-img>
-    <v-card-title class="font-weight-bold">
+    <v-card-title class="font-weight-bold DontBreakWords">
       {{ event.title }}
     </v-card-title>
     <v-card-subtitle> {{ event.date }} </v-card-subtitle>
@@ -36,4 +36,8 @@ export default {
 </script>
 
 <style scoped>
+.DontBreakWords {
+  word-break: keep-all !important;
+  line-height: 25px;
+}
 </style>

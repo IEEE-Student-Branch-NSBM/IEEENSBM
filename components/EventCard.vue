@@ -1,7 +1,7 @@
 <template>
   <v-card outlined width="300" class="ma-2">
     <v-img max-height="160" width="300" :src="event.image" />
-    <v-card-title class="font-weight-bold">
+    <v-card-title class="font-weight-bold DontBreakWords">
       {{ event.title }}
     </v-card-title>
     <v-card-subtitle> {{ event.date }} </v-card-subtitle>
@@ -37,5 +37,10 @@ export default {
   color: white;
   text-align: center;
   text-decoration: none;
+}
+
+.DontBreakWords {
+  word-break: keep-all !important;
+  line-height: 25px;
 }
 </style>

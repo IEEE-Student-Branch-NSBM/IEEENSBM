@@ -2,46 +2,46 @@ export const CurrentEvent = null; /// Put null if there is none.
 
 export const PrevEvents = [
   {
-    title: 'IEEE Day 21',
+    title: 'Road to Full Stack',
     image: '/events/ieeeday21.png',
-    date: '21st March, 2020',
-    description:'Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.',
-    link: 'https://www.facebook.com/events/389076479284226'
+    date: '8th December, 2021',
+    description: '“Road To Full Stack - Mobile" is a great opportunity for you to begin the strategy of Mobile Application Development.',
+    link: 'https://fb.watch/dOwdlS_FrO/'
   },
   {
-    title: 'Road to FullStack',
+    title: 'Women can be Entrepreneurs too',
     image: '/events/road_to_fullstack.jpg',
-    date: '21st March, 2020',
-    description:'Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.',
-    link: 'https://www.facebook.com/events/1692543347615684/'
+    date: '1st July, 2020',
+    description: 'Organized an online session for young women of the university to improve their leadership skills and to motivate on becoming an Entrepreneur.',
+    link: 'https://fb.me/e/1DflPOP8z'
   },
   {
-    title: 'Professional Guide to CV',
+    title: 'Women in Tech E01',
     image: '/events/professional_guide_to_cv.png',
-    date: '21st March, 2020',
-    description:'Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.',
-    link: 'https://www.facebook.com/events/1016451752425802/'
+    date: '5th February, 2021',
+    description: 'We are ready to unravel how much of the Tech community is from female developers and the issues they face when working in the industry',
+    link: 'https://fb.me/e/2zxvPMWm3'
   },
   {
-    title: 'Duothan 1.0',
+    title: 'WriterSpace 1.0',
     image: '/events/duothon.png',
-    date: '21st March, 2020',
-    description:'Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.',
-    link: 'https://www.facebook.com/events/1358107354543892/'
+    date: '17th September, 2021',
+    description: 'IEEE Student Branch of NSBM presents "WriterSpace 1.0", the article writing competition for IEEE Day 2021.',
+    link: 'https://fb.me/e/1Gx8a6YYB/'
   },
   {
-    title: 'Ayubowan IEEE',
+    title: '"Life of She" - Creative Content Competition',
     image: '/events/ayubowan_ieee.png',
-    date: '21st March, 2020',
-    description:'Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.',
-    link: 'https://www.facebook.com/events/1348980179197235/'
+    date: '4th March, 2021',
+    description: 'The "Life of She", along with International Women’s Day, IEEE NSBM Women in Engineering Student Affinity group celebrates Women’s Day with a challenge for all',
+    link: 'https://fb.me/e/1Os3IyiuI'
   },
   {
     title: 'Arduino Workshop',
-    image: '/events/adruino.png',
-    date: '21st March, 2020',
-    description:'Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.',
-    link: 'https://www.facebook.com/events/1106503076467451/'
+    image: '/events/professional_guide_to_cv.png',
+    date: '27th November, 2020',
+    description: 'Arduino Workshop is organized for anyone who enjoys creating interesting stuff by using their imagination and problem-solving skills.',
+    link: 'https://fb.me/e/2vTb61rMt'
   },
 ]
 

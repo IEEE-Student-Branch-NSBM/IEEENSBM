@@ -4,9 +4,9 @@ export const PrevEvents = [
     {
         title: 'MAD HACK 2022',
         image: '/events/ieeeday21.png',
-        date: '21st March, 2020',
-        description: 'Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.',
-        link: 'https://www.facebook.com/events/389076479284226'
+        date: '25th May, 2022',
+        description: 'MAD-Fest is a platform which opens for passionate MAD coders',
+        link: 'https://fb.me/e/2surCGKjG'
     }
 ]
 
