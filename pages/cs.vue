@@ -276,4 +276,14 @@ export default {
   line-height: 65px;
   color: #ffa300;
 }
+
+@media only screen and (max-width: 768px) {
+  .heading-event {
+  /* letter-spacing: 0px !important; */
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 30px !important;
+}
+}
+
 </style>
