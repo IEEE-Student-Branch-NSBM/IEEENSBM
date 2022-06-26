@@ -1,9 +1,9 @@
 <template>
   <v-sheet class="py-10">
     <v-row no-gutters align-content="center">
-      <v-col cols="12" sm="6" class="px-10">
-        <v-card-title class="formTitle">Contact Us </v-card-title>
-        <span class="formSubTitle ml-5"
+      <v-col cols="12" sm="6" class="px-sm-10 px-5">
+        <v-card-title class="formTitle justify-sm-start justify-center">Contact Us </v-card-title>
+        <span class="formSubTitle ml-sm-5 ml-0"
           >Our friendly team want to hear from you</span
         >
         <v-container>
@@ -61,6 +61,17 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575796299669!2d80.03938421460494!3d6.821334421522082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1654833879798!5m2!1sen!2slk"
           width="750"
           height="500"
+          style="border: 0"
+          allowfullscreen="true"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </v-col>
+      <v-col class="hidden-md-and-up" cols="12" sm="6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575796299669!2d80.03938421460494!3d6.821334421522082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1654833879798!5m2!1sen!2slk"
+          width="370"
+          height="200"
           style="border: 0"
           allowfullscreen="true"
           loading="lazy"
