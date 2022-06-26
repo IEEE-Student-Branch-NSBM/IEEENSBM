@@ -14,19 +14,21 @@
               :src="'/Assets/Aboutus/aboutIEEE.png'"
             />
           </v-col>
-          <v-col class="ml-4 px-10">
+          <v-col class="ml-sm-4 ml-0 px-sm-10 px-5">
             <v-card-title
               class="
                 pa-0
                 pb-2
                 font-weight-bold
-                text-right
-                float-right
+                text-sm-right
+                text-center
+                justify-sm-end
+                justify-center
                 IEEE-title
               "
               >About IEEE</v-card-title
             >
-            <v-card-text class="pa-0 pb-2 right text-right float-right">
+            <v-card-text class="pa-0 pb-10 pb-sm-2 pt-8 pt-sm-0 right text-sm-right text-center float-right">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -44,7 +46,7 @@
           </span>
         </v-row>
         <v-row>
-          <div class="my-3 text-center">
+          <div class="my-3 text-sm-center text-left mx-sm-0 mx-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -59,7 +61,7 @@
     </v-sheet>
     <v-sheet class="mb-10 mt-10">
       <v-row>
-        <v-col v-for="n in 3" :key="n" class="d-flex child-flex" cols="4">
+        <v-col v-for="n in 3" :key="n" class="d-flex child-flex" cols="12" sm="4">
           <v-img
             :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
             :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
@@ -73,11 +75,11 @@
     <v-sheet class="pt-8 pb-8">
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
-          <v-col class="px-10 firstCard">
-            <span class="pa-0 text-h2 font-weight-bold"
+          <v-col class="px-sm-10 px-0 firstCard">
+            <span class="pa-0 text-h3 text-sm-h2 font-weight-bold"
               >Our <span style="color: #00629b"> Vision</span>
             </span>
-            <v-card-text class="pa-0 pb-2 mt-4 text-justify">
+            <v-card-text class="pa-0 pb-2 mt-4 mb-5 mb-sm-0 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -108,11 +110,11 @@
               src="https://picsum.photos/510"
             />
           </v-col>
-          <v-col class="ml-4 px-10">
-            <span class="pa-0 text-h2 font-weight-bold"
+          <v-col class="ml-4 px-sm-10 px-0 mt-10 mt-sm-0">
+            <span class="pa-0 text-h3 text-sm-h2 font-weight-bold"
               >Our <span style="color: #00629b">Mission</span>
             </span>
-            <v-card-text class="pa-0 pb-2 text-justify mt-4">
+            <v-card-text class="pa-0 pb-2 text-justify mt-4 mb-5 mb-sm-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -125,7 +127,7 @@
     <v-sheet>
       <v-container>
         <v-row no-gutters justify="center">
-          <span class="text-h3 font-weight-bold mt-4">
+          <span class="text-h4 text-sm-h3 font-weight-bold mt-4 mx-5 mx-sm-0">
             About <span style="color: #702f8a">WIE NSBM</span> Affinity Group
           </span>
         </v-row>
@@ -141,8 +143,8 @@
               :src="'/Assets/Aboutus/WIE.png'"
             />
           </v-col>
-          <v-col class="ml-4 px-10">
-            <v-card-text class="pa-0 pb-2 text-justify mt-4">
+          <v-col class="ml-sm-4 ml-0 px-sm-10 px-5">
+            <v-card-text class="pa-0 pb-2 text-justify mt-4 mb-5 mb-sm-0">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -194,12 +196,12 @@
       </v-container>
       <v-container class="mt-4">
         <v-row no-gutters justify="center">
-          <span class="text-h3 font-weight-bold mt-4">
+          <span class="text-h4 text-sm-h3 font-weight-bold mt-4 mx-5 mx-sm-0">
             About <span style="color: #ffa300">Computer Society</span> NSBM
           </span>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
-          <v-col class="ml-4 px-10">
+          <v-col class="ml-sm-4 ml-0 px-sm-10 px-5">
             <v-card-text class="pa-0 pb-2 text-justify mt-4">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -308,5 +310,25 @@ export default {
   font-size: 64px;
   line-height: 65px;
   color: #00629b;
+}
+
+@media only screen and (max-width: 768px) {
+  .moreDetails {
+  text-align: center !important;
+  justify-content: center !important;
+  color: #702f8a !important;
+}
+
+.CSmoreDetails {
+  text-align: center !important;
+  justify-content: center !important;
+  color: #ffa300 !important;
+}
+.IEEE-title {
+  word-break: keep-all !important;
+  font-size: 55px;
+  line-height: 65px;
+  color: #00629b;
+}
 }
 </style>
