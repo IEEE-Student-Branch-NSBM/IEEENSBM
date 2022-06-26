@@ -2,13 +2,21 @@
   <div>
     <v-container class="mt-4">
       <v-row justify="center" no-gutters>
-        <v-card-title class="heading-event title-center"
-          >Executive Committee</v-card-title
+        <v-card-title
+          class="heading-event text-center md:text-left hidden-sm-and-down"
         >
-        <v-card-title class="heading-sub title-center">2021/22</v-card-title>
+          Executive Committee</v-card-title
+        >
+        <v-card-title
+          class="heading-event text-center md:text-left hidden-md-and-up"
+        >
+          Executive <br />
+          Committee</v-card-title
+        >
+        <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-16">
+        <v-card-text class="para-event mx-sm-16 mx-0">
           orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet
           massa accumsan, bibendum dui non, pulvinar diam. Suspendisse sed lorem
           et orci tempus fermentum. Mauris ac egestas lacus, in auctor eros.
@@ -125,5 +133,18 @@ export default {
   text-align: center;
   font-size: 15px;
   font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-event {
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 600;
+  }
+   .heading-sub{
+    font-size: 60px;
+    /* line-height: 40px; */
+    font-weight: 500;
+  }
 }
 </style>
