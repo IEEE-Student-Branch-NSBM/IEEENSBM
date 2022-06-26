@@ -63,10 +63,10 @@
               >Lorem Ipsum</v-card-title
             >
             <v-card-text class="pa-0 pb-2 text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Teamwork is the ability to work together toward a common vision
+              and direct individual achievements toward organizational
+              objectives. It is the fuel that allows ordinary people to attain
+              uncommon results.
             </v-card-text>
           </v-col>
           <v-col>
@@ -101,10 +101,10 @@
               >Lorem Ipsum</v-card-title
             >
             <v-card-text class="pa-0 pb-2 text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Volunteering is an act of an individual or group freely offering
+              up their time and service to help. The role of volunteers is
+              working for a specific task or Aim in the allocated team with the
+              assistance of the team members.
             </v-card-text>
           </v-col>
         </v-row>

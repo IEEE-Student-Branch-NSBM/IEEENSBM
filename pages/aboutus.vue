@@ -45,14 +45,15 @@
         </v-row>
         <v-row>
           <div class="my-3 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+            The IEEE Student Branch of NSBM Green University was established in
+            2015 and is composed of IEEE members from the Computing and
+            Engineering faculty. <br />In the Sri Lanka section, there is a very
+            active Student Branch with several activities throughout the year.
+            The greatest part is that some of these projects are conducted not
+            just for NSBM undergraduates, but also for undergraduates from other
+            State and non-State universities. Throughout the year, the IEEE
+            Student Branch of NSBM constantly performs numerous valuable
+            national and international projects.
           </div>
         </v-row>
       </v-container>
@@ -125,8 +126,13 @@
     <v-sheet>
       <v-container>
         <v-row no-gutters justify="center">
-          <span class="text-h3 font-weight-bold mt-4">
-            About <span style="color: #702f8a">WIE NSBM</span> Affinity Group
+          <span class="text-h2 font-weight-bold mt-4">
+            <span style="color: #702f8a">WIE </span> Affinity Group
+          </span>
+        </v-row>
+        <v-row no-gutters justify="center">
+          <span class="text-h7 font-medium mt-4">
+            IEEE WOMEN IN ENGINEERING AFFINITY GROUP OF NSBM
           </span>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
@@ -143,15 +149,14 @@
           </v-col>
           <v-col class="ml-4 px-10">
             <v-card-text class="pa-0 pb-2 text-justify mt-4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but alsothe leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              IEEE Women in Engineering (WIE) is a global platform of IEEE
+              members and volunteers dedicated to advancing women engineers and
+              scientists and empowering young girls throughout the world to
+              pursue academic interests in engineering and scientific
+              professions. Women in Engineering Affinity Group of NSBM (WIE
+              NSBM) is one of the student branch chapters of the global network
+              which uplifts the women in leadership roles in industry as well as
+              international platforms.
             </v-card-text>
             <v-card-text
               class="pa-0 text-justify mt-4 moreDetails pr-4"
@@ -194,8 +199,13 @@
       </v-container>
       <v-container class="mt-4">
         <v-row no-gutters justify="center">
-          <span class="text-h3 font-weight-bold mt-4">
-            About <span style="color: #ffa300">Computer Society</span> NSBM
+          <span class="text-h2 font-weight-bold mt-4">
+            <span style="color: #ffa300">Computer Society</span> NSBM
+          </span>
+        </v-row>
+        <v-row no-gutters justify="center">
+          <span class="text-h7 font-medium mt-4">
+            IEEE COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF NSBM
           </span>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
