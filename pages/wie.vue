@@ -265,9 +265,9 @@ export default {
   z-index: 1;
   background: linear-gradient(
     180deg,
-    rgba(0, 39, 62, 1) 0%,
+    rgb(37, 0, 62) 0%,
     rgba(255, 255, 255, 0) 50%,
-    rgba(0, 39, 62, 1) 100%
+    rgba(37, 0, 62) 100%
   );
 }
 
