@@ -37,6 +37,14 @@
   line-height: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+  .JoinUs {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
 .JoinUsPara {
   margin-top: 10px;
   font-size: 18px;

@@ -190,7 +190,7 @@
       <v-row justify="center" no-gutters>
         <v-col class="hidden-sm-and-down">
           <v-carousel
-            height="450"
+            height="455"
             :cycle="true"
             :show-arrows="false"
             delimiter-icon="mdi-minus"
@@ -209,7 +209,7 @@
         <v-col class="hidden-md-and-up">
           <v-carousel
             :cycle="true"
-            height="300"
+            height="455"
             :show-arrows="true"
             hide-delimiters
           >
