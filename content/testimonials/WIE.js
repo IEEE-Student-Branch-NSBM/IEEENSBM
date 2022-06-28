@@ -7,6 +7,13 @@ export const wie_testimonials = [
         img: "/Assets/Excom/Secretary.jpg",
     },
     {
+        name: "Yasmitha Peththanayake",
+        title: "Co-chair 2020/2021",
+        description:
+            "Most supporting team I’ve found during my university time. I was lucky enough to interact with seniors to get a professional experience .",
+        img: "/Assets/Excom/yasmitha.png",
+    },
+    {
         name: "Tania Wickramaratne",
         title: "Media coordinator 2021/22",
         description:
