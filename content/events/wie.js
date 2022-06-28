@@ -3,14 +3,14 @@ export const CurrentEvent = null; /// Put null if there is none.
 export const PrevEvents = [
   {
     title: 'Road to Full Stack',
-    image: '/events/ieeeday21.png',
+    image: '/events/road_to_fullstack.jpg',
     date: '8th December, 2021',
     description: '“Road To Full Stack - Mobile" is a great opportunity for you to begin the strategy of Mobile Application Development.',
     link: 'https://fb.watch/dOwdlS_FrO/'
   },
   {
     title: 'Women can be Entrepreneurs too',
-    image: '/events/road_to_fullstack.jpg',
+    image: '/events/2020/Women can be Entrepreneurs.jpg',
     date: '1st July, 2020',
     description: 'Organized an online session for young women of the university to improve their leadership skills and to motivate on becoming an Entrepreneur.',
     link: 'https://fb.me/e/1DflPOP8z'
@@ -24,7 +24,7 @@ export const PrevEvents = [
   },
   {
     title: 'WriterSpace 1.0',
-    image: '/events/duothon.png',
+    image: '/events/2021/WriterSpace 1.0.jpg',
     date: '17th September, 2021',
     description: 'IEEE Student Branch of NSBM presents "WriterSpace 1.0", the article writing competition for IEEE Day 2021.',
     link: 'https://fb.me/e/1Gx8a6YYB/'
