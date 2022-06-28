@@ -1,8 +1,6 @@
 <template>
   <div class="mx-10 mb-5 blogCard">
     <v-card
-      max-width="500px"
-      max-height="350px"
       outlined
       ripple
       hover
@@ -81,6 +79,8 @@ export default {
 
 .backgroundImageCard {
   border-radius: 20px;
+  max-width: 500px;
+  max-height: 350px;
 }
 
 .blogTitle {
@@ -99,5 +99,11 @@ export default {
   color: white !important;
   font-size: 20px;
   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+  .backgroundImageCard {
+    max-width: 350px;
+  }
 }
 </style>
