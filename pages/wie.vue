@@ -23,7 +23,7 @@
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet color="#F4D9FF" class="pt-8 pb-8">
+    <v-sheet color="#FCF4FF" class="pt-8 pb-8">
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col>
