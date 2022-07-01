@@ -73,7 +73,7 @@
         </v-row>
       </v-container>
     </v-sheet>
-    <v-container class="my-10">
+    <v-container class="my-5">
       <v-row justify="center">
         <section style="width: 100%">
           <iframe
@@ -86,6 +86,57 @@
             allowfullscreen
           ></iframe>
         </section>
+      </v-row>
+      <v-row no-gutters justify="center">
+        <span class="text-h7 font-weight-bold mt-8">
+          Website :
+          <i style="color: #00629b" class="font-weight-medium"
+            ><a target="_blank" href="www.ieee.or">www.ieee.org</a></i
+          >
+        </span>
+      </v-row>
+    </v-container>
+    <v-container class="mb-10">
+      <v-row justify="center">
+        <v-col>
+          <section style="width: 100%">
+            <iframe
+              width="100%"
+              height="250"
+              src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
+              title="IEEE NSBM VIDEO"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+        </v-col>
+        <v-col>
+          <section style="width: 100%">
+            <iframe
+              width="100%"
+              height="250"
+              src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
+              title="IEEE NSBM VIDEO"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+        </v-col>
+        <v-col>
+          <section style="width: 100%">
+            <iframe
+              width="100%"
+              height="250"
+              src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
+              title="IEEE NSBM VIDEO"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+        </v-col>
       </v-row>
     </v-container>
   </div>
