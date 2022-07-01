@@ -37,7 +37,7 @@
               src="https://picsum.photos/510"
             />
           </v-col>
-          <v-col class="ml-4 px-10">
+          <v-col class="ml-4 px-sm-10 px-5">
             <v-card-title
               class="pa-0 pb-2 font-weight-bold text-right float-right CS-title"
               >Computer Society</v-card-title
@@ -83,13 +83,16 @@
     </v-sheet>
     <v-container>
       <v-row justify="center" no-gutters>
-        <v-card-title class="heading-event text-center"
-          >Executive Committee</v-card-title
+         <v-card-title class="heading-event text-center md:text-left hidden-sm-and-down">
+          Executive Committee</v-card-title
+        >
+        <v-card-title class="heading-event text-center md:text-left hidden-md-and-up">
+          Executive <br> Committee</v-card-title
         >
         <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-16">
+        <v-card-text class="para-event mx-sm-16 mx-0">
           orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet
           massa accumsan, bibendum dui non, pulvinar diam. Suspendisse sed lorem
           et orci tempus fermentum. Mauris ac egestas lacus, in auctor eros.
@@ -150,7 +153,7 @@
       <v-row justify="center" no-gutters>
         <v-col class="hidden-sm-and-down">
           <v-carousel
-            height="450"
+            height="455"
             :cycle="true"
             :show-arrows="false"
             delimiter-icon="mdi-minus"
@@ -169,7 +172,7 @@
         <v-col class="hidden-md-and-up">
           <v-carousel
             :cycle="true"
-            height="300"
+            height="455"
             :show-arrows="true"
             hide-delimiters
           >
@@ -258,9 +261,9 @@ export default {
   z-index: 1;
   background: linear-gradient(
     180deg,
-    rgba(0, 39, 62, 1) 0%,
+    rgb(119, 87, 0) 0%,
     rgba(255, 255, 255, 0) 50%,
-    rgba(0, 39, 62, 1) 100%
+    rgba(119, 87, 0, 0.815) 100%
   );
 }
 
@@ -275,5 +278,23 @@ export default {
   font-size: 64px;
   line-height: 65px;
   color: #ffa300;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-event{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+  }
+
+   .heading-sub{
+    font-size: 60px;
+    /* line-height: 40px; */
+    font-weight: 500;
+  }
+  .CS-title {
+    font-size: 50px;
+    line-height: 65px;
+  }
 }
 </style>
