@@ -46,7 +46,6 @@
           </span>
         </v-row>
         <v-row>
-<<<<<<< HEAD
           <div class="my-3 text-center">
             The IEEE Student Branch of NSBM Green University was established in
             2015 and is composed of IEEE members from the Computing and
@@ -57,17 +56,6 @@
             State and non-State universities. Throughout the year, the IEEE
             Student Branch of NSBM constantly performs numerous valuable
             national and international projects.
-=======
-          <div class="my-3 text-sm-center text-left mx-sm-0 mx-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
->>>>>>> dev
           </div>
         </v-row>
       </v-container>
@@ -87,7 +75,6 @@
     </v-sheet>
       <v-container>
         <v-row no-gutters justify="center">
-<<<<<<< HEAD
           <span class="text-h2 font-weight-bold mt-4">
             <span style="color: #702f8a">WIE </span> Affinity Group
           </span>
@@ -95,10 +82,6 @@
         <v-row no-gutters justify="center">
           <span class="text-h7 font-medium mt-4">
             IEEE WOMEN IN ENGINEERING AFFINITY GROUP OF NSBM
-=======
-          <span class="text-h4 text-sm-h3 font-weight-bold mt-4 mx-5 mx-sm-0">
-            About <span style="color: #702f8a">WIE NSBM</span> Affinity Group
->>>>>>> dev
           </span>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
@@ -113,7 +96,6 @@
               :src="'/Assets/Aboutus/WIE.png'"
             />
           </v-col>
-<<<<<<< HEAD
           <v-col class="ml-4 px-10">
             <v-card-text class="pa-0 pb-2 text-justify mt-4">
               IEEE Women in Engineering (WIE) is a global platform of IEEE
@@ -124,19 +106,6 @@
               NSBM) is one of the student branch chapters of the global network
               which uplifts the women in leadership roles in industry as well as
               international platforms.
-=======
-          <v-col class="ml-sm-4 ml-0 px-sm-10 px-5">
-            <v-card-text class="pa-0 pb-2 text-justify mt-4 mb-5 mb-sm-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but alsothe leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
->>>>>>> dev
             </v-card-text>
             <v-card-text
               class="pa-0 text-justify mt-4 moreDetails pr-4"
@@ -179,7 +148,6 @@
       </v-container>
       <v-container class="mt-4">
         <v-row no-gutters justify="center">
-<<<<<<< HEAD
           <span class="text-h2 font-weight-bold mt-4">
             <span style="color: #ffa300">Computer Society</span> NSBM
           </span>
@@ -187,10 +155,6 @@
         <v-row no-gutters justify="center">
           <span class="text-h7 font-medium mt-4">
             IEEE COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF NSBM
-=======
-          <span class="text-h4 text-sm-h3 font-weight-bold mt-4 mx-5 mx-sm-0">
-            About <span style="color: #ffa300">Computer Society</span> NSBM
->>>>>>> dev
           </span>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">

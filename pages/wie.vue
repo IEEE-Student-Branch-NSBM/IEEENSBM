@@ -302,15 +302,9 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-<<<<<<< HEAD
   .heading-event {
     font-size: 40px;
     /* line-height: 40px; */
-=======
-  .heading-event{
-    font-size: 45px;
-    line-height: 50px;
->>>>>>> dev
     font-weight: 600;
   }
 
