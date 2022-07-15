@@ -154,4 +154,13 @@ export default {
   text-align: center;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .heading-event {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+  }
+}
 </style>

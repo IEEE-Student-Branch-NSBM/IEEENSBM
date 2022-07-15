@@ -12,8 +12,11 @@
           src="/Assets/Other/JoinUs.png"
         />
       </v-col>
-      <v-col class="px-10">
-        <v-card-title class="pa-0 pb-2 JoinUs"
+      <v-col class="px-sm-10 px-5">
+        <v-card-title class="pa-0 pb-2 JoinUs hidden-md-and-up"
+          >Be part of our <br> creative community</v-card-title
+        >
+        <v-card-title class="pa-0 pb-2 JoinUs hidden-sm-and-down"
           >Be part of our creative community</v-card-title
         >
         <v-card-text class="pa-0 pb-2 text-justify JoinUsPara">
@@ -35,6 +38,14 @@
   font-size: 42px;
   font-weight: bold;
   line-height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .JoinUs {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 .JoinUsPara {

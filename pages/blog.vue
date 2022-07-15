@@ -3,7 +3,7 @@
     <v-row justify="center" no-gutters>
       <v-card-title class="heading-event">Blogs</v-card-title>
     </v-row>
-    <v-row no-gutters justify="center" class="py-6">
+    <v-row no-gutters justify="center" class="py-6" >
       <BlogArticleCard
         :blog="blog"
         :key="blog.id"
@@ -42,5 +42,14 @@ export default {
 }
 .ImgFilter {
   filter: brightness(500);
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-event {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+  }
 }
 </style>

@@ -23,7 +23,7 @@
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet color="#F4D9FF" class="pt-8 pb-8">
+    <v-sheet color="#FCF4FF" class="pt-8 pb-8">
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col>
@@ -50,7 +50,7 @@
               >Women In Engineering</v-card-title
             >
             <v-card-title
-              class="pa-0 pb-2 font-weight-regular text-right float-right"
+              class="pa-0 pb-2 font-weight-medium text-right float-right"
               >Lorem Ipsum</v-card-title
             >
             <v-card-text class="pa-0 pb-2 right text-right float-right">
@@ -90,13 +90,16 @@
     </v-sheet>
     <v-container>
       <v-row justify="center" no-gutters>
-        <v-card-title class="heading-event text-center md:text-left">
+        <v-card-title class="heading-event text-center md:text-left hidden-sm-and-down">
           Executive Committee</v-card-title
+        >
+        <v-card-title class="heading-event text-center md:text-left hidden-md-and-up">
+          Executive <br> Committee</v-card-title
         >
         <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-16">
+        <v-card-text class="para-event mx-sm-16 mx-0">
           orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet
           massa accumsan, bibendum dui non, pulvinar diam. Suspendisse sed lorem
           et orci tempus fermentum. Mauris ac egestas lacus, in auctor eros.
@@ -157,7 +160,7 @@
       <v-row justify="center" no-gutters>
         <v-col class="hidden-sm-and-down">
           <v-carousel
-            height="450"
+            height="455"
             :cycle="true"
             :show-arrows="false"
             delimiter-icon="mdi-minus"
@@ -176,7 +179,7 @@
         <v-col class="hidden-md-and-up">
           <v-carousel
             :cycle="true"
-            height="300"
+            height="455"
             :show-arrows="true"
             hide-delimiters
           >
@@ -265,9 +268,9 @@ export default {
   z-index: 1;
   background: linear-gradient(
     180deg,
-    rgba(0, 39, 62, 1) 0%,
+    rgb(37, 0, 62) 0%,
     rgba(255, 255, 255, 0) 50%,
-    rgba(0, 39, 62, 1) 100%
+    rgba(37, 0, 62) 100%
   );
 }
 
@@ -299,9 +302,15 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
+<<<<<<< HEAD
   .heading-event {
     font-size: 40px;
     /* line-height: 40px; */
+=======
+  .heading-event{
+    font-size: 45px;
+    line-height: 50px;
+>>>>>>> dev
     font-weight: 600;
   }
 
@@ -310,5 +319,9 @@ export default {
     /* line-height: 40px; */
     font-weight: 500;
   }
+
+  .WIE-title {
+  font-size: 50px;
+}
 }
 </style>

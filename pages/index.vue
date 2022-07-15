@@ -43,7 +43,7 @@
               quality="100"
               format="webp"
               fit="contain"
-              height="200"
+              sizes="sm:200px md:400px"
               alt="Brand Logo"
               src="/Assets/Logos/SB_Logo_V2.png"
             />
@@ -56,7 +56,7 @@
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
-            <v-card-title class="pa-0 pb-2 text-h2 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-sm-h2 text-h4 font-weight-bold"
               >Team Work</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
@@ -93,8 +93,8 @@
               src="https://picsum.photos/510"
             />
           </v-col>
-          <v-col class="ml-4 px-10">
-            <v-card-title class="pa-0 pb-2 text-h2 font-weight-bold"
+          <v-col class="ml-0 ml-sm-4 px-10">
+            <v-card-title class="pa-0 pb-2 text-h4 text-sm-h2 font-weight-bold"
               >Volunteering</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
@@ -190,7 +190,7 @@
       <v-row justify="center" no-gutters>
         <v-col class="hidden-sm-and-down">
           <v-carousel
-            height="450"
+            height="455"
             :cycle="true"
             :show-arrows="false"
             delimiter-icon="mdi-minus"
@@ -209,7 +209,7 @@
         <v-col class="hidden-md-and-up">
           <v-carousel
             :cycle="true"
-            height="300"
+            height="455"
             :show-arrows="true"
             hide-delimiters
           >
