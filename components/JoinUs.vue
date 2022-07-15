@@ -23,7 +23,7 @@
           We love what we do and we do it with passion. We value the
           experimentation of the message and smart incentives.
         </v-card-text>
-        <nuxt-link class="link" to="/contact">
+        <nuxt-link class="link" to="/volunteer">
           <v-btn class="JoinUsButton px-10 py-5" outlined justify="center">
             Join Us
           </v-btn>

@@ -288,13 +288,13 @@ export default {
 }
 
 @media only screen and (max-width: 1278px) {
-  .heading-event{
+  .heading-event {
     font-size: 70px;
     line-height: 40px;
     font-weight: 300;
   }
 
-  .heading-sub{
+  .heading-sub {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 300;
@@ -302,13 +302,13 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-  .heading-event{
-    font-size: 45px;
-    line-height: 50px;
+  .heading-event {
+    font-size: 40px;
+    /* line-height: 40px; */
     font-weight: 600;
   }
 
-  .heading-sub{
+  .heading-sub {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 500;

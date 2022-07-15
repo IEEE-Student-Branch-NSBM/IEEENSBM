@@ -7,6 +7,13 @@ export const sb_testimonials = [
         img: "/Assets/Excom/President.jpg",
     },
     {
+        name: "Danuka Kushan",
+        title: "Co Chair 2019/20",
+        description:
+            "IEEE students branch - NSBM is a great place to sharpen up the personality skills and technical knowledge. It was a great pleasure to work with that friendy team also.",
+        img: "/Assets/Excom/danuka.jpg",
+    },
+    {
         name: "Pasan Jayawickrama",
         title: "Treasurer 2020/21",
         description:
