@@ -43,8 +43,13 @@
               >Computer Society</v-card-title
             >
             <v-card-title
-              class="pa-0 pb-2 font-weight-regular text-right float-right"
-              >Lorem Ipsum</v-card-title
+              class="pa-0 pb-2 font-weight-medium text-right float-right"
+            >
+              <v-card-title
+                class="pa-0 pb-2 font-weight-medium text-right float-right"
+                >IEEE COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF
+                NSBM</v-card-title
+              ></v-card-title
             >
             <v-card-text class="pa-0 pb-2 right text-right float-right">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -83,11 +88,16 @@
     </v-sheet>
     <v-container>
       <v-row justify="center" no-gutters>
-         <v-card-title class="heading-event text-center md:text-left hidden-sm-and-down">
+        <v-card-title
+          class="heading-event text-center md:text-left hidden-sm-and-down"
+        >
           Executive Committee</v-card-title
         >
-        <v-card-title class="heading-event text-center md:text-left hidden-md-and-up">
-          Executive <br> Committee</v-card-title
+        <v-card-title
+          class="heading-event text-center md:text-left hidden-md-and-up"
+        >
+          Executive <br />
+          Committee</v-card-title
         >
         <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
@@ -281,13 +291,13 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-  .heading-event{
+  .heading-event {
     font-size: 45px;
     line-height: 50px;
     font-weight: 600;
   }
 
-   .heading-sub{
+  .heading-sub {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 500;

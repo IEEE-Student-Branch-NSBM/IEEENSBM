@@ -30,11 +30,9 @@
             >Welcome to IEEE Student Branch of NSBM
           </v-card-title>
           <v-card-text class="headingPara pa-0 py-4">
-            IEEE is the world’s largest professional association dedicated to
-            advancing technological innovation and excellence for the benefit of
-            humanity. IEEE and its members inspire a global community through
-            IEEE’s highly cited publications, conferences, technology standards,
-            and professional and educational activities.
+            The IEEE Student Branch of NSBM Green University was started in the
+            year 2015 and consists of IEEE members from the Faculty of Computing
+            and the Faculty of Engineering.
           </v-card-text>
         </v-col>
         <v-col cols="12" sm="5">
@@ -63,10 +61,13 @@
               >Lorem Ipsum</v-card-title
             >
             <v-card-text class="pa-0 pb-2 text-justify">
-              Teamwork is the ability to work together toward a common vision
-              and direct individual achievements toward organizational
-              objectives. It is the fuel that allows ordinary people to attain
-              uncommon results.
+              This is a very active Student Branch in the Sri Lanka section with
+              many activities throughout the year. And the best thing is some of
+              these projects are conducted for not only the Undergraduates of
+              NSBM but also for all the other undergraduates from other State
+              and non-State universities. Also, IEEE Student Branch of NSBM
+              conducts many valuable national and international projects
+              throughout the year.
             </v-card-text>
           </v-col>
           <v-col>
