@@ -17,13 +17,13 @@
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-sm-16 mx-0">
-          orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet
-          massa accumsan, bibendum dui non, pulvinar diam. Suspendisse sed lorem
-          et orci tempus fermentum. Mauris ac egestas lacus, in auctor eros.
-          Donec sit amet turpis pretium, sollicitudin leo sit amet, ultrices
-          tellus. Maecenas nibh urna, scelerisque eu diam nec, tincidunt
-          pulvinar nisl. Suspendisse mollis pharetra varius. Integer dictum
-          tortor quis felis porta ultrices.
+          The Executive Committee of the IEEE NSBM Student Branch consists of
+          the Chair, the Vice Chair, the Secretary, Founders, and fellow
+          representatives from the Board. The purpose of the Executive Committee
+          is to manage the daily operations of the community. They are
+          authorized to establish and upgrade the rules, procedures,
+          restrictions, resolutions, and requirements of the Board, as well as
+          the IEEE NSBM Student Branch.
         </v-card-text>
       </v-row>
       <v-layout justify-center align-center>
@@ -123,7 +123,7 @@ export default {
   letter-spacing: 0px !important;
   font-size: 86px;
   font-weight: 300;
-  margin-bottom: 30px !important;
+  /* margin-bottom: 30px !important; */
 }
 
 .para-event {
@@ -141,7 +141,7 @@ export default {
     line-height: 50px;
     font-weight: 600;
   }
-   .heading-sub{
+  .heading-sub {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 500;

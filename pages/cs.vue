@@ -53,34 +53,15 @@
             >
             <v-card-text class="pa-0 pb-2 right text-right float-right">
               IEEE Computer Society is a professional society of the Institute
-              of Electrical and Electronics Engineers (IEEE). Its purpose and
-              scope is "to advance the theory, practice, and application of
-              computer and information processing science and technology" and
-              the "professional standing of its members". It supports more than
-              200 chapters worldwide and participates in educational activities
-              at all levels of the profession,including distance learning,
-              accreditation of higher education programs in computer science,
-              and professional certification in software engineering.
-              <br /><br />
-              IEEE Computer Society (sometimes abbreviated as the Computer
-              Society or CS) is a professional society of the Institute of
-              Electrical and Electronics Engineers (IEEE). Its purpose and scope
-              are "to advance the theory, practice, and application of computer
-              and information processing science and technology" and the
-              "professional standing of its members". The CS is the largest of
-              39 technical societies organized under the IEEE Technical
-              Activities Board. IEEE Computer Society Student Branch Chapter of
-              NSBM is a
-              <br /><br />
-
-              The IEEE Computer Society sponsors workshops and conferences,
-              publishes a variety of peer-reviewed literature, operates
-              technical committees, and develops IEEE computing standards. It
-              supports more than 200 chapters worldwide and participates in
-              educational activities at all levels of the profession, including
-              distance learning, accreditation of higher education programs in
-              computer science, and professional certification in software
-              engineering.
+              of Electrical and Electronics Engineers (IEEE). It sponsors
+              workshops and conferences, operates technical committees, and
+              develops IEEE computing standards. The community supports more
+              than 200 chapters worldwide and participates in educational
+              activities at all levels in CS and professional certification in
+              software engineering. IEEE Computer Society of NSBM is the student
+              chapter of the NSBM Green University, and its purpose is to
+              increase the knowledge in computer literacy & IT, as well as the
+              professional standing of its members.
             </v-card-text>
           </v-col>
         </v-row>

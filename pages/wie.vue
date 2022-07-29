@@ -54,10 +54,10 @@
               >IEEE WOMEN IN ENGINEERING AFFINITY GROUP OF NSBM</v-card-title
             >
             <v-card-text class="pa-0 pb-2 right text-right float-right">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              IEEE Women in Engineering (WIE) of NSBM is one of the largest
+              academic organizations dedicated to promoting women engineers and
+              scientists, as well as to inspiring girls to follow their academic
+              interests to a career in engineering.
             </v-card-text>
           </v-col>
         </v-row>
@@ -105,13 +105,12 @@
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-sm-16 mx-0">
-          orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet
-          massa accumsan, bibendum dui non, pulvinar diam. Suspendisse sed lorem
-          et orci tempus fermentum. Mauris ac egestas lacus, in auctor eros.
-          Donec sit amet turpis pretium, sollicitudin leo sit amet, ultrices
-          tellus. Maecenas nibh urna, scelerisque eu diam nec, tincidunt
-          pulvinar nisl. Suspendisse mollis pharetra varius. Integer dictum
-          tortor quis felis porta ultrices.
+          The Women’s Executive Board is designed to help the Techie Girls to
+          drive better decisions, gain fearless confidence and achieve their
+          biggest outcomes with intention and passion. We intend to increase
+          women's access to the technology sector and we are making the initial
+          steps in that direction by hosting motivational sessions for Women in
+          Tech.
         </v-card-text>
       </v-row>
       <v-layout justify-center align-center>
