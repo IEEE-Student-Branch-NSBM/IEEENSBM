@@ -8,10 +8,9 @@
               >Our <span style="color: #00629b"> Vision</span>
             </span>
             <v-card-text class="pa-0 pb-2 mt-4 text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              A world in which engineers and scientists are respected for their
+              exemplary ethical behavior and the IEEE and its Ethics & Member
+              Conduct Committee are recognized as a major drive in this regard.
             </v-card-text>
           </v-col>
           <v-col>
@@ -43,10 +42,10 @@
               >Our <span style="color: #00629b">Mission</span>
             </span>
             <v-card-text class="pa-0 pb-2 text-justify mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              The Student Chapter of IEEE NSBM advises the community on ethics
+              policy and concerns as well as fostering awareness on ethical
+              issues and promoting ethical behavior amongst individuals and
+              organizations working within the IEEE fields of interest.
             </v-card-text>
           </v-col>
         </v-row>
