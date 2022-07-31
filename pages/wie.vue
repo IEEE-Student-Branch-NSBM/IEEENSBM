@@ -33,8 +33,9 @@
               fit="contain"
               class="rounded-lg"
               height="350"
+              width="850"
               alt="Brand Logo"
-              src="https://picsum.photos/510"
+              src="/Assets/HomeSlider/slide_3.jpg"
             />
           </v-col>
           <v-col class="ml-4 px-10">

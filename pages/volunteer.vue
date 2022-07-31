@@ -20,8 +20,9 @@
               fit="contain"
               class="rounded-lg"
               height="350"
+              width="800"
               alt="Brand Logo"
-              src="https://picsum.photos/510"
+              src="/Assets/HomeSlider/slide_3.jpg"
             />
           </v-col>
         </v-row>
@@ -33,8 +34,9 @@
               fit="contain"
               class="rounded-lg"
               height="350"
+              width="800"
               alt="Brand Logo"
-              src="https://picsum.photos/510"
+              src="/Assets/HomeSlider/slide_6.jpg"
             />
           </v-col>
           <v-col class="ml-4 px-10">
