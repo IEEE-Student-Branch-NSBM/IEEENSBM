@@ -55,10 +55,24 @@ Throughout the year, the IEEE Student Branch of NSBM constantly performs numerou
     </v-sheet>
     <v-sheet class="mb-10 mt-10">
       <v-row>
-        <v-col v-for="n in 3" :key="n" class="d-flex child-flex" cols="12" sm="4">
+        <v-col class="d-flex child-flex" cols="12" sm="4">
           <v-img
-            :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-            :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+            src="/Assets/Aboutus/aboutus_img_1.jpg"
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+          </v-img>
+        </v-col>
+        <v-col class="d-flex child-flex" cols="12" sm="4">
+          <v-img
+           src="/Assets/Aboutus/aboutus_img_2.png"
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+          </v-img>
+        </v-col><v-col class="d-flex child-flex" cols="12" sm="4">
+          <v-img
+           src="/Assets/Aboutus/aboutus_img_3.jpg"
             aspect-ratio="1"
             class="grey lighten-2"
           >
@@ -104,14 +118,14 @@ Throughout the year, the IEEE Student Branch of NSBM constantly performs numerou
               <v-btn
                 class="btn-icon"
                 icon
-                href="https://www.facebook.com/ieeensbm/"
+                href="https://www.facebook.com/nsbmwie"
                 target="_blank"
                 ><v-icon>mdi-facebook</v-icon>
               </v-btn>
               <v-btn
                 icon
                 class="btn-icon"
-                href="https://www.linkedin.com/company/ieee-student-branch-nsbm/mycompany/"
+                href="https://www.linkedin.com/company/ieee-women-in-engineering-nsbm/"
                 target="_blank"
                 ><v-icon>mdi-linkedin</v-icon></v-btn
               >
@@ -125,7 +139,7 @@ Throughout the year, the IEEE Student Branch of NSBM constantly performs numerou
               <v-btn
                 icon
                 class="btn-icon"
-                href="https://www.instagram.com/nsbmieee/"
+                href="https://instagram.com/nsbmwie?igshid=YmMyMTA2M2Y="
                 target="_blank"
                 ><v-icon>mdi-instagram</v-icon></v-btn
               >
@@ -162,7 +176,7 @@ The IEEE Computer Society sponsors workshops and conferences, publishes a variet
               <v-btn
                 class="cs-btn-icon"
                 icon
-                href="https://www.facebook.com/ieeensbm/"
+                href="https://www.facebook.com/ieeecsnsbm"
                 target="_blank"
                 ><v-icon>mdi-facebook</v-icon>
               </v-btn>

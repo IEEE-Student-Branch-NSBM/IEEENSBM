@@ -35,7 +35,7 @@
               height="350"
               width="850"
               alt="Brand Logo"
-              src="/Assets/HomeSlider/slide_3.jpg"
+              src="/Assets/CS/ardiunoWeek.JPG"
             />
           </v-col>
           <v-col class="ml-4 px-sm-10 px-5">
