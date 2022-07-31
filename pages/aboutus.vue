@@ -55,10 +55,24 @@ Throughout the year, the IEEE Student Branch of NSBM constantly performs numerou
     </v-sheet>
     <v-sheet class="mb-10 mt-10">
       <v-row>
-        <v-col v-for="n in 3" :key="n" class="d-flex child-flex" cols="12" sm="4">
+        <v-col class="d-flex child-flex" cols="12" sm="4">
           <v-img
-            :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-            :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+            src="/Assets/Aboutus/aboutus_img_1.jpg"
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+          </v-img>
+        </v-col>
+        <v-col class="d-flex child-flex" cols="12" sm="4">
+          <v-img
+           src="/Assets/Aboutus/aboutus_img_2.png"
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+          </v-img>
+        </v-col><v-col class="d-flex child-flex" cols="12" sm="4">
+          <v-img
+           src="/Assets/Aboutus/aboutus_img_3.jpg"
             aspect-ratio="1"
             class="grey lighten-2"
           >
