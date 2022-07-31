@@ -118,14 +118,14 @@ Throughout the year, the IEEE Student Branch of NSBM constantly performs numerou
               <v-btn
                 class="btn-icon"
                 icon
-                href="https://www.facebook.com/ieeensbm/"
+                href="https://www.facebook.com/nsbmwie"
                 target="_blank"
                 ><v-icon>mdi-facebook</v-icon>
               </v-btn>
               <v-btn
                 icon
                 class="btn-icon"
-                href="https://www.linkedin.com/company/ieee-student-branch-nsbm/mycompany/"
+                href="https://www.linkedin.com/company/ieee-women-in-engineering-nsbm/"
                 target="_blank"
                 ><v-icon>mdi-linkedin</v-icon></v-btn
               >
@@ -139,7 +139,7 @@ Throughout the year, the IEEE Student Branch of NSBM constantly performs numerou
               <v-btn
                 icon
                 class="btn-icon"
-                href="https://www.instagram.com/nsbmieee/"
+                href="https://instagram.com/nsbmwie?igshid=YmMyMTA2M2Y="
                 target="_blank"
                 ><v-icon>mdi-instagram</v-icon></v-btn
               >
@@ -176,7 +176,7 @@ The IEEE Computer Society sponsors workshops and conferences, publishes a variet
               <v-btn
                 class="cs-btn-icon"
                 icon
-                href="https://www.facebook.com/ieeensbm/"
+                href="https://www.facebook.com/ieeecsnsbm"
                 target="_blank"
                 ><v-icon>mdi-facebook</v-icon>
               </v-btn>
