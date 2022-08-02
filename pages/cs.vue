@@ -23,8 +23,8 @@
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet color="#FFF4E1" class="pt-8 pb-8">
-      <v-container>
+    <v-sheet color="#FFF4E1" class="pt-8 pb-8 px-14">
+      <v-container fluid>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col>
             <v-img
@@ -33,7 +33,6 @@
               fit="contain"
               class="rounded-lg"
               height="350"
-              width="850"
               alt="Brand Logo"
               src="/Assets/CS/ardiunoWeek.JPG"
             />

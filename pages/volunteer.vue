@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-sheet class="pt-8 pb-8">
-      <v-container>
+    <v-sheet class="pt-8 pb-8 px-14">
+      <v-container fluid>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
             <span class="pa-0 text-h2 font-weight-bold"
@@ -20,23 +20,21 @@
               fit="contain"
               class="rounded-lg"
               height="350"
-              width="800"
               alt="Brand Logo"
-              src="/Assets/HomeSlider/slide_3.jpg"
+              src="/Assets/JoinUs/IEEEday.jpg"
             />
           </v-col>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
-          <v-col class="order-last order-md-first">
+          <v-col class="order-last order-lg-first">
             <v-img
               quality="98"
               format="webp"
               fit="contain"
               class="rounded-lg"
               height="350"
-              width="800"
               alt="Brand Logo"
-              src="/Assets/HomeSlider/slide_6.jpg"
+              src="/Assets/JoinUs/IEEEday.jpg"
             />
           </v-col>
           <v-col class="ml-4 px-10">

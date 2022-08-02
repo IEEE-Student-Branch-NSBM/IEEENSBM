@@ -23,9 +23,9 @@
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet color="#FCF4FF" class="pt-8 pb-8">
-      <v-container>
-        <v-row align="center" no-gutters class="DontBreakWords mt-8">
+    <v-sheet color="#FCF4FF" class="pt-8 pb-8 px-14">
+      <v-container fluid>
+        <v-row no-gutters class="DontBreakWords mt-8">
           <v-col>
             <v-img
               quality="98"
@@ -33,9 +33,8 @@
               fit="contain"
               class="rounded-lg"
               height="350"
-              width="850"
               alt="Brand Logo"
-              src="/Assets/HomeSlider/slide_3.jpg"
+              src="/Assets/WIE/wieImg.jpg"
             />
           </v-col>
           <v-col class="ml-4 px-10">
@@ -290,6 +289,11 @@ export default {
   font-size: 60px;
   line-height: 65px;
   color: #702f8a;
+}
+
+.img-size {
+  width: 850px;
+  height: 350px;
 }
 
 @media only screen and (max-width: 1278px) {
