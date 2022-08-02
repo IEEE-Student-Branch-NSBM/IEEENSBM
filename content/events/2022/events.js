@@ -29,7 +29,7 @@ export const PrevEvents_2022 = [
   },
   {
     id: 3,
-    title: "MADFest",
+    title: "MAD Fest",
     image: "/events/2022/MADFest.jpg",
     date: "25th May, 2022",
     description:
