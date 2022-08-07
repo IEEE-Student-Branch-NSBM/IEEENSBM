@@ -106,13 +106,10 @@
       </v-row>
       <v-row justify="center" no-gutters>
         <v-card-text class="para-event mx-sm-16 mx-0">
-          orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet
-          massa accumsan, bibendum dui non, pulvinar diam. Suspendisse sed lorem
-          et orci tempus fermentum. Mauris ac egestas lacus, in auctor eros.
-          Donec sit amet turpis pretium, sollicitudin leo sit amet, ultrices
-          tellus. Maecenas nibh urna, scelerisque eu diam nec, tincidunt
-          pulvinar nisl. Suspendisse mollis pharetra varius. Integer dictum
-          tortor quis felis porta ultrices.
+          The Executive Committee of IEEE Computer Society will deliver
+          organizational guidance to the community. Join the IEEE Computer
+          Society, a leading organization for anyone engaged in computers and
+          information technology to expand their knowledge.
         </v-card-text>
       </v-row>
       <v-layout justify-center align-center>

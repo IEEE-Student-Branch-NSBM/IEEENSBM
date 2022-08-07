@@ -64,14 +64,17 @@
         </v-row>
         <v-row>
           <div class="my-3 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+            Reach your full potential as part of the world’s largest technology
+            community. Membership in IEEE is open to individuals who by
+            education or experience give evidence of competence in an
+            IEEE-designated field. Refer to the informational video below to get
+            an idea. In contrast,
+            <u>
+              <a
+                href="https://drive.google.com/file/d/1aOtxyQboBomTCiRLJPZEuQjaS6HwPCfJ/view?usp=sharing"
+                >click here to download the instructional PDF</a
+              ></u
+            >
           </div>
         </v-row>
       </v-container>
