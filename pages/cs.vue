@@ -25,7 +25,7 @@
 
     <v-sheet color="#FFF4E1" class="pt-8 pb-8 px-14">
       <v-container fluid>
-        <v-row align="center" no-gutters class="DontBreakWords mt-8">
+        <v-row no-gutters class="DontBreakWords mt-8">
           <v-col>
             <v-img
               quality="98"
@@ -34,22 +34,18 @@
               class="rounded-lg"
               height="350"
               alt="Brand Logo"
-              src="/Assets/CS/ardiunoWeek.JPG"
+              src="/Assets/WIE/wieImg.jpg"
             />
           </v-col>
-          <v-col class="ml-4 px-sm-10 px-5">
+          <v-col class="ml-4 px-10">
             <v-card-title
               class="pa-0 pb-2 font-weight-bold text-right float-right CS-title"
               >Computer Society</v-card-title
             >
             <v-card-title
               class="pa-0 pb-2 font-weight-medium text-right float-right"
-            >
-              <v-card-title
-                class="pa-0 pb-2 font-weight-medium text-right float-right"
-                >IEEE COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF
-                NSBM</v-card-title
-              ></v-card-title
+              >IEEE COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF
+              NSBM</v-card-title
             >
             <v-card-text class="pa-0 pb-2 right text-right float-right">
               IEEE Computer Society is a professional society of the Institute
@@ -67,6 +63,7 @@
         </v-row>
       </v-container>
     </v-sheet>
+
     <v-sheet>
       <v-container class="my-10">
         <v-row no-gutters justify="center">
@@ -95,12 +92,12 @@
     <v-container>
       <v-row justify="center" no-gutters>
         <v-card-title
-          class="heading-event text-center md:text-left hidden-sm-and-down"
+          class="heading-event text-center md:text-left hidden-md-and-down"
         >
           Executive Committee</v-card-title
         >
         <v-card-title
-          class="heading-event text-center md:text-left hidden-md-and-up"
+          class="heading-event text-center md:text-left hidden-lg-and-up"
         >
           Executive <br />
           Committee</v-card-title
@@ -291,26 +288,28 @@ export default {
 
 .CS-title {
   word-break: keep-all !important;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 65px;
   color: #ffa300;
 }
 
 @media only screen and (max-width: 768px) {
+  .CS-title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+@media only screen and (max-width: 1262px) {
   .heading-event {
     font-size: 45px;
     line-height: 50px;
     font-weight: 600;
   }
-
   .heading-sub {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 500;
-  }
-  .CS-title {
-    font-size: 50px;
-    line-height: 65px;
   }
 }
 </style>

@@ -310,21 +310,16 @@ export default {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1262px) {
   .heading-event {
-    font-size: 40px;
-    /* line-height: 40px; */
+    font-size: 45px;
+    line-height: 50px;
     font-weight: 600;
   }
-
   .heading-sub {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 500;
-  }
-
-  .WIE-title {
-    font-size: 50px;
   }
 }
 </style>
