@@ -1,10 +1,10 @@
 <template>
   <div>
-    <v-sheet class="pt-8 pb-8 px-14">
+    <v-sheet class="vsheet">
       <v-container fluid>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
-            <span class="pa-0 text-h2 font-weight-bold"
+            <span class="titles pa-0"
               >Our <span style="color: #00629b"> Vision</span>
             </span>
             <v-card-text class="pa-0 pb-2 mt-4 text-justify">
@@ -38,7 +38,7 @@
             />
           </v-col>
           <v-col class="ml-4 px-10">
-            <span class="pa-0 text-h2 font-weight-bold"
+            <span class="titles pa-0"
               >Our <span style="color: #00629b">Mission</span>
             </span>
             <v-card-text class="pa-0 pb-2 text-justify mt-4">
@@ -54,8 +54,12 @@
     <v-sheet>
       <v-container>
         <v-row no-gutters justify="center">
-          <span class="text-h3 font-weight-bold mt-4">
+          <span class="membershipTitle mt-4 hidden-sm-and-down">
             How to get a IEEE Membership
+          </span>
+          <span class="membershipTitle mt-4 hidden-md-and-up align-center">
+            How to get a IEEE <br />
+            Membership
           </span>
         </v-row>
         <v-row>
@@ -148,4 +152,34 @@ export default {
 </script>
 
 <style scoped>
+.vsheet {
+  padding-top: auto;
+}
+.titles {
+  font-size: 60px;
+  font-weight: 700;
+}
+.membershipTitle {
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1388px) {
+  .titles {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 752px) {
+  .membershipTitle {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .titles {
+    font-size: 40px;
+  }
+}
 </style>
