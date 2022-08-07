@@ -58,7 +58,7 @@
               >Team Work</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
-              >Lorem Ipsum</v-card-title
+              >"We are all in this together"</v-card-title
             >
             <v-card-text class="pa-0 pb-2 text-justify">
               This is a very active Student Branch in the Sri Lanka section with
@@ -101,8 +101,8 @@
               >Volunteering</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
-              >Lorem Ipsum</v-card-title
-            >
+              >“We rise by lifting others”
+            </v-card-title>
             <v-card-text class="pa-0 pb-2 text-justify">
               Volunteering is an act of an individual or group freely offering
               up their time and service to help. The role of volunteers is
