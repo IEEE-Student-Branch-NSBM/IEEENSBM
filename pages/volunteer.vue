@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-sheet class="vsheet">
-      <v-container fluid>
+      <v-container fluid class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
             <span class="titles pa-0"
@@ -26,7 +26,7 @@
           </v-col>
         </v-row>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
-          <v-col class="order-last order-lg-first">
+          <v-col class="order-last order-md-first">
             <v-img
               quality="98"
               format="webp"
@@ -168,6 +168,12 @@ export default {
   text-align: center;
 }
 
+.joinus-topBanner {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 40px;
+}
+
 @media only screen and (max-width: 1388px) {
   .titles {
     font-size: 50px;
@@ -177,6 +183,10 @@ export default {
 @media only screen and (max-width: 752px) {
   .membershipTitle {
     font-size: 40px;
+  }
+  .joinus-topBanner {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
