@@ -134,10 +134,23 @@ export default {
   font-size: 15px;
   font-weight: 300;
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1278px) {
   .heading-event {
-    font-size: 55px;
+    font-size: 70px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+
+  .heading-sub {
+    font-size: 60px;
+    /* line-height: 40px; */
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 1262px) {
+  .heading-event {
+    font-size: 45px;
     line-height: 50px;
     font-weight: 600;
   }
