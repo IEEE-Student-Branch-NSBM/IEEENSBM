@@ -50,8 +50,8 @@
       </v-row>
     </v-sheet>
 
-    <v-sheet color="#F3FBFF" class="pt-8 pb-8">
-      <v-container>
+    <v-sheet color="#F3FBFF" class="vsheet">
+      <v-container fluid class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
             <v-card-title class="pa-0 pb-2 text-sm-h2 text-h4 font-weight-bold"
@@ -60,7 +60,7 @@
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
               >"We are all in this together"</v-card-title
             >
-            <v-card-text class="pa-0 pb-2 text-justify">
+            <v-card-text class="pa-0 pb-2 mt-4 text-justify">
               This is a very active Student Branch in the Sri Lanka section with
               many activities throughout the year. And the best thing is some of
               these projects are conducted for not only the Undergraduates of
@@ -77,9 +77,8 @@
               fit="contain"
               class="rounded-lg"
               height="350"
-              width="700"
               alt="Brand Logo"
-              src="/Assets/HomeSlider/slide_3.jpg"
+              src="/Assets/JoinUs/IEEEday.jpg"
             />
           </v-col>
         </v-row>
@@ -91,19 +90,18 @@
               fit="contain"
               class="rounded-lg"
               height="350"
-              width="700"
               alt="Brand Logo"
-              src="/Assets/HomeSlider/slide_6.jpg"
+              src="/Assets/JoinUs/IEEEday.jpg"
             />
           </v-col>
-          <v-col class="ml-0 ml-sm-4 px-10">
+          <v-col class="ml-4 px-10">
             <v-card-title class="pa-0 pb-2 text-h4 text-sm-h2 font-weight-bold"
               >Volunteering</v-card-title
             >
             <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
               >“We rise by lifting others”
             </v-card-title>
-            <v-card-text class="pa-0 pb-2 text-justify">
+            <v-card-text class="pa-0 pb-2 text-justify mt-4">
               Volunteering is an act of an individual or group freely offering
               up their time and service to help. The role of volunteers is
               working for a specific task or Aim in the allocated team with the
@@ -338,6 +336,12 @@ export default {
   text-decoration: none;
 }
 
+.joinus-topBanner {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+}
+
 @media only screen and (max-width: 768px) {
   .DontBreakWords {
     text-align: center;
@@ -352,6 +356,10 @@ export default {
   }
   .firstCard {
     margin-right: 0px;
+  }
+  .joinus-topBanner {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 </style>
