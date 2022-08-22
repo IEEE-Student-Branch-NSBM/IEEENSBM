@@ -20,8 +20,9 @@
               fit="contain"
               class="rounded-lg"
               height="350"
+              width="800"
               alt="Brand Logo"
-              src="/Assets/JoinUs/IEEEday.jpg"
+              src="/Assets/Update/Three.jpg"
             />
           </v-col>
         </v-row>
@@ -33,8 +34,9 @@
               fit="contain"
               class="rounded-lg"
               height="350"
+              width="800"
               alt="Brand Logo"
-              src="/Assets/JoinUs/IEEEday.jpg"
+              src="/Assets/Update/Four.jpg"
             />
           </v-col>
           <v-col class="ml-4 px-10">

@@ -65,7 +65,7 @@ Throughout the year, the IEEE Student Branch of NSBM constantly performs numerou
         </v-col>
         <v-col class="d-flex child-flex" cols="12" sm="4">
           <v-img
-           src="/Assets/Aboutus/aboutus_img_2.png"
+           src="/Assets/Aboutus/aboutus_img_2.jpg"
             aspect-ratio="1"
             class="grey lighten-2"
           >

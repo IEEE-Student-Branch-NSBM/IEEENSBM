@@ -76,13 +76,14 @@
               format="webp"
               fit="contain"
               class="rounded-lg"
-              height="350"
+              height="400"
+              width="800"
               alt="Brand Logo"
-              src="/Assets/JoinUs/IEEEday.jpg"
+              src="/Assets/Update/One.jpg"
             />
           </v-col>
         </v-row>
-        <v-row align="center" no-gutters class="DontBreakWords mt-8">
+        <v-row align="center" no-gutters class="DontBreakWords mt-8  mb-8">
           <v-col class="order-last order-md-first">
             <v-img
               quality="98"
@@ -90,8 +91,9 @@
               fit="contain"
               class="rounded-lg"
               height="350"
+              width="800"
               alt="Brand Logo"
-              src="/Assets/JoinUs/IEEEday.jpg"
+              src="/Assets/Update/Two.jpg"
             />
           </v-col>
           <v-col class="ml-4 px-10">
