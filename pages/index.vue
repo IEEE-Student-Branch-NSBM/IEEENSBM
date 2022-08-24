@@ -240,9 +240,9 @@
           <iframe
             width="100%"
             height="500"
-            src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
+            src="https://www.youtube.com/embed/ihz8vom1XPg"
             title="IEEE NSBM VIDEO"
-            frameborder="0"
+            class="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
