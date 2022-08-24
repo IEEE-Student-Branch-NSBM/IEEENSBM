@@ -30,10 +30,19 @@
           >Women In Engineering</v-card-title
         >
         <v-card-text
-          class="justify-center pb-2 font-weight-medium text-center DontBreakWords WIE-sub"
+          class="
+            justify-center
+            pb-2
+            font-weight-medium
+            text-center
+            DontBreakWords
+            WIE-sub
+          "
           >IEEE WOMEN IN ENGINEERING AFFINITY GROUP OF NSBM</v-card-text
         >
-        <v-card-text class="justify-center pb-2 right text-center WIE-description">
+        <v-card-text
+          class="justify-center pb-2 right text-center WIE-description"
+        >
           IEEE Women in Engineering (WIE) of NSBM is one of the largest academic
           organizations dedicated to promoting women engineers and scientists,
           as well as to inspiring girls to follow their academic interests to a
@@ -42,7 +51,7 @@
       </v-container>
     </v-sheet>
     <v-sheet>
-      <v-container class="my-10">
+      <v-container fluid class="my-10">
         <v-row no-gutters justify="center">
           <span class="text-h4 font-weight-bold mb-8 mt-8">
             Latest Events
@@ -228,7 +237,7 @@ export default {
   font-weight: 300;
   margin-bottom: 30px !important;
 }
-.WIE-description{
+.WIE-description {
   padding: 0px 250px 0px 250px;
   margin-top: 10px;
 }
@@ -307,10 +316,10 @@ export default {
     padding: 0px !important;
   }
 
-  .WIE-sub{
+  .WIE-sub {
     line-height: 25px !important;
     font-size: 26px !important;
-    padding:  0px !important;
+    padding: 0px !important;
     margin-top: 20px;
     margin-block: 20px;
   }
