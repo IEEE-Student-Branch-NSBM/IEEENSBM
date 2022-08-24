@@ -4,6 +4,8 @@ OpenSource Website theme developed by IEEE NSBM Student Branch and the IEEE NSBM
 
 ## License - AGPL-3.0 !
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08533b0b-749a-46c7-a474-b075de444066/deploy-status)](https://app.netlify.com/sites/ieeensbm-dev/deploys)
+
 ### Project Maintainers
 	Srilal Sachintha
 
