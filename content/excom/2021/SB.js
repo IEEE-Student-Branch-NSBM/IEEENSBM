@@ -46,13 +46,8 @@ export const excom_sb_2021 = [
     },
     {
         name: "Pasindu Sandeepa",
-        image_path: '/Assets/Excom/Secretary.jpg',
-        position: "Editor",
-    },
-    {
-        name: "Gangadara Athukorala",
         image_path: '/Assets/Excom/Pasindu Sandeepa.png',
-        position: "Secretary",
+        position: "Editor",
     },
     {
         name: "Kaveen De Alwis",

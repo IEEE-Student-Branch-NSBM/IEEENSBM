@@ -1,13 +1,13 @@
 export const excom_cs_2021 = [
     {
-        name: "Sunali Rambukwella",
-        image_path: '/Assets/Excom/Secretary.jpg',
+        name: "Kaveen De Alwis",
+        image_path: '/Assets/Excom/Kaveen Hyacinth.jpg',
         position: "Chairperson",
     },
     {
-        name: "Yasmitha Pethtanayake",
-        image_path: '/Assets/Excom/yasmitha.png',
-        position: "Co-Chairperson",
+        name: "Shameera Carrim",
+        image_path: '/Assets/Excom/Shameera.jpg',
+        position: "Secretary",
     }
 ]
 

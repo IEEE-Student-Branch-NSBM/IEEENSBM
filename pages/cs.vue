@@ -17,7 +17,7 @@
             height="80vh"
             width="100%"
             alt="Brand Logo"
-            :src="'/Assets/HomeSlider/CS_slide.png'"
+            :src="'/Assets/CS/CS_slide.png'"
           />
         </v-sheet>
       </v-carousel-item>
