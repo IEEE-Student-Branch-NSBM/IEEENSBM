@@ -34,7 +34,8 @@ export const PrevEvents_2022 = [
     date: "25th May, 2022",
     description:
       "MAD-Fest is a platform which opens for passionate Mobile Application Developers",
-    link: "https://fb.me/e/2surCGKjG"
+    link:
+      "https://www.facebook.com/events/585360836432195/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"
   },
   {
     id: 4,
@@ -43,7 +44,8 @@ export const PrevEvents_2022 = [
     date: "30th July, 2022",
     description:
       "The 'AYUBOWAN IEEE 2022' is a session that raises awareness among the university students on Introduction to IEEE Student Branch of NSBM, Advantages of IEEE Membership, and How to Become an IEEE Recognized individual.",
-    link: "https://fb.me/e/cQhe3nK6a"
+    link:
+      "https://www.facebook.com/events/755989028936782?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"
   }
 ];
 
