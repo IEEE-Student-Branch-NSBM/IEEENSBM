@@ -3,8 +3,8 @@
     <v-sheet class="pb-8">
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
-          <v-col class="order-last order-md-first">
-            <nuxt-img
+          <v-col class="order-last order-md-first mx-auto">
+            <v-img
               quality="98"
               format="webp"
               fit="contain"
@@ -12,7 +12,7 @@
               width="620"
               alt="Brand Logo"
               src="/Assets/Logos/IEEE_Logo_Blue.png"
-              class="IEEE_logo"
+              class="mx-auto"
             />
           </v-col>
           <v-col class="ml-sm-4 ml-0 px-sm-10 px-5">
@@ -118,7 +118,7 @@
             quality="98"
             format="webp"
             fit="contain"
-            class="rounded-lg my-4"
+            class="rounded-lg my-4 mx-auto"
             height="400"
             width="400"
             alt="Brand Logo"
@@ -249,6 +249,7 @@
             width="500"
             alt="Brand Logo"
             :src="'/Assets/Logos/CS_Logo.png'"
+            class="mx-auto"
           />
         </v-col>
       </v-row>
@@ -322,11 +323,6 @@ export default {
     font-size: 55px;
     line-height: 65px;
     color: #00629b;
-  }
-
-  .IEEE_logo {
-    width: 350px !important;
-    height: 200px !important;
   }
 
   .about-ieee {
