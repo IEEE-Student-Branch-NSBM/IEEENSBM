@@ -18,7 +18,7 @@
               quality="98"
               format="webp"
               fit="contain"
-              class="rounded-lg"
+              class=""
               height="350"
               width="800"
               alt="Brand Logo"
