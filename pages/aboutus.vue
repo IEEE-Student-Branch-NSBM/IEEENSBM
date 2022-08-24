@@ -26,8 +26,9 @@
                 justify-sm-end justify-left
                 IEEE-title
                 float-left
-                text-h1
+                text-h2
                 about-ieee
+                
               "
               >About IEEE</v-card-title
             >
@@ -78,7 +79,7 @@
       <v-row>
         <v-col class="d-flex child-flex" cols="12" sm="4">
           <v-img
-            src="/Assets/Aboutus/aboutus_img_1.jpg"
+            src="/Assets/Logos/aboutus_img_1.jpg"
             aspect-ratio="1"
             class="grey lighten-2"
           >
@@ -119,9 +120,10 @@
             format="webp"
             fit="contain"
             class="rounded-lg my-4"
-            height="350"
+            height="400"
+            width="400"
             alt="Brand Logo"
-            :src="'/Assets/Aboutus/WIE.png'"
+            :src="'/Assets/Logos/WIE_Logo.png'"
           />
         </v-col>
         <v-col class="ml-4 px-10 chapter-section">
@@ -244,10 +246,10 @@
             quality="98"
             format="webp"
             fit="contain"
-            class="rounded-lg my-4"
-            height="350"
+            height="400"
+            width="500"
             alt="Brand Logo"
-            :src="'/Assets/Aboutus/cs.png'"
+            :src="'/Assets/Logos/CS_Logo.png'"
           />
         </v-col>
       </v-row>
@@ -269,6 +271,10 @@ export default {
   word-break: keep-all !important;
   font-size: 45px;
   line-height: 45px;
+}
+
+.about-ieee {
+  line-height: 90px !important;
 }
 
 .moreDetails {
