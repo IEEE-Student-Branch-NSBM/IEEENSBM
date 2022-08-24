@@ -70,7 +70,7 @@
             community. Membership in IEEE is open to individuals who by
             education or experience give evidence of competence in an
             IEEE-designated field. Refer to the informational video below to get
-            an idea. In contrast,
+            an idea. In contrast <br />
             <u>
               <a
                 href="https://drive.google.com/file/d/1aOtxyQboBomTCiRLJPZEuQjaS6HwPCfJ/view?usp=sharing"
@@ -85,13 +85,14 @@
       <v-row justify="center">
         <section style="width: 100%">
           <iframe
-            width="100%"
-            height="500"
-            src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
-            title="IEEE NSBM VIDEO"
-            frameborder="0"
+            src="https://www.youtube.com/embed/bFQzQ9av6eM"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            frameborder="0"
+            scrolling="no"
+            width="100%"
+            height="500"
+            picture-in-picture
           ></iframe>
         </section>
       </v-row>
@@ -111,11 +112,12 @@
             <iframe
               width="100%"
               height="250"
-              src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
+              src="//ieeetv.ieee.org/player/embed_play/221931/auto"
               title="IEEE NSBM VIDEO"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              picture-in-picture
             ></iframe>
           </section>
         </v-col>
@@ -124,11 +126,12 @@
             <iframe
               width="100%"
               height="250"
-              src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
+              src="https://www.youtube.com/embed/el0A0U7bJ6c"
               title="IEEE NSBM VIDEO"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              picture-in-picture
             ></iframe>
           </section>
         </v-col>
@@ -137,11 +140,12 @@
             <iframe
               width="100%"
               height="250"
-              src="https://www.youtube-nocookie.com/embed/ihz8vom1XPg"
+              src="//ieeetv.ieee.org/player/embed_play/221926/auto"
               title="IEEE NSBM VIDEO"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              picture-in-picture
             ></iframe>
           </section>
         </v-col>
