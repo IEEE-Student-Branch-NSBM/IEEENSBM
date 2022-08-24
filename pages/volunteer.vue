@@ -107,7 +107,7 @@
     </v-container>
     <v-container class="mb-10">
       <v-row justify="center">
-        <v-col>
+        <v-col class="d-flex child-flex" cols="12" sm="4">
           <section style="width: 100%">
             <iframe
               width="100%"
@@ -121,7 +121,7 @@
             ></iframe>
           </section>
         </v-col>
-        <v-col>
+        <v-col class="d-flex child-flex" cols="12" sm="4">
           <section style="width: 100%">
             <iframe
               width="100%"
@@ -135,7 +135,7 @@
             ></iframe>
           </section>
         </v-col>
-        <v-col>
+        <v-col class="d-flex child-flex" cols="12" sm="4">
           <section style="width: 100%">
             <iframe
               width="100%"
