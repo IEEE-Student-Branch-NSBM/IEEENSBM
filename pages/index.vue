@@ -235,7 +235,7 @@
       <v-row no-gutters justify="center">
         <span class="text-h4 font-weight-bold mb-8 mt-2"> Our Fellowship </span>
       </v-row>
-      <v-row justify="center">
+<!--      <v-row justify="center">
         <section style="width: 100%">
           <iframe
             width="100%"
@@ -247,7 +247,7 @@
             allowfullscreen
           ></iframe>
         </section>
-      </v-row>
+      </v-row>-->
     </v-container>
 
     <JoinUs />
