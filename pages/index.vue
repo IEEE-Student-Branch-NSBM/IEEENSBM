@@ -218,8 +218,7 @@
             :cycle="true"
             height="455"
             :show-arrows="true"
-            hide-delimiters
-          >
+            hide-delimiters>
             <v-carousel-item
               v-for="(singleTestimonial, i) in singleTestimonials"
               :key="i"
