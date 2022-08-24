@@ -6,7 +6,7 @@ export const PrevEvents = [
     image: '/events/road_to_fullstack.jpg',
     date: '8th December, 2021',
     description: '“Road To Full Stack - Mobile" is a great opportunity for you to begin the strategy of Mobile Application Development.',
-    link: 'https://fb.watch/dOwdlS_FrO/'
+    link: 'https://fb.me/e/2Up6NMiD8'
   },
   {
     title: 'Women can be Entrepreneurs too',

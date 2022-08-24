@@ -69,7 +69,7 @@ export const PrevEvents_2021 = [{
         image: '/events/2021/Road To Full Stack.jpg',
         date: '15th August, 2021',
         description: '"Road To Full Stack" organized by IEEE WIE Student Branch Affinity Group of NSBM is a huge opportunity for you to enhance your knowledge in Front-end, Back-end Development, and related applications.',
-        link: 'https://fb.watch/dOunERVMgf/'
+        link: 'https://fb.me/e/2Up6NMiD8'
     },
     {
         id: 9,

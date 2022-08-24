@@ -7,7 +7,7 @@ export const PrevEvents = [
     date: "25th May, 2022",
     description:
       "MAD-Fest is a platform which opens for passionate Mobile Application Developers",
-    link: "https://fb.me/e/2surCGKjG"
+    link: "https://fb.me/e/1K1q66kF3"
   }
 ];
 

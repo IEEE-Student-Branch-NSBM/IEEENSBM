@@ -35,7 +35,7 @@ export const PrevEvents_2022 = [
     description:
       "MAD-Fest is a platform which opens for passionate Mobile Application Developers",
     link:
-      "https://www.facebook.com/events/585360836432195/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"
+      "https://fb.me/e/1K1q66kF3"
   },
   {
     id: 4,

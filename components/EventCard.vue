@@ -10,9 +10,11 @@
     </v-card-text>
     <v-row justify="center" class="mb-5">
       <v-card-actions justify="center">
-        <v-btn class="moreButton" outlined :href="event.link" justify="center">
-          More info
-        </v-btn>
+        <a :href="event.link" target="_blank" justify="center">
+          <v-btn class="moreButton center" outlined justify="center">
+            More info
+          </v-btn></a
+        >
       </v-card-actions>
     </v-row>
   </v-card>

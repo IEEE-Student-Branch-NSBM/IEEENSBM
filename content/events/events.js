@@ -46,7 +46,7 @@ export const PrevEvents = [
     image: '/events/2021/Road To Full Stack - Mobile.jpg',
     date: '8th December, 2021',
     description: 'Road To Full Stack - Mobile" organized by IEEE WIE Student Branch Affinity Group of NSBM is a great opportunity for you to begin the strategy of Mobile Application Development.',
-    link: 'https://fb.watch/dOwdlS_FrO/'
+    link: 'https://www.facebook.com/nsbmwie/videos/1015843558990495'
   },
   {
     title: 'IEEE DAY 2021',
