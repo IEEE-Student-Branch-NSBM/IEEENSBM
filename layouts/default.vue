@@ -388,17 +388,17 @@ export default {
   },
   methods: {
     onScroll() {
-      const currentScrollPosition =
-        window.pageYOffset || document.documentElement.scrollTop;
+      const currentScrollPosition = window.scrollY || document.documentElement.scrollTop;
       if (currentScrollPosition < 0) {
         return;
       }
-      if (currentScrollPosition >= 135) {
-        this.showNavbar = false;
-      }
-
-      if (currentScrollPosition <= 115) {
-        this.showNavbar = true;
+      if(window.innerHeight < window.innerWidth){
+        if (currentScrollPosition >= 135) {
+          this.showNavbar = false;
+        }
+        if (currentScrollPosition <= 115) {
+          this.showNavbar = true;
+        }
       }
 
       //this.showNavbar = currentScrollPosition < this.lastScrollPosition;
