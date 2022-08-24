@@ -40,7 +40,6 @@
           :background-color="BackColor"
           dark
           slider-size="4"
-          class="hidden-sm-and-down"
         >
           <v-tab
             :key="MenuItem.Name"
