@@ -6,13 +6,13 @@ export const sb_testimonials = [
             "The IEEE family has always been a place of constant learning and joy, joining IEEE was a big turning point in my life as this laid the foundation for my future. The person's I met during my tenure have been a constant support to me even after graduating. I wish the student branch all the best and to keep educating the young undergraduates throughout their academics and extra curricular.",
         img: "/Assets/Excom/President.jpg",
     },
-    {
+    /*{
         name: "Danuka Kushan",
         title: "Co Chair 2019/20",
         description:
             "IEEE students branch - NSBM is a great place to sharpen up the personality skills and technical knowledge. It was a great pleasure to work with that friendy team also.",
         img: "/Assets/Excom/Danuka.jpg",
-    },
+    },*/
     {
         name: "Pasan Jayawickrama",
         title: "Treasurer 2020/21",
