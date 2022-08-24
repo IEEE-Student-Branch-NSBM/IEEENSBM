@@ -28,7 +28,6 @@
                 float-left
                 text-h2
                 about-ieee
-                
               "
               >About IEEE</v-card-title
             >
@@ -79,7 +78,7 @@
       <v-row>
         <v-col class="d-flex child-flex" cols="12" sm="4">
           <v-img
-            src="/Assets/Logos/aboutus_img_1.jpg"
+            src="/Assets/Aboutus/aboutus_img_1.jpg"
             aspect-ratio="1"
             class="grey lighten-2"
           >
