@@ -23,47 +23,29 @@
       </v-carousel-item>
     </v-carousel>
 
-    <v-sheet color="#FFF4E1" class="pt-8 pb-8 px-14">
-      <v-container fluid>
-        <v-row no-gutters class="DontBreakWords mt-8">
-          <v-col>
-            <v-img
-              quality="98"
-              format="webp"
-              fit="contain"
-              class="rounded-lg"
-              height="350"
-              alt="Brand Logo"
-              src="/Assets/WIE/wieImg.jpg"
-            />
-          </v-col>
-          <v-col class="ml-4 px-10">
-            <v-card-title
-              class="pa-0 pb-2 font-weight-bold text-right float-right CS-title"
-              >Computer Society</v-card-title
-            >
-            <v-card-title
-              class="pa-0 pb-2 font-weight-medium text-right float-right"
-              >IEEE COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF
-              NSBM</v-card-title
-            >
-            <v-card-text class="pa-0 pb-2 right text-right float-right">
-              IEEE Computer Society is a professional society of the Institute
-              of Electrical and Electronics Engineers (IEEE). It sponsors
-              workshops and conferences, operates technical committees, and
-              develops IEEE computing standards. The community supports more
-              than 200 chapters worldwide and participates in educational
-              activities at all levels in CS and professional certification in
-              software engineering. IEEE Computer Society of NSBM is the student
-              chapter of the NSBM Green University, and its purpose is to
-              increase the knowledge in computer literacy & IT, as well as the
-              professional standing of its members.
-            </v-card-text>
-          </v-col>
-        </v-row>
+    <v-sheet color="#FFF4E1"  class="pt-8 pb-8 px-14">
+      <v-container class="items-center justify-center text-center">
+        <v-card-title
+          class="justify-center pb-2 font-weight-bold text-center CS-title"
+          >Computer Society</v-card-title
+        >
+        <v-card-title
+          class="justify-center pb-2 font-weight-medium text-center CS-sub"
+          >IEEE COMPUTER SOCIETY STUDENT BRANCH CHAPTER OF NSBM</v-card-title
+        >
+        <v-card-text class="justify-center pb-2 font-weight-medium text-center CS-description">
+          IEEE Computer Society is a professional society of the Institute of
+          Electrical and Electronics Engineers (IEEE). It sponsors workshops and
+          conferences, operates technical committees, and develops IEEE
+          computing standards. The community supports more than 200 chapters
+          worldwide and participates in educational activities at all levels in
+          CS and professional certification in software engineering. IEEE
+          Computer Society of NSBM is the student chapter of the NSBM Green
+          University, and its purpose is to increase the knowledge in computer
+          literacy & IT, as well as the professional standing of its members.
+        </v-card-text>
       </v-container>
     </v-sheet>
-
     <v-sheet>
       <v-container class="my-10">
         <v-row no-gutters justify="center">
@@ -105,7 +87,7 @@
         <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-sm-16 mx-0">
+        <v-card-text class="para-event mx-sm-16 mx-0 CS-description">
           The Executive Committee of IEEE Computer Society will deliver
           organizational guidance to the community. Join the IEEE Computer
           Society, a leading organization for anyone engaged in computers and
@@ -264,6 +246,11 @@ export default {
   font-size: 15px;
   font-weight: 300;
 }
+
+.CS-description{
+  padding: 0px 250px 0px 250px;
+  margin-top: 10px;
+}
 .CSSOverlay {
   width: 100vw;
   height: 80vh;
@@ -307,6 +294,18 @@ export default {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 500;
+  }
+
+   .CS-description {
+    padding: 0px !important;
+  }
+
+  .CS-sub{
+    line-height: 25px !important;
+    font-size: 26px !important;
+    padding:  0px !important;
+    margin-top: 20px;
+    margin-block: 20px;
   }
 }
 </style>

@@ -24,43 +24,21 @@
     </v-carousel>
 
     <v-sheet color="#FCF4FF" class="pt-8 pb-8 px-14">
-      <v-container fluid>
-        <v-row no-gutters class="DontBreakWords mt-8">
-          <v-col>
-            <v-img
-              quality="98"
-              format="webp"
-              fit="contain"
-              class="rounded-lg"
-              height="350"
-              alt="Brand Logo"
-              src="/Assets/WIE/wieImg.jpg"
-            />
-          </v-col>
-          <v-col class="ml-4 px-10">
-            <v-card-title
-              class="
-                pa-0
-                pb-2
-                font-weight-bold
-                text-right
-                float-right
-                WIE-title
-              "
-              >Women In Engineering</v-card-title
-            >
-            <v-card-title
-              class="pa-0 pb-2 font-weight-medium text-right float-right"
-              >IEEE WOMEN IN ENGINEERING AFFINITY GROUP OF NSBM</v-card-title
-            >
-            <v-card-text class="pa-0 pb-2 right text-right float-right">
-              IEEE Women in Engineering (WIE) of NSBM is one of the largest
-              academic organizations dedicated to promoting women engineers and
-              scientists, as well as to inspiring girls to follow their academic
-              interests to a career in engineering.
-            </v-card-text>
-          </v-col>
-        </v-row>
+      <v-container class="items-center justify-center text-center">
+        <v-card-title
+          class="justify-center pb-2 font-weight-bold text-center WIE-title"
+          >Women In Engineering</v-card-title
+        >
+        <v-card-text
+          class="justify-center pb-2 font-weight-medium text-center DontBreakWords WIE-sub"
+          >IEEE WOMEN IN ENGINEERING AFFINITY GROUP OF NSBM</v-card-text
+        >
+        <v-card-text class="justify-center pb-2 right text-center WIE-description">
+          IEEE Women in Engineering (WIE) of NSBM is one of the largest academic
+          organizations dedicated to promoting women engineers and scientists,
+          as well as to inspiring girls to follow their academic interests to a
+          career in engineering.
+        </v-card-text>
       </v-container>
     </v-sheet>
     <v-sheet>
@@ -104,7 +82,7 @@
         <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-sm-16 mx-0">
+        <v-card-text class="para-event mx-sm-16 mx-0 WIE-description">
           The Women’s Executive Board is designed to help the Techie Girls to
           drive better decisions, gain fearless confidence and achieve their
           biggest outcomes with intention and passion. We intend to increase
@@ -250,7 +228,10 @@ export default {
   font-weight: 300;
   margin-bottom: 30px !important;
 }
-
+.WIE-description{
+  padding: 0px 250px 0px 250px;
+  margin-top: 10px;
+}
 .heading-sub {
   letter-spacing: 0px !important;
   font-size: 86px;
@@ -320,6 +301,18 @@ export default {
     font-size: 60px;
     /* line-height: 40px; */
     font-weight: 500;
+  }
+
+  .WIE-description {
+    padding: 0px !important;
+  }
+
+  .WIE-sub{
+    line-height: 25px !important;
+    font-size: 26px !important;
+    padding:  0px !important;
+    margin-top: 20px;
+    margin-block: 20px;
   }
 }
 </style>

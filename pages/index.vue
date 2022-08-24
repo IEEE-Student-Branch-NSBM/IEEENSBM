@@ -54,13 +54,13 @@
       <v-container fluid class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
-            <v-card-title class="pa-0 pb-2 text-sm-h2 text-h4 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-sm-h2 text-h4 font-weight-bold topic-one"
               >Team Work</v-card-title
             >
-            <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
-              >"We are all in this together"</v-card-title
+            <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
+              >We are all in this together</v-card-title
             >
-            <v-card-text class="pa-0 pb-2 mt-4 text-justify">
+            <v-card-text class="pa-0 pb-2 mt-4 text-justify topic-description">
               This is a very active Student Branch in the Sri Lanka section with
               many activities throughout the year. And the best thing is some of
               these projects are conducted for not only the Undergraduates of
@@ -97,13 +97,13 @@
             />
           </v-col>
           <v-col class="ml-4 px-10">
-            <v-card-title class="pa-0 pb-2 text-h4 text-sm-h2 font-weight-bold"
+            <v-card-title class="pa-0 pb-2 text-h4 text-sm-h2 font-weight-bold topic-one"
               >Volunteering</v-card-title
             >
-            <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular"
-              >“We rise by lifting others”
+            <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
+              >We rise by lifting others
             </v-card-title>
-            <v-card-text class="pa-0 pb-2 text-justify mt-4">
+            <v-card-text class="pa-0 pb-2 text-justify mt-4 topic-description">
               Volunteering is an act of an individual or group freely offering
               up their time and service to help. The role of volunteers is
               working for a specific task or Aim in the allocated team with the
@@ -362,6 +362,20 @@ export default {
   .joinus-topBanner {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .topic-one {
+    justify-content: center !important;
+  }
+
+  .topic-two {
+    font-size: 2rem !important;
+    word-break: keep-all !important;
+  }
+
+  .topic-description {
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
 </style>
