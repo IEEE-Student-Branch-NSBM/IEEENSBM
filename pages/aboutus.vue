@@ -4,14 +4,13 @@
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="order-last order-md-first mx-auto">
-            <v-img
+            <nuxt-img
               quality="98"
               format="webp"
               fit="contain"
-              width="620"
+              sizes="sm:70vw md:60vw lg:25vw"
               alt="Brand Logo"
               src="/Assets/Logos/IEEE_Logo_Blue.png"
-              class="mx-auto"
             />
           </v-col>
           <v-col class="ml-sm-4 ml-0 px-sm-10 px-5">
@@ -34,7 +33,6 @@
               class="
                 text-h5
                 my-3
-                mt-10
                 pa-0
                 pb-10 pb-sm-2
                 pt-8 pt-sm-0
@@ -113,13 +111,12 @@
       </v-row>
       <v-row align="center" no-gutters class="DontBreakWords mt-8">
         <v-col class="order-last order-md-first">
-          <v-img
+          <nuxt-img
             quality="98"
             format="webp"
             fit="contain"
-            class="rounded-lg my-4 mx-auto"
-            width="400"
-            alt="Brand Logo"
+            sizes="sm:70vw md:60vw lg:25vw"
+            alt="WIE Brand Logo"
             :src="'/Assets/Logos/WIE_Logo.png'"
           />
         </v-col>
@@ -239,12 +236,12 @@
           </v-card-actions>
         </v-col>
         <v-col>
-          <v-img
+          <nuxt-img
             quality="98"
             format="webp"
             fit="contain"
-            width="500"
-            alt="Brand Logo"
+            sizes="sm:70vw md:60vw lg:25vw"
+            alt="CS Brand Logo"
             :src="'/Assets/Logos/CS_Logo.png'"
             class="mx-auto"
           />
