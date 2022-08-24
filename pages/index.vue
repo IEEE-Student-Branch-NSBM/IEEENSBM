@@ -51,13 +51,15 @@
     </v-sheet>
 
     <v-sheet color="#F3FBFF" class="vsheet">
-      <v-container fluid class="joinus-topBanner">
+      <v-container class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
-            <v-card-title class="pa-0 pb-2 text-sm-h2 text-h4 font-weight-bold topic-one"
+            <v-card-title
+              class="pa-0 pb-2 text-sm-h2 text-h4 font-weight-bold topic-one"
               >Team Work</v-card-title
             >
-            <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
+            <v-card-title
+              class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
               >We are all in this together</v-card-title
             >
             <v-card-text class="pa-0 pb-2 mt-4 text-justify topic-description">
@@ -83,7 +85,7 @@
             />
           </v-col>
         </v-row>
-        <v-row align="center" no-gutters class="DontBreakWords mt-8  mb-8">
+        <v-row align="center" no-gutters class="DontBreakWords mt-8 mb-8">
           <v-col class="order-last order-md-first">
             <v-img
               quality="98"
@@ -97,10 +99,12 @@
             />
           </v-col>
           <v-col class="ml-4 px-10">
-            <v-card-title class="pa-0 pb-2 text-h4 text-sm-h2 font-weight-bold topic-one"
+            <v-card-title
+              class="pa-0 pb-2 text-h4 text-sm-h2 font-weight-bold topic-one"
               >Volunteering</v-card-title
             >
-            <v-card-title class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
+            <v-card-title
+              class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
               >We rise by lifting others
             </v-card-title>
             <v-card-text class="pa-0 pb-2 text-justify mt-4 topic-description">
@@ -114,7 +118,7 @@
       </v-container>
     </v-sheet>
 
-    <v-container class="my-10">
+    <v-container fluid class="my-10">
       <v-row no-gutters justify="center">
         <span class="text-h4 font-weight-bold mb-8 mt-8"> Latest Events </span>
       </v-row>
