@@ -26,6 +26,13 @@ export const sb_testimonials = [
         description:
             "IEEE Student Branch of NSBM happens to be the best family that I've got in my university life. The journey I had with them is remarkable since the fun we had together and the challenges we faced together. That was what made us united and strived for unity!",
         img: "/Assets/Excom/Secretary.jpg",
+    },
+    {
+        name: "Shameera Carrim",
+        title: "Assistant Secretary 2020/21",
+        description:
+            "A great team, who motivated each other to overcome obstacles and achieve set goals. They truly inspires the juniors to engage with the seniors and excel at community volunteering and building connection within the university and with the tech industry.",
+        img: "/Assets/Excom/Shameera.jpg",
     }
 ]
 
