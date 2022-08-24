@@ -51,7 +51,7 @@
     </v-sheet>
 
     <v-sheet color="#F3FBFF" class="vsheet">
-      <v-container class="joinus-topBanner">
+      <v-container fluid class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
             <v-card-title
@@ -79,7 +79,7 @@
               fit="contain"
               class="rounded-lg"
               height="400"
-              width="800"
+              width="700"
               alt="Brand Logo"
               src="/Assets/Update/One.jpg"
             />
@@ -92,8 +92,8 @@
               format="webp"
               fit="contain"
               class="rounded-lg"
-              height="350"
-              width="800"
+              height="400"
+              width="700"
               alt="Brand Logo"
               src="/Assets/Update/Two.jpg"
             />
