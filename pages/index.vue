@@ -1,4 +1,4 @@
-<template>
+l<template>
   <div>
     <div class="CSSOverlay"></div>
     <v-carousel
@@ -218,7 +218,8 @@
             :cycle="true"
             height="455"
             :show-arrows="true"
-            hide-delimiters>
+            hide-delimiters
+          >
             <v-carousel-item
               v-for="(singleTestimonial, i) in singleTestimonials"
               :key="i"
@@ -234,19 +235,15 @@
       <v-row no-gutters justify="center">
         <span class="text-h4 font-weight-bold mb-8 mt-2"> Our Fellowship </span>
       </v-row>
-<!--      <v-row justify="center">
-        <section style="width: 100%">
-          <iframe
-            width="100%"
-            height="500"
-            src="https://www.youtube.com/embed/ihz8vom1XPg"
-            title="IEEE NSBM VIDEO"
-            class="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+      <v-row justify="center" no-gutters>
+        <section style="width: 65%">
+          <lite-youtube
+            videoid="ihz8vom1XPg"
+            playlabel="Play: IEEE NSBM VIdeo"
+            params="controls=0&start=0&end=80&modestbranding=2&rel=0&enablejsapi=1"
+          ></lite-youtube>
         </section>
-      </v-row>-->
+      </v-row>
     </v-container>
 
     <JoinUs />

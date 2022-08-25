@@ -456,7 +456,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  font-family: "Poppins", "sans-serif" !important;
+  font-family: "Poppins" !important;
   text-decoration: none !important;
 }
 
@@ -489,7 +489,7 @@ body {
 }
 
 .DefaultFont {
-  font-family: "Poppins", "sans-serif" !important;
+  font-family: "Poppins" !important;
 }
 
 .v-card__text {

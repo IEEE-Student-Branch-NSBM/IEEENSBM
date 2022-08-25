@@ -10,13 +10,13 @@ export default {
       { hid: 'description', name: 'description', content: 'Official Website of IEEE NSBM Student Branch' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'preconnect', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
-  css: [],
+  css: ['node_modules/lite-youtube-embed/src/lite-yt-embed.css'],
 
-  plugins: [],
+  plugins: ['~/plugins/youtube.client.js'],
 
   components: true,
 
@@ -77,8 +77,6 @@ export default {
   },
 
   build: {
-    analyze: false,
-    vendor: ["vue2-google-maps"],
-    transpile: [/^vue2-google-maps($|\/)/]
+    analyze: false
   },
 }
