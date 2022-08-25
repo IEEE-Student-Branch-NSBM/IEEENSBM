@@ -1,13 +1,9 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'IEEE NSBM',
-    title: 'IEEE NSBM',
+    titleTemplate: 'IEEE NSBM Student Branch',
+    title: 'IEEE NSBM Student Branch',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -18,61 +14,40 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  css: ['node_modules/lite-youtube-embed/src/lite-yt-embed.css'],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: ['~/plugins/youtube.client.js'],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@nuxt/image',
     '@nuxtjs/pwa',
-    '@nuxtjs/web-vitals',
+    '@nuxtjs/web-vitals'
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    //'@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/sitemap'
   ],
   sitemap: {
     hostname: 'https://ieeensbm.org',
-    gzip: true,
+    gzip: true
   },
 
   webVitals: {
-    // provider: '', // auto detectd
     debug: false,
     disabled: false
   },
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+
   axios: {},
 
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: 'en'
-    }
-  },
 
-  // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
-  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     font: {
@@ -83,10 +58,10 @@ export default {
       dark: false,
       themes: {
         dark: {
-          primary: '#00629B',
+          primary: '#00629B'
         },
         light: {
-          primary: '#00629B',
+          primary: '#00629B'
         }
       }
     }
@@ -100,8 +75,8 @@ export default {
   generate: {
     dir: 'docs'
   },
-  // Build Configuration: https://go.nuxtjs.dev/config-build
+
   build: {
-    analyze: false,
-  }
+    analyze: false
+  },
 }
