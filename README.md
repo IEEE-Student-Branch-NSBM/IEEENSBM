@@ -8,6 +8,8 @@ OpenSource Website theme developed by IEEE NSBM Student Branch and the IEEE NSBM
 
 ### Project Maintainers
 	Srilal Sachintha
+	Sanjula De Alwis
+	Prineth Fernando
 
 ### Technology Stack
 	VueJs
