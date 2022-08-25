@@ -16,7 +16,7 @@
         <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-sm-16 mx-0">
+        <v-card-text class="para-event mx-sm-16 mx-0 mt-6">
           The Executive Committee of the IEEE NSBM Student Branch consists of
           the Chair, the Vice Chair, the Secretary, Founders, and fellow
           representatives from the Board. The purpose of the Executive Committee
