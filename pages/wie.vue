@@ -238,7 +238,7 @@ export default {
   margin-bottom: 30px !important;
 }
 .WIE-description {
-  padding: 0px 250px 0px 250px;
+  padding: 0px 50px 0px 50px;
   margin-top: 10px;
 }
 .heading-sub {
