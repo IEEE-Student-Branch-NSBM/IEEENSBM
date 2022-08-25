@@ -1,44 +1,166 @@
 <template>
-    <v-container>
-      <div v-if="CurrentEvent !== null">
+  <div>
+    <v-container class="eventCardContainer">
       <v-row justify="center" no-gutters>
-        <v-card-title class="white--text text-h4">Upcoming Events</v-card-title>
+        <v-card-title class="heading-event">Events</v-card-title>
       </v-row>
-      <v-row justify="center" no-gutters>
-        <v-card :href="CurrentEvent.link" target="_blank" hover ripple width="980" height="480">
-          <v-img height="480" :src="CurrentEvent.image"></v-img>
-        </v-card>
-      </v-row>
-      </div>
-      <v-row justify="center" no-gutters>
-        <v-card-title class="white--text text-h5">Previous Events</v-card-title>
-      </v-row>
-      <v-row justify="center" no-gutters>
-        <v-card :href="event.link" target="_blank" v-for="(event,i) in PrevEvents" :key="i" class="rounded-lg ma-2" height="256" width="480" hover ripple>
-          <v-img height="256" :src="event.image"></v-img>
-        </v-card>
-      </v-row>
-    </v-container>
+      <v-tabs v-model="tabs" centered class="mb-4">
+        <v-tab>2022</v-tab>
+        <v-tab>2021</v-tab>
+        <v-tab>2020</v-tab>
+        <v-tab>2019</v-tab>
+        <v-tab>2018</v-tab>
+      </v-tabs>
 
+      <v-tabs-items v-model="tabs">
+        <v-tab-item>
+          <v-container fluid>
+            <v-row>
+              <v-col
+                v-for="(event, i) in PrevEvents_2022"
+                :key="i"
+                cols="12"
+                md="4"
+              >
+                <AllEvents :event="event"></AllEvents>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-tab-item>
+        <v-tab-item>
+          <v-container fluid>
+            <v-row>
+              <v-col
+                v-for="(event, i) in PrevEvents_2021"
+                :key="i"
+                cols="12"
+                md="4"
+              >
+                <AllEvents :event="event"></AllEvents>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-tab-item>
+        <v-tab-item>
+          <v-container fluid>
+            <v-row>
+              <v-col
+                v-for="(event, i) in PrevEvents_2020"
+                :key="i"
+                cols="12"
+                md="4"
+              >
+                <AllEvents :event="event"></AllEvents>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-tab-item>
+        <v-tab-item>
+          <v-container fluid>
+            <v-row>
+              <v-col
+                v-for="(event, i) in PrevEvents_2019"
+                :key="i"
+                cols="12"
+                md="4"
+              >
+                <AllEvents :event="event"></AllEvents>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-tab-item>
+        <v-tab-item>
+          <v-container fluid>
+            <v-row>
+              <v-col
+                v-for="(event, i) in PrevEvents_2018"
+                :key="i"
+                cols="12"
+                md="4"
+              >
+                <AllEvents :event="event"></AllEvents>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-tab-item>
+      </v-tabs-items>
+    </v-container>
+    <JoinUs />
+  </div>
 </template>
 
 <script>
-import { PrevEvents, CurrentEvent } from '@/content/events/events';
+import { PrevEvents_2018 } from "@/content/events/2018/events";
+import { PrevEvents_2019 } from "@/content/events/2019/events";
+import { PrevEvents_2020 } from "@/content/events/2020/events";
+import { PrevEvents_2021 } from "@/content/events/2021/events";
+import { PrevEvents_2022 } from "@/content/events/2022/events";
+import AllEvents from "../components/AllEvents.vue";
 export default {
   name: "events",
-  data(){
-    return{
-      CurrentEvent:{},
-      PrevEvents: []
-    }
+  data() {
+    return {
+      PrevEvents_2018: [],
+      PrevEvents_2019: [],
+      PrevEvents_2020: [],
+      PrevEvents_2021: [],
+      PrevEvents_2022: [],
+      tabs: null,
+    };
   },
   mounted() {
-    this.PrevEvents = PrevEvents;
-    this.CurrentEvent = CurrentEvent;
-  }
-}
+    this.PrevEvents_2018 = PrevEvents_2018;
+    this.PrevEvents_2019 = PrevEvents_2019;
+    this.PrevEvents_2020 = PrevEvents_2020;
+    this.PrevEvents_2021 = PrevEvents_2021;
+    this.PrevEvents_2022 = PrevEvents_2022;
+  },
+  components: { AllEvents },
+};
 </script>
 
-<style scoped>
 
+<style scoped>
+.heading-event {
+  font-size: 96px;
+  font-weight: 300;
+  margin-bottom: 50px !important;
+  margin-top: 50px !important;
+}
+
+.eventCardContainer {
+  margin-bottom: 20px;
+}
+
+.moreButton {
+  background-color: white;
+  border-radius: 10px;
+  border: #00629b 1px solid;
+  color: #00629b;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cardSection {
+  background-color: transparent !important ;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.cardSection:hover .moreButton {
+  background-color: #00629b;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-event {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+  }
+}
 </style>
