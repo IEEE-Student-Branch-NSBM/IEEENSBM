@@ -10,7 +10,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Official Website of IEEE NSBM Student Branch' }
     ],
     link: [
-      { rel: 'preconnect', rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
