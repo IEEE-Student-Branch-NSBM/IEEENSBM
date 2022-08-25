@@ -17,7 +17,7 @@
             height="80vh"
             width="100%"
             alt="Brand Logo"
-            :src="'/Assets/WIE/' + slide"
+            :src="'/Assets/WIE/Slide1.jpg'"
           />
         </v-sheet>
       </v-carousel-item>
