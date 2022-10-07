@@ -17,6 +17,7 @@ export default {
   data() {
     return {
       article: Object,
+      articleIds: null
     };
   },
   mounted() {
