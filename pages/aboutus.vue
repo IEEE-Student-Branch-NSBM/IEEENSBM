@@ -60,11 +60,10 @@
           <div class="my-3 text-center about-ieee-nsbm-description">
             The IEEE Student Branch of NSBM Green University was established in
             2015 and is composed of IEEE members from the Computing and
-            Engineering faculty. In the Sri Lanka section, there is a very
-            active Student Branch with several activities throughout the year.
+            Engineering faculty. In the Sri Lanka section, this is a highly
+            active Student Branch with many activities throughout the year.
             The greatest part is that some of these projects are conducted not
-            just for NSBM undergraduates, but also for undergraduates from other
-            State and non-State universities. Throughout the year, the IEEE
+            just for NSBM undergraduates, but also for undergraduates from other universities as well. Throughout the year, the IEEE
             Student Branch of NSBM constantly performs numerous valuable
             national and international projects.
           </div>
@@ -337,6 +336,10 @@ export default {
   }
 
   .chapter-section {
+    padding: 0px !important;
+  }
+
+  .htfs{
     padding: 0px !important;
   }
 }
