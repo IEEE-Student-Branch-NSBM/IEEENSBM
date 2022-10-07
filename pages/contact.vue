@@ -27,6 +27,21 @@
             </v-form>
           </v-container>
         </v-col>
+        
+        
+        <v-col>
+          <v-card-title>Feedbacks</v-card-title>
+          <v-container>
+            <v-form method="post" action="https://formspree.io/f/mpzkzwdw" v-model="valid">
+           
+              <v-textarea name="message" id="message" outlined label="Message"></v-textarea>
+              <v-row no-gutters justify="start">
+                <v-btn block type="submit" min-width="256" dark class="IEEE" large >Send</v-btn>
+              </v-row>
+            </v-form>
+          </v-container>
+        </v-col>
+        
       </v-row>
     </v-card>
   </div>
