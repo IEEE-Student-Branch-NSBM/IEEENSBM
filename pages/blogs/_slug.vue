@@ -16,8 +16,7 @@ export default {
   name: "articleview",
   data() {
     return {
-      article: Object,
-      articleIds: null
+      article: Object
     };
   },
   mounted() {
