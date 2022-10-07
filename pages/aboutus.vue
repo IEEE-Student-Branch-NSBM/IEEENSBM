@@ -42,8 +42,8 @@
               "
             >
               The IEEE Student Branch of NSBM Green University was established
-              in 2015 and is composed of IEEE members from the Computing and
-              Engineering faculty.
+              in the year of 2015 and is composed of IEEE members from the Computing and
+              Engineering faculties.
             </v-card-text>
           </v-col>
         </v-row>
