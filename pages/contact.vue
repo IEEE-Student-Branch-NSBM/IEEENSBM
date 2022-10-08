@@ -22,7 +22,7 @@
               <v-text-field  name="_replyto" id="email-address" outlined label="Email"></v-text-field>
               <v-textarea name="message" id="message" outlined label="Message"></v-textarea>
               <v-row no-gutters justify="start">
-                <v-btn block type="submit" min-width="256" dark class="IEEE" large >Send</v-btn>
+                <v-btn block type="submit" min-width="256" dark class="IEEE" large >Send Your Message</v-btn>
               </v-row>
             </v-form>
           </v-container>
