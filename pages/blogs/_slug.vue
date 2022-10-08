@@ -24,9 +24,7 @@ export default {
       .fetch()
       .then((val) => {
         this.article = val;
-        console.log(val);
       });
-    console.log(this.$route.path.replace("/", ""));
   },
 };
 </script>

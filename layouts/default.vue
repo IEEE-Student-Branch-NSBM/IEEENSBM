@@ -405,7 +405,6 @@ export default {
       this.lastScrollPosition = currentScrollPosition;
     },
     ChangeColor() {
-      console.log(this.$route.name);
       if (this.$route.name === "wie") {
         this.BackColor = "#702f8a";
       } else if (this.$route.name === "cs") {
