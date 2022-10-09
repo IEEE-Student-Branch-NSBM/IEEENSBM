@@ -81,6 +81,44 @@
         </v-row>
       </v-container>
     </v-sheet>
+    
+    
+    <v-sheet>
+      <v-container>
+        <v-row no-gutters justify="center">
+          <span class="membershipTitle mt-4 hidden-sm-and-down">
+            How to Join a IEEE National Level Projects
+          </span>
+          <span class="membershipTitle mt-4 hidden-md-and-up align-center">
+            How to Join a IEEE <br />
+            National Level <br/>
+            Projects
+          </span>
+        </v-row>
+        <v-row>
+          <div class="my-3 text-center">
+          first you can get IEEE Membership and then you can join our national projects.
+          There are 3 categories in our national level projects <br/>
+          1.Member Activity <br/>
+          2.Technical Activity <br/>
+          3.Young Profesionals <br/>
+            Reach your full potential as part of the world’s largest technology
+            community. Membership in IEEE is open to individuals who by
+            education or experience give evidence of competence in an
+            IEEE-designated field. Refer to the informational video below to get
+            an idea. In contrast <br />
+            <u>
+              <a
+                href="https://drive.google.com/file/d/1aOtxyQboBomTCiRLJPZEuQjaS6HwPCfJ/view?usp=sharing"
+                >click here to download the instructional PDF</a
+              ></u
+            >
+          </div>
+        </v-row>
+      </v-container>
+    </v-sheet>
+    
+    
     <v-container class="my-5">
       <v-row justify="center">
         <section style="width: 100%">
