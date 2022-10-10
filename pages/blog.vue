@@ -27,7 +27,6 @@ export default {
       .fetch()
       .then((val) => {
         this.Blogs = val;
-        console.log(val);
       });
   },
 };

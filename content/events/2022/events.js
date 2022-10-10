@@ -46,6 +46,16 @@ export const PrevEvents_2022 = [
       "The 'AYUBOWAN IEEE 2022' is a session that raises awareness among the university students on Introduction to IEEE Student Branch of NSBM, Advantages of IEEE Membership, and How to Become an IEEE Recognized individual.",
     link:
       "https://www.facebook.com/events/755989028936782?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"
+  },
+  {
+    id: 4,
+    title: "IEEE DAY 2022",
+    image: "/events/2022/ieeday2022.jpg",
+    date: "06th October, 2022",
+    description:
+      "IEEE Day is the most glamorous celebration for every IEEEian around the globe, which is held annually in the month of October.",
+    link:
+      "https://www.facebook.com/events/1094920764470705"
   }
 ];
 
