@@ -509,7 +509,6 @@ body {
 */
 
 .v-tab{
-  font-weight: bold !important;
   font-size: 18px!important;
 } 
 

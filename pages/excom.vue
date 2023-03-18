@@ -25,6 +25,13 @@
           the IEEE NSBM Student Branch.
         </v-card-text>
       </v-row>
+      <v-row class="excom-swap-tab-chapter">
+        <v-btn-toggle v-model="toggle_multiple">
+          <v-btn color="#00629B">IEEE Student Branch</v-btn>
+          <v-btn color="#702F8A">WIE Affinity Group</v-btn>
+          <v-btn color="#FFA300">CS Student Chapter</v-btn>
+        </v-btn-toggle>
+      </v-row>
       <v-row>
         <v-tabs v-model="tabs" centered class="mb-4" height="40" slider-size="3" color="#00273E">
           <v-tab :value="22">2022/23</v-tab>
@@ -97,6 +104,25 @@ export default {
   font-size: 15px;
   font-weight: 500;
   color: #2F234FCC;
+}
+.excom-swap-tab-chapter{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.excom-swap-tab-chapter .v-btn-toggle{
+  width: 100%;
+  background-color: transparent!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.excom-swap-tab-chapter .v-btn{
+  color: white!important;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 20px!important;
+  margin-inline: 10px;
+  border-radius: 10px!important;
 }
 @media only screen and (max-width: 1278px) {
   .heading-event {
