@@ -109,7 +109,7 @@
 </template>
 
 <script>
-import { PrevEvents_2018 } from "@/content/events/2017/events";
+import { PrevEvents_2017 } from "@/content/events/2018/events";
 import { PrevEvents_2018 } from "@/content/events/2018/events";
 import { PrevEvents_2019 } from "@/content/events/2019/events";
 import { PrevEvents_2020 } from "@/content/events/2020/events";
@@ -130,7 +130,7 @@ export default {
     };
   },
   mounted() {
-    this.PrevEvents_2018 = PrevEvents_2017;
+    this.PrevEvents_2017 = PrevEvents_2017;
     this.PrevEvents_2018 = PrevEvents_2018;
     this.PrevEvents_2019 = PrevEvents_2019;
     this.PrevEvents_2020 = PrevEvents_2020;
