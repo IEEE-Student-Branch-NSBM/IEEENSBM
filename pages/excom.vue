@@ -3,20 +3,19 @@
     <v-container class="mt-4">
       <v-row justify="center" no-gutters>
         <v-card-title
-          class="heading-event text-center md:text-left hidden-sm-and-down"
+          class="heading-event text-center md:text-left hidden-sm-and-down text-uppercase"
         >
           Executive Committee</v-card-title
         >
         <v-card-title
-          class="heading-event text-center md:text-left hidden-md-and-up"
+          class="heading-event text-center md:text-left hidden-md-and-up text-uppercase"
         >
           Executive <br />
           Committee</v-card-title
         >
-        <v-card-title class="heading-sub text-center">2021/22</v-card-title>
       </v-row>
       <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-sm-16 mx-0 mt-6">
+        <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
           The Executive Committee of the IEEE NSBM Student Branch consists of
           the Chair, the Vice Chair, the Secretary, Founders, and fellow
           representatives from the Board. The purpose of the Executive Committee
@@ -26,62 +25,40 @@
           the IEEE NSBM Student Branch.
         </v-card-text>
       </v-row>
-      <v-layout justify-center align-center>
-        <img
-          v-bind:src="'/Assets/Excom/Frame.png'"
-          width="100%"
-          alt="Excom image"
-          class="py-10"
-        />
-      </v-layout>
-      <v-sheet width="100%">
-        <v-container>
-          <v-row no-gutters justify="center">
-            <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
-              Executive Committee 2020/21
-            </span>
-          </v-row>
-          <v-row justify="center" no-gutters class="DontBreakWords mt-8">
-            <v-card
-              class="mb-5 mx-3"
-              width="200"
-              flat
-              color="transparent"
-              v-for="(excom_2021, i) in exComs"
-              :key="i"
-            >
-              <v-row no-gutters justify="center">
-                <v-avatar size="128">
-                  <nuxt-img
-                    quality="100"
-                    format="webp"
-                    fit="contain"
-                    :src="excom_2021.image_path"
-                  />
-                </v-avatar>
-              </v-row>
-              <v-card-title class="excom_2021_name text-center">
-                <v-row no-gutters justify="center">
-                  {{ excom_2021.name }}
-                </v-row>
-              </v-card-title>
-              <v-card-text class="excom_2021_position text-center">
-                {{ excom_2021.position }}
-              </v-card-text>
-            </v-card>
-          </v-row>
-        </v-container>
-      </v-sheet>
+      <v-row>
+        <v-tabs v-model="tabs" centered class="mb-4" height="40" slider-size="3" color="#00273E">
+          <v-tab :value="22">2022/23</v-tab>
+          <v-tab :value="21">2021/22</v-tab>
+          <v-tab :value="20">2020/21</v-tab>
+          <v-tab :value="19">2019/20</v-tab>
+          <v-tab :value="18">2018/19</v-tab>
+        </v-tabs>
+      </v-row>
+      <v-row class="d-flex justify-center my-15 bg-surface-variant">
+        <div v-for="(excom, i) in exComs">
+          <ExComCard 
+          :key="i" 
+          :name="excom.name" 
+          :position="excom.position" 
+          :image="excom.image_path"
+          :linkedin="excom.linkedin" 
+          :facebook="excom.facebook" 
+          :email="excom.email"/>
+      </div>
+      </v-row>
     </v-container>
-    <JoinUs />
   </div>
 </template>
 
 <script>
 import { excom_sb_2021 } from "~/content/excom/2021/SB";
+import ExComCard from "~/components/ExComCard.vue";
 
 export default {
   name: "excom",
+  components: {
+    ExComCard,
+  },
   data: () => ({
     exComs: excom_sb_2021,
   }),
@@ -89,21 +66,7 @@ export default {
 </script>
 
 <style scoped>
-.excom_2021_name {
-  font-size: 18px;
-  word-wrap: break-word !important;
-  overflow-wrap: break-word !important;
-  font-weight: bold;
-  margin-top: -5px;
-  margin-right: -30px !important;
-  margin-left: -30px !important;
-}
-.excom_2021_position {
-  margin-top: -15px;
-  font-size: 16px;
-  font-weight: 500;
-  color: black !important;
-}
+
 .DontBreakWords {
   word-wrap: break-word !important;
   overflow-wrap: break-word !important;
@@ -113,8 +76,8 @@ export default {
 
 .heading-event {
   letter-spacing: 0px !important;
-  font-size: 86px;
-  font-weight: 300;
+  font-size: 64px;
+  font-weight: 700;
   margin-bottom: 30px !important;
   margin-top: 50px !important;
 }
@@ -132,7 +95,8 @@ export default {
   justify-content: center;
   text-align: center;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500;
+  color: #2F234FCC;
 }
 @media only screen and (max-width: 1278px) {
   .heading-event {
