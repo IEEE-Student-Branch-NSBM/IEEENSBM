@@ -351,14 +351,14 @@ export default {
           Name: "Home",
           To: "/",
         },
-        {
-          Name: "WIE",
-          To: "/wie",
-        },
-        {
-          Name: "CS",
-          To: "/cs",
-        },
+        // {
+        //   Name: "WIE",
+        //   To: "/wie",
+        // },
+        // {
+        //   Name: "CS",
+        //   To: "/cs",
+        // },
         {
           Name: "Events",
           To: "/events",
