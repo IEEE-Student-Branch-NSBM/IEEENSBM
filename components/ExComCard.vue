@@ -31,7 +31,7 @@
                 </v-btn></a>
               </div>
               <div class="mt-5">
-                <a :href="email"><v-btn color="primary" outlined>
+                <a :href="'mailto:name@'+email"><v-btn color="primary" outlined>
                   Email
                 </v-btn></a>
               </div>

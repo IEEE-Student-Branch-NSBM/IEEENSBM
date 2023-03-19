@@ -1,4 +1,4 @@
-export const excom_cs_2022 = [
+export const excom_cs_2018 = [
     {
         name: "Kaveen De Alwis",
         image_path: '/Assets/Excom/Kaveen Hyacinth.jpg',
@@ -11,4 +11,4 @@ export const excom_cs_2022 = [
     }
 ]
 
-export default { excom_cs_2022 };
+export default { excom_cs_2018 };

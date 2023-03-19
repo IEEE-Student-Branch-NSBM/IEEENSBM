@@ -508,9 +508,9 @@ body {
 }
 */
 
-.v-tab{
+/* .v-tab{
   font-size: 18px!important;
-} 
+}  */
 
 .IEEE {
   background-color: #F3FBFF !important;

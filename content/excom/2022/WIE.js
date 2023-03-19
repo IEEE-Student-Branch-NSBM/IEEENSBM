@@ -1,4 +1,4 @@
-export const excom_wie_2021 = [
+export const excom_wie_2022 = [
     {
         name: "Sunali Rambukwella",
         image_path: '/Assets/Excom/Secretary.jpg',
@@ -66,4 +66,4 @@ export const excom_wie_2021 = [
     }
 ]
 
-export default { excom_wie_2021 };
+export default { excom_wie_2022 };

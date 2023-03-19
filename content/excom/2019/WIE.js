@@ -1,4 +1,4 @@
-export const excom_wie_2020 = [
+export const excom_wie_2019 = [
     {
         name: "Sunali Rambukwella",
         image_path: '/Assets/Excom/Secretary.jpg',
@@ -66,4 +66,4 @@ export const excom_wie_2020 = [
     }
 ]
 
-export default { excom_wie_2020 };
+export default { excom_wie_2019 };
