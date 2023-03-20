@@ -1,7 +1,7 @@
 <template>
   <v-card
           :key="id"
-          class="mx-15 mb-10 rounded-lg excom-card"
+          class="mx-0 mx-md-15 mb-10 rounded-lg excom-card"
           height="350"
           width="350">
           <div class="excom-card-default">

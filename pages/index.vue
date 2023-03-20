@@ -79,7 +79,7 @@ l<template>
         </v-card>
       </v-row>
     </v-sheet>
-    <v-sheet color="#F3FBFF" class="vsheet">
+    <!-- <v-sheet color="#F3FBFF" class="vsheet">
       <v-container fluid class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
@@ -145,29 +145,31 @@ l<template>
           </v-col>
         </v-row>
       </v-container>
+    </v-sheet> -->
+
+    <v-sheet>
+      <v-container fluid class="my-10">
+        <v-row no-gutters justify="center">
+          <span class="text-h4 font-weight-bold mb-8 mt-8"> Latest Events </span>
+        </v-row>
+        <v-slide-group show-arrows class="mb-10">
+          <template v-slot:next>
+            <v-btn x-large icon>
+              <v-icon size="64">mdi-chevron-right</v-icon>
+            </v-btn>
+          </template>
+  
+          <template v-slot:prev>
+            <v-btn x-large icon>
+              <v-icon size="64">mdi-chevron-left</v-icon>
+            </v-btn>
+          </template>
+          <v-slide-item v-for="(event, i) in Events" :key="i">
+            <EventCard :event="event" />
+          </v-slide-item>
+        </v-slide-group>
+      </v-container>
     </v-sheet>
-
-    <v-container fluid class="my-10">
-      <v-row no-gutters justify="center">
-        <span class="text-h4 font-weight-bold mb-8 mt-8"> Latest Events </span>
-      </v-row>
-      <v-slide-group show-arrows class="mb-10">
-        <template v-slot:next>
-          <v-btn x-large icon>
-            <v-icon size="64">mdi-chevron-right</v-icon>
-          </v-btn>
-        </template>
-
-        <template v-slot:prev>
-          <v-btn x-large icon>
-            <v-icon size="64">mdi-chevron-left</v-icon>
-          </v-btn>
-        </template>
-        <v-slide-item v-for="(event, i) in Events" :key="i">
-          <EventCard :event="event" />
-        </v-slide-item>
-      </v-slide-group>
-    </v-container>
 
     <v-sheet color="#F3FBFF" class="pt-8 pb-8">
       <v-container>
@@ -213,7 +215,22 @@ l<template>
             2021/22
           </span>
         </v-row>
-        <ChairCard />
+        <!-- <ChairCard /> -->
+        <v-row class="justify-center flex-wrap">
+          <div 
+          v-for="(chair, i) in Chairs" 
+          :key="i" >
+            <ExComCard 
+            :id="i"
+            :name="chair.name"
+            :position="chair.chair_role"
+            :image="chair.image"
+            :linkedin="chair.linkedin"
+            :facebook="chair.facebook"
+            :email="chair.email"
+            />
+          </div>
+        </v-row>
         <v-row justify="center mt-10">
           <v-btn class="moreButton" outlined justify="center">
             <nuxt-link class="link" to="/excom">View All Members</nuxt-link>
@@ -282,11 +299,16 @@ l<template>
 <script>
 import { PrevEvents } from "@/content/events/events";
 import ChairCard from "@/components/ChairCard";
+import ExComCard from "@/components/ExComCard";
 import { sb_testimonials } from "~/content/testimonials/SB";
 import { lecturers_sb } from "~/content/lecturers/lecturers";
+import { chairs } from "~/content/chairs/chairs";
 
 export default {
-  component: { ChairCard },
+  component: { 
+    ChairCard, 
+    ExComCard
+  },
   data: () => ({
     Slides: [
       "slide_1.jpg",
@@ -296,6 +318,7 @@ export default {
       "slide_5.jpg",
       "slide_6.jpg",
     ],
+    Chairs: chairs,
     Events: [],
     singleTestimonials: sb_testimonials,
     testimonials: [],
