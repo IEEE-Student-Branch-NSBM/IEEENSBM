@@ -50,6 +50,35 @@ l<template>
       </v-row>
     </v-sheet>
 
+    <v-sheet class="vis-mis-section" color="transparent">
+      <v-row class="justify-space-around flex-wrap">
+        <nuxt-img sizes="sm:150px md:280px" src="/Assets/Logos/IEEENSBM-Logo-Blue.png"/>
+        <nuxt-img sizes="sm:100px md:160px" src="/Assets/Logos/WIE_Logo.png"/>
+        <nuxt-img sizes="sm:150px md:280px" src="/Assets/Logos/CS_Logo_transparent.png"/>
+      </v-row>
+      <v-row class="justify-space-around mt-15">
+        <v-card class="rounded-lg">
+          <v-row>
+            <v-card-title class="text-h5 font-weight-bold">
+              <v-icon size="25" color="#2F234F">mdi-bullseye-arrow</v-icon>Our&nbsp;<span>Mission</span>
+            </v-card-title>
+            <v-card-text class="sm:text-center md:text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
+            </v-card-text>
+          </v-row>
+        </v-card>
+        <v-card class="rounded-lg">
+          <v-row>
+            <v-card-title class="text-h5 font-weight-bold">
+              <v-icon size="25" color="#2F234F">mdi-eye</v-icon>Our&nbsp;<span>Vision</span>
+            </v-card-title>
+            <v-card-text class="sm:text-center md:text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
+            </v-card-text>
+          </v-row>
+        </v-card>
+      </v-row>
+    </v-sheet>
     <v-sheet color="#F3FBFF" class="vsheet">
       <v-container fluid class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
@@ -316,7 +345,38 @@ export default {
     rgba(0, 39, 62, 1) 100%
   );
 }
-
+.vis-mis-section {
+  padding: 60px 80px;
+}
+.vis-mis-section img{
+  margin: 10px 10px;
+  object-fit: contain;
+}
+.vis-mis-section .v-card{
+  min-height: 220px;
+  max-width: 500px;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.25);
+  margin: 20px 15px;
+}
+.vis-mis-section .v-card .row{
+  padding: 20px 30px;
+  margin: 0;
+}
+.vis-mis-section .v-card__title{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.vis-mis-section .v-card__title span{
+  color: #00609c!important;
+}
+.vis-mis-section .v-icon{
+  padding-right: 8px;
+}
+.vis-mis-section .v-card__text{
+  font-weight: 400;
+  color: black;
+  font-size: 16px!important;
+}
 .bannerImg {
   background-image: url("/Assets/Other/IEEE_BANNER.png");
   height: auto; /* You must set a specified height */
