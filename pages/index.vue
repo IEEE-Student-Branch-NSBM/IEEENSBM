@@ -192,7 +192,9 @@ l<template>
                 <nuxt-img
                   quality="100"
                   format="webp"
-                  fit="contain"
+                  fit="cover"
+                  style="object-fit: cover; object-position: top;"
+
                   :src="lecturer.image"
                 />
               </v-avatar>
