@@ -30,11 +30,11 @@
                   <v-icon size="25" color="#2F234F">mdi-facebook</v-icon>
                 </v-btn></a>
               </div>
-              <div class="mt-5">
+              <!-- <div class="mt-5">
                 <a :href="'mailto:name@'+email"><v-btn color="primary" outlined>
                   Email
                 </v-btn></a>
-              </div>
+              </div> -->
             </v-card-actions>
           </div>
         </v-card>
@@ -77,7 +77,7 @@ export default {
   transition: all 0.5s ease-in-out!important;
 }
 .excom-card:hover{
-  height: 450px!important;
+  height: 380px!important;
   transition: all 0.5s ease-in-out!important;
 }
 .excom-card:hover .excom-card-default{
