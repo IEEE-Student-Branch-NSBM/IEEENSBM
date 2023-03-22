@@ -240,44 +240,49 @@ l<template>
         </v-row>
       </v-container>
     </v-sheet>
-    <v-container class="my-10">
-      <div class="text-h4 font-weight-bold mb-10 text-center">Testimonials</div>
-      <v-row justify="center" no-gutters>
-        <v-col class="hidden-sm-and-down">
-          <v-carousel
-            height="455"
-            :cycle="true"
-            :show-arrows="false"
-            delimiter-icon="mdi-minus"
-            hide-delimiter-background
-            light
-          >
-            <v-carousel-item v-for="(testimonial, i) in testimonials" :key="i">
-              <v-row>
-                <v-col v-for="(obj, i) in testimonial" :key="i">
-                  <Testimonial :dataObj="obj" />
-                </v-col>
-              </v-row>
-            </v-carousel-item>
-          </v-carousel>
-        </v-col>
-        <v-col class="hidden-md-and-up">
-          <v-carousel
-            :cycle="true"
-            height="455"
-            :show-arrows="true"
-            hide-delimiters
-          >
-            <v-carousel-item
-              v-for="(singleTestimonial, i) in singleTestimonials"
-              :key="i"
+    
+    <v-sheet class="testimonials-section" min-height="100%">
+      <v-container class="my-10" >
+        <div class="text-h4 font-weight-bold mb-10 text-center">Testimonials</div>
+        <v-row justify="center" no-gutters>
+          <v-col class="hidden-sm-and-down">
+            <v-carousel
+              min-height="455"
+              :cycle="true"
+              :show-arrows="false"
+              delimiter-icon="mdi-minus"
+              hide-delimiter-background
+              light
             >
-              <Testimonial :dataObj="singleTestimonial" />
-            </v-carousel-item>
-          </v-carousel>
-        </v-col>
-      </v-row>
-    </v-container>
+              <v-carousel-item v-for="(testimonial, i) in testimonials" :key="i">
+                <v-row class="testimonial-slide">
+                  <div v-for="(obj, i) in testimonial" :key="i">
+                    <Testimonial :dataObj="obj" />
+                  </div>
+                </v-row>
+              </v-carousel-item>
+            </v-carousel>
+          </v-col>
+          <v-col class="hidden-md-and-up">
+            <v-carousel
+              :cycle="true"
+              min-height="455"
+              :show-arrows="true"
+              hide-delimiters
+            >
+              <v-carousel-item>
+                <v-row class="testimonial-slide">
+                  <div v-for="(singleTestimonial, i) in singleTestimonials"
+                    :key="i">
+                    <Testimonial :dataObj="singleTestimonial" />
+                  </div>
+                </v-row>
+              </v-carousel-item>
+            </v-carousel>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
 
     <v-container class="my-10">
       <v-row no-gutters justify="center">
@@ -329,7 +334,7 @@ export default {
   mounted() {
     this.Events = PrevEvents;
 
-    let size = 3;
+    let size = 2;
     Array.from(
       { length: Math.ceil(this.singleTestimonials.length / size) },
       (val, i) => {
@@ -427,6 +432,14 @@ export default {
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 40px;
+}
+.testimonials-section  .v-carousel__item {
+  height: 100%!important;
+}
+.testimonial-slide{
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
 }
 
 @media only screen and (max-width: 768px) {
