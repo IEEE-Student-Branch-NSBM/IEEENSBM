@@ -5,7 +5,7 @@
       {{ event.title }}
     </v-card-title>
     <v-card-subtitle> {{ event.date }} </v-card-subtitle>
-    <v-card-text>
+    <v-card-text class="event-description">
       {{ event.description }}
     </v-card-text>
     <v-row justify="center" class="mb-5 more-button-holder">
@@ -33,6 +33,12 @@ export default {
 </script>
 
 <style scoped>
+.v-card{
+  filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+}
+.event-description{
+  font-size: 16px!important;
+}
 .more-button-holder{
   bottom: 0;
   position: absolute;
