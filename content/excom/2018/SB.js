@@ -1,4 +1,4 @@
-export const excom_sb_2021 = [
+export const excom_sb_2018 = [
     {
         name: 'Denver Shenal',
         position: 'Chairman',
@@ -161,4 +161,4 @@ export const excom_sb_2021 = [
     }
 ]
 
-export default { excom_sb_2021 };
+export default { excom_sb_2018 };

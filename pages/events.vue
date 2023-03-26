@@ -15,7 +15,7 @@
         <v-tab>WIE Inoguration </v-tab>
       </v-tabs>
 
-      <v-tabs-items v-model="tabs">
+      <v-tabs-items v-model="tabs" style="background-color: transparent;">
         <v-tab-item>
           <v-container fluid>
             <v-row>
@@ -109,13 +109,14 @@
 </template>
 
 <script>
-import { PrevEvents_2018 } from "@/content/events/2017/events";
+import { PrevEvents_2017 } from "@/content/events/2018/events";
 import { PrevEvents_2018 } from "@/content/events/2018/events";
 import { PrevEvents_2019 } from "@/content/events/2019/events";
 import { PrevEvents_2020 } from "@/content/events/2020/events";
 import { PrevEvents_2021 } from "@/content/events/2021/events";
 import { PrevEvents_2022 } from "@/content/events/2022/events";
 import AllEvents from "../components/AllEvents.vue";
+
 export default {
   name: "events",
   data() {
@@ -130,7 +131,7 @@ export default {
     };
   },
   mounted() {
-    this.PrevEvents_2018 = PrevEvents_2017;
+    this.PrevEvents_2017 = PrevEvents_2017;
     this.PrevEvents_2018 = PrevEvents_2018;
     this.PrevEvents_2019 = PrevEvents_2019;
     this.PrevEvents_2020 = PrevEvents_2020;

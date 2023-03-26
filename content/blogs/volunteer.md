@@ -5,7 +5,7 @@ description: 'Volunteer For IEEE Student Branch of NSBM Green University'
 image: '/Assets/Blog/1.jpg'
 author: 'Srilal S. Sachintha'
 author_photo: '/Assets/Blog/1.jpg'
-date: '2021 July 27'
+date: '27 July 2021'
 ---
 
 # **ආයුබෝවන් හැමෝටම!**

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-sheet class="pb-8">
+    <!-- <v-sheet class="pb-8">
       <v-container>
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="order-last order-md-first mx-auto">
@@ -48,8 +48,9 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-sheet>
-    <v-sheet>
+    </v-sheet> -->
+    
+    <!-- <v-sheet>
       <v-container>
         <v-row no-gutters justify="center">
           <span class="text-h3 font-weight-bold mt-4 about-ieee-nsbm">
@@ -96,7 +97,87 @@
           </v-img>
         </v-col>
       </v-row>
-    </v-sheet>
+    </v-sheet> -->
+    <v-container class="mt-4">
+      <v-row no-gutters justify="center">
+        <span class="text-h2 font-weight-bold mt-4 about-ieee-nsbm">
+          <span style="color: #00629b">IEEE</span> NSBM
+        </span>
+      </v-row>
+      <v-row no-gutters justify="center">
+        <span class="text-h5 font-medium mt-4 justify-center text-center">
+          IEEE STUDENT BRANCH OF NSBM
+        </span>
+      </v-row>
+      <v-row align="center" no-gutters class="DontBreakWords mt-8">
+        <v-col class="px-5 chapter-section">
+          <v-card-text class="pa-0 pb-2 text-justify mt-4">
+            IEEE Computer Society (sometimes abbreviated as the Computer Society
+            or CS) is a professional society of the Institute of Electrical and
+            Electronics Engineers (IEEE). Its purpose and scope are "to advance
+            the theory, practice, and application of computer and information
+            processing science and technology" and the "professional standing of
+            its members". The CS is the largest of 39 technical societies
+            organized under the IEEE Technical Activities Board. <br /><br />
+            The IEEE Computer Society sponsors workshops and conferences,
+            publishes a variety of peer-reviewed literature, operates technical
+            committees, and develops IEEE computing standards. It supports more
+            than 200 chapters worldwide and participates in educational
+            activities at all levels of the profession, including distance
+            learning, accreditation of higher education programs in computer
+            science, and professional certification in software engineering.
+          </v-card-text>
+          <v-card-text
+            class="pa-0 text-justify mt-4 SBmoreDetails pl-4"
+            style="color: #00629b; font-weight: bold"
+          >
+            More Details
+          </v-card-text>
+          <v-card-actions class="SBmoreDetails">
+            <v-btn
+              class="sb-btn-icon"
+              icon
+              href="https://www.facebook.com/ieeensbm"
+              target="_blank"
+              ><v-icon>mdi-facebook</v-icon>
+            </v-btn>
+            <v-btn
+              icon
+              class="sb-btn-icon"
+              href="https://www.linkedin.com/company/ieee-student-branch-nsbm/mycompany/"
+              target="_blank"
+              ><v-icon>mdi-linkedin</v-icon></v-btn
+            >
+            <v-btn
+              class="sb-btn-icon"
+              icon
+              href="https://twitter.com/nsbmieee"
+              target="_blank"
+              ><v-icon>mdi-twitter</v-icon></v-btn
+            >
+            <v-btn
+              icon
+              class="sb-btn-icon"
+              href="https://www.instagram.com/ieee_nsbm/"
+              target="_blank"
+              ><v-icon>mdi-instagram</v-icon></v-btn
+            >
+          </v-card-actions>
+        </v-col>
+        <v-col class="d-flex">
+          <nuxt-img
+            quality="98"
+            format="webp"
+            fit="contain"
+            sizes="sm:70vw md:60vw lg:25vw"
+            alt="CS Brand Logo"
+            :src="'/Assets/Logos/IEEENSBM-Logo-Blue.png'"
+            class="mx-auto"
+          />
+        </v-col>
+      </v-row>
+    </v-container>
+
     <v-container>
       <v-row no-gutters justify="center">
         <span class="text-h2 font-weight-bold mt-4 about-ieee-nsbm">
@@ -109,7 +190,7 @@
         </span>
       </v-row>
       <v-row align="center" no-gutters class="DontBreakWords mt-8">
-        <v-col class="order-last order-md-first">
+        <v-col class="order-last order-md-first d-flex justify-center">
           <nuxt-img
             quality="98"
             format="webp"
@@ -130,14 +211,14 @@
             leadership roles in industry as well as international platforms.
           </v-card-text>
           <v-card-text
-            class="pa-0 text-justify mt-4 moreDetails pr-4"
+            class="pa-0 text-justify mt-4 WIEmoreDetails pr-4"
             style="color: #702f8a; font-weight: bold"
           >
             More Details
           </v-card-text>
-          <v-card-actions class="moreDetails">
+          <v-card-actions class="WIEmoreDetails">
             <v-btn
-              class="btn-icon"
+              class="wie-btn-icon"
               icon
               href="https://www.facebook.com/nsbmwie"
               target="_blank"
@@ -145,22 +226,22 @@
             </v-btn>
             <v-btn
               icon
-              class="btn-icon"
+              class="wie-btn-icon"
               href="https://www.linkedin.com/company/ieee-women-in-engineering-nsbm/"
               target="_blank"
               ><v-icon>mdi-linkedin</v-icon></v-btn
             >
-            <v-btn
-              class="btn-icon"
+            <!-- <v-btn
+              class="wie-btn-icon"
               icon
               href="https://twitter.com/nsbmieee"
               target="_blank"
               ><v-icon>mdi-twitter</v-icon></v-btn
-            >
+            > -->
             <v-btn
               icon
-              class="btn-icon"
-              href="https://instagram.com/nsbmwie?igshid=YmMyMTA2M2Y="
+              class="wie-btn-icon"
+              href="https://instagram.com/ieeewie_nsbm"
               target="_blank"
               ><v-icon>mdi-instagram</v-icon></v-btn
             >
@@ -168,6 +249,7 @@
         </v-col>
       </v-row>
     </v-container>
+
     <v-container class="mt-4">
       <v-row no-gutters justify="center">
         <span class="text-h2 font-weight-bold mt-4 about-ieee-nsbm">
@@ -214,34 +296,34 @@
             <v-btn
               icon
               class="cs-btn-icon"
-              href="https://www.linkedin.com/company/ieee-student-branch-nsbm/mycompany/"
+              href="https://www.linkedin.com/company/ieee-computer-society-nsbm/"
               target="_blank"
               ><v-icon>mdi-linkedin</v-icon></v-btn
             >
-            <v-btn
+            <!-- <v-btn
               class="cs-btn-icon"
               icon
               href="https://twitter.com/nsbmieee"
               target="_blank"
               ><v-icon>mdi-twitter</v-icon></v-btn
-            >
+            > -->
             <v-btn
               icon
               class="cs-btn-icon"
-              href="https://www.instagram.com/nsbmieee/"
+              href="https://www.instagram.com/ieeecs_nsbm/"
               target="_blank"
               ><v-icon>mdi-instagram</v-icon></v-btn
             >
           </v-card-actions>
         </v-col>
-        <v-col>
+        <v-col class="d-flex">
           <nuxt-img
             quality="98"
             format="webp"
             fit="contain"
             sizes="sm:70vw md:60vw lg:25vw"
             alt="CS Brand Logo"
-            :src="'/Assets/Logos/CS_Logo.png'"
+            :src="'/Assets/Logos/CS_Logo_transparent.png'"
             class="mx-auto"
           />
         </v-col>
@@ -269,14 +351,23 @@ export default {
 .about-ieee {
   line-height: 90px !important;
 }
+.SBmoreDetails {
+  text-align: left !important;
+  justify-content: left !important;
+  color: #00629b !important;
+}
 
-.moreDetails {
+.sb-btn-icon {
+  color: #00629b !important;
+  padding: 0px !important;
+}
+.WIEmoreDetails {
   text-align: right !important;
   justify-content: right !important;
   color: #702f8a !important;
 }
 
-.btn-icon {
+.wie-btn-icon {
   color: #702f8a !important;
   padding: 0px !important;
 }
