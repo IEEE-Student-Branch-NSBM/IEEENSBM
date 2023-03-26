@@ -149,8 +149,18 @@ l<template>
 
     <v-sheet>
       <v-container fluid class="my-10">
-        <v-row no-gutters justify="center">
-          <span class="text-h4 font-weight-bold mb-8 mt-8"> Latest Events </span>
+        <v-row justify="center" no-gutters>
+          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
+              Latest Events
+          </v-card-title>
+        </v-row>
+        <v-row justify="center" no-gutters>
+          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+            Amet minim mollit non deserunt ullamco est sit aliqua 
+            dolor do amet sint. Velit officia consequat duis enim 
+            velit mollit. Exercitation veniam consequat sunt nostrud 
+            amet.
+          </v-card-text>
         </v-row>
         <v-slide-group show-arrows class="mb-10">
           <template v-slot:next>
@@ -173,10 +183,10 @@ l<template>
 
     <v-sheet color="#F3FBFF" class="pt-8 pb-8">
       <v-container>
-        <v-row no-gutters justify="center">
-          <span class="SBC-title text-h4 font-weight-bold mt-6 mb-10">
-            Student Branch Counsellors
-          </span>
+        <v-row justify="center" no-gutters>
+          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
+              Student Branch Counsellors
+          </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters class="DontBreakWords mt-8 mb-4">
           <v-card
@@ -211,11 +221,18 @@ l<template>
             </v-card-subtitle>
           </v-card>
         </v-row>
-        <v-row no-gutters justify="center">
-          <span class="text-h4 font-weight-bold mt-10 mb-2 text-center">
-            Student Branch Chairpersons <br />
-            2021/22
-          </span>
+        <v-row justify="center" no-gutters>
+          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
+              Meet the executive committee
+          </v-card-title>
+        </v-row>
+        <v-row justify="center" no-gutters>
+          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+            Amet minim mollit non deserunt ullamco est sit aliqua 
+            dolor do amet sint. Velit officia consequat duis enim 
+            velit mollit. Exercitation veniam consequat sunt nostrud 
+            amet.
+          </v-card-text>
         </v-row>
         <!-- <ChairCard /> -->
         <v-row class="justify-center flex-wrap">
@@ -243,7 +260,19 @@ l<template>
     
     <v-sheet class="testimonials-section" min-height="100%">
       <v-container class="my-10" >
-        <div class="text-h4 font-weight-bold mb-10 text-center">Testimonials</div>
+        <v-row justify="center" no-gutters>
+          <v-card-title class="heading-event text-center md:text-left text-uppercase">
+              Testimonials
+          </v-card-title>
+        </v-row>
+        <v-row justify="center" no-gutters>
+          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+            Amet minim mollit non deserunt ullamco est sit aliqua 
+            dolor do amet sint. Velit officia consequat duis enim 
+            velit mollit. Exercitation veniam consequat sunt nostrud 
+            amet.
+          </v-card-text>
+        </v-row>
         <v-row justify="center" no-gutters>
           <v-col class="hidden-sm-and-down">
             <v-carousel
@@ -285,9 +314,11 @@ l<template>
     </v-sheet>
 
     <v-container class="my-10">
-      <v-row no-gutters justify="center">
-        <span class="text-h4 font-weight-bold mb-8 mt-2"> Our Fellowship </span>
-      </v-row>
+      <v-row justify="center" no-gutters>
+          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
+              Our fellowship
+          </v-card-title>
+        </v-row>
       <v-row justify="center" no-gutters>
         <section style="width: 65%">
           <lite-youtube
@@ -348,6 +379,22 @@ export default {
 </script>
 
 <style scoped>
+.heading-event {
+  letter-spacing: 0px !important;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 30px !important;
+  margin-top: 50px !important;
+}
+.para-event {
+  letter-spacing: 0px !important;
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2F234FCC;
+}
 .text-h7 {
   font-size: 1rem;
 }
@@ -441,8 +488,19 @@ export default {
   align-items: center;
   height: 100%;
 }
-
+@media screen and (max-width: 1024px) {
+  .heading-event{
+    line-height: 4rem;
+    word-break: keep-all;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .heading-event {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+  }
   .DontBreakWords {
     text-align: center;
     font-size: 30px;
