@@ -50,36 +50,7 @@ l<template>
       </v-row>
     </v-sheet>
 
-    <v-sheet class="vis-mis-section" color="transparent">
-      <v-row class="justify-space-around flex-wrap">
-        <nuxt-img sizes="sm:150px md:280px" src="/Assets/Logos/IEEENSBM-Logo-Blue.png"/>
-        <nuxt-img sizes="sm:100px md:160px" src="/Assets/Logos/WIE_Logo.png"/>
-        <nuxt-img sizes="sm:150px md:280px" src="/Assets/Logos/CS_Logo_transparent.png"/>
-      </v-row>
-      <v-row class="justify-space-around mt-15">
-        <v-card class="rounded-lg">
-          <v-row>
-            <v-card-title class="text-h5 font-weight-bold">
-              <v-icon size="25" color="#2F234F">mdi-bullseye-arrow</v-icon>Our&nbsp;<span>Mission</span>
-            </v-card-title>
-            <v-card-text class="sm:text-center md:text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
-            </v-card-text>
-          </v-row>
-        </v-card>
-        <v-card class="rounded-lg">
-          <v-row>
-            <v-card-title class="text-h5 font-weight-bold">
-              <v-icon size="25" color="#2F234F">mdi-eye</v-icon>Our&nbsp;<span>Vision</span>
-            </v-card-title>
-            <v-card-text class="sm:text-center md:text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
-            </v-card-text>
-          </v-row>
-        </v-card>
-      </v-row>
-    </v-sheet>
-    <!-- <v-sheet color="#F3FBFF" class="vsheet">
+    <v-sheet color="#F3FBFF" class="vsheet">
       <v-container fluid class="joinus-topBanner">
         <v-row align="center" no-gutters class="DontBreakWords mt-8">
           <v-col class="px-10 firstCard">
@@ -145,48 +116,36 @@ l<template>
           </v-col>
         </v-row>
       </v-container>
-    </v-sheet> -->
-
-    <v-sheet>
-      <v-container fluid class="my-10">
-        <v-row justify="center" no-gutters>
-          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
-              Latest Events
-          </v-card-title>
-        </v-row>
-        <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
-            Amet minim mollit non deserunt ullamco est sit aliqua 
-            dolor do amet sint. Velit officia consequat duis enim 
-            velit mollit. Exercitation veniam consequat sunt nostrud 
-            amet.
-          </v-card-text>
-        </v-row>
-        <v-slide-group show-arrows class="mb-10">
-          <template v-slot:next>
-            <v-btn x-large icon>
-              <v-icon size="64">mdi-chevron-right</v-icon>
-            </v-btn>
-          </template>
-  
-          <template v-slot:prev>
-            <v-btn x-large icon>
-              <v-icon size="64">mdi-chevron-left</v-icon>
-            </v-btn>
-          </template>
-          <v-slide-item v-for="(event, i) in Events" :key="i">
-            <EventCard :event="event" />
-          </v-slide-item>
-        </v-slide-group>
-      </v-container>
     </v-sheet>
+
+    <v-container fluid class="my-10">
+      <v-row no-gutters justify="center">
+        <span class="text-h4 font-weight-bold mb-8 mt-8"> Latest Events </span>
+      </v-row>
+      <v-slide-group show-arrows class="mb-10">
+        <template v-slot:next>
+          <v-btn x-large icon>
+            <v-icon size="64">mdi-chevron-right</v-icon>
+          </v-btn>
+        </template>
+
+        <template v-slot:prev>
+          <v-btn x-large icon>
+            <v-icon size="64">mdi-chevron-left</v-icon>
+          </v-btn>
+        </template>
+        <v-slide-item v-for="(event, i) in Events" :key="i">
+          <EventCard :event="event" />
+        </v-slide-item>
+      </v-slide-group>
+    </v-container>
 
     <v-sheet color="#F3FBFF" class="pt-8 pb-8">
       <v-container>
-        <v-row justify="center" no-gutters>
-          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
-              Student Branch Counsellors
-          </v-card-title>
+        <v-row no-gutters justify="center">
+          <span class="SBC-title text-h4 font-weight-bold mt-6 mb-10">
+            Student Branch Counsellors
+          </span>
         </v-row>
         <v-row justify="center" no-gutters class="DontBreakWords mt-8 mb-4">
           <v-card
@@ -202,9 +161,7 @@ l<template>
                 <nuxt-img
                   quality="100"
                   format="webp"
-                  fit="cover"
-                  style="object-fit: cover; object-position: top;"
-
+                  fit="contain"
                   :src="lecturer.image"
                 />
               </v-avatar>
@@ -221,35 +178,13 @@ l<template>
             </v-card-subtitle>
           </v-card>
         </v-row>
-        <v-row justify="center" no-gutters>
-          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
-              Meet the executive committee
-          </v-card-title>
+        <v-row no-gutters justify="center">
+          <span class="text-h4 font-weight-bold mt-10 mb-2 text-center">
+            Student Branch Chairpersons <br />
+            2021/22
+          </span>
         </v-row>
-        <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
-            Amet minim mollit non deserunt ullamco est sit aliqua 
-            dolor do amet sint. Velit officia consequat duis enim 
-            velit mollit. Exercitation veniam consequat sunt nostrud 
-            amet.
-          </v-card-text>
-        </v-row>
-        <!-- <ChairCard /> -->
-        <v-row class="justify-center flex-wrap">
-          <div 
-          v-for="(chair, i) in Chairs" 
-          :key="i" >
-            <ExComCard 
-            :id="i"
-            :name="chair.name"
-            :position="chair.chair_role"
-            :image="chair.image"
-            :linkedin="chair.linkedin"
-            :facebook="chair.facebook"
-            :email="chair.email"
-            />
-          </div>
-        </v-row>
+        <ChairCard />
         <v-row justify="center mt-10">
           <v-btn class="moreButton" outlined justify="center">
             <nuxt-link class="link" to="/excom">View All Members</nuxt-link>
@@ -257,68 +192,49 @@ l<template>
         </v-row>
       </v-container>
     </v-sheet>
-    
-    <v-sheet class="testimonials-section" min-height="100%">
-      <v-container class="my-10" >
-        <v-row justify="center" no-gutters>
-          <v-card-title class="heading-event text-center md:text-left text-uppercase">
-              Testimonials
-          </v-card-title>
-        </v-row>
-        <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
-            Amet minim mollit non deserunt ullamco est sit aliqua 
-            dolor do amet sint. Velit officia consequat duis enim 
-            velit mollit. Exercitation veniam consequat sunt nostrud 
-            amet.
-          </v-card-text>
-        </v-row>
-        <v-row justify="center" no-gutters>
-          <v-col class="hidden-sm-and-down">
-            <v-carousel
-              min-height="455"
-              :cycle="true"
-              :show-arrows="false"
-              delimiter-icon="mdi-minus"
-              hide-delimiter-background
-              light
+    <v-container class="my-10">
+      <div class="text-h4 font-weight-bold mb-10 text-center">Testimonials</div>
+      <v-row justify="center" no-gutters>
+        <v-col class="hidden-sm-and-down">
+          <v-carousel
+            height="455"
+            :cycle="true"
+            :show-arrows="false"
+            delimiter-icon="mdi-minus"
+            hide-delimiter-background
+            light
+          >
+            <v-carousel-item v-for="(testimonial, i) in testimonials" :key="i">
+              <v-row>
+                <v-col v-for="(obj, i) in testimonial" :key="i">
+                  <Testimonial :dataObj="obj" />
+                </v-col>
+              </v-row>
+            </v-carousel-item>
+          </v-carousel>
+        </v-col>
+        <v-col class="hidden-md-and-up">
+          <v-carousel
+            :cycle="true"
+            height="455"
+            :show-arrows="true"
+            hide-delimiters
+          >
+            <v-carousel-item
+              v-for="(singleTestimonial, i) in singleTestimonials"
+              :key="i"
             >
-              <v-carousel-item v-for="(testimonial, i) in testimonials" :key="i">
-                <v-row class="testimonial-slide">
-                  <div v-for="(obj, i) in testimonial" :key="i">
-                    <Testimonial :dataObj="obj" />
-                  </div>
-                </v-row>
-              </v-carousel-item>
-            </v-carousel>
-          </v-col>
-          <v-col class="hidden-md-and-up">
-            <v-carousel
-              :cycle="true"
-              min-height="455"
-              :show-arrows="true"
-              hide-delimiters
-            >
-              <v-carousel-item>
-                <v-row class="testimonial-slide">
-                  <div v-for="(singleTestimonial, i) in singleTestimonials"
-                    :key="i">
-                    <Testimonial :dataObj="singleTestimonial" />
-                  </div>
-                </v-row>
-              </v-carousel-item>
-            </v-carousel>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-sheet>
+              <Testimonial :dataObj="singleTestimonial" />
+            </v-carousel-item>
+          </v-carousel>
+        </v-col>
+      </v-row>
+    </v-container>
 
     <v-container class="my-10">
-      <v-row justify="center" no-gutters>
-          <v-card-title class="heading-event text-center md:text-left  text-uppercase">
-              Our fellowship
-          </v-card-title>
-        </v-row>
+      <v-row no-gutters justify="center">
+        <span class="text-h4 font-weight-bold mb-8 mt-2"> Our Fellowship </span>
+      </v-row>
       <v-row justify="center" no-gutters>
         <section style="width: 65%">
           <lite-youtube
@@ -337,16 +253,11 @@ l<template>
 <script>
 import { PrevEvents } from "@/content/events/events";
 import ChairCard from "@/components/ChairCard";
-import ExComCard from "@/components/ExComCard";
 import { sb_testimonials } from "~/content/testimonials/SB";
 import { lecturers_sb } from "~/content/lecturers/lecturers";
-import { chairs } from "~/content/chairs/chairs";
 
 export default {
-  component: { 
-    ChairCard, 
-    ExComCard
-  },
+  component: { ChairCard },
   data: () => ({
     Slides: [
       "slide_1.jpg",
@@ -356,7 +267,6 @@ export default {
       "slide_5.jpg",
       "slide_6.jpg",
     ],
-    Chairs: chairs,
     Events: [],
     singleTestimonials: sb_testimonials,
     testimonials: [],
@@ -365,7 +275,7 @@ export default {
   mounted() {
     this.Events = PrevEvents;
 
-    let size = 2;
+    let size = 3;
     Array.from(
       { length: Math.ceil(this.singleTestimonials.length / size) },
       (val, i) => {
@@ -379,22 +289,6 @@ export default {
 </script>
 
 <style scoped>
-.heading-event {
-  letter-spacing: 0px !important;
-  font-size: 64px;
-  font-weight: 700;
-  margin-bottom: 30px !important;
-  margin-top: 50px !important;
-}
-.para-event {
-  letter-spacing: 0px !important;
-  padding-top: 10px;
-  justify-content: center;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 500;
-  color: #2F234FCC;
-}
 .text-h7 {
   font-size: 1rem;
 }
@@ -422,38 +316,7 @@ export default {
     rgba(0, 39, 62, 1) 100%
   );
 }
-.vis-mis-section {
-  padding: 60px 80px;
-}
-.vis-mis-section img{
-  margin: 10px 10px;
-  object-fit: contain;
-}
-.vis-mis-section .v-card{
-  min-height: 220px;
-  max-width: 500px;
-  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.25);
-  margin: 20px 15px;
-}
-.vis-mis-section .v-card .row{
-  padding: 20px 30px;
-  margin: 0;
-}
-.vis-mis-section .v-card__title{
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.vis-mis-section .v-card__title span{
-  color: #00609c!important;
-}
-.vis-mis-section .v-icon{
-  padding-right: 8px;
-}
-.vis-mis-section .v-card__text{
-  font-weight: 400;
-  color: black;
-  font-size: 16px!important;
-}
+
 .bannerImg {
   background-image: url("/Assets/Other/IEEE_BANNER.png");
   height: auto; /* You must set a specified height */
@@ -480,27 +343,8 @@ export default {
   padding-right: 80px;
   padding-top: 40px;
 }
-.testimonials-section  .v-carousel__item {
-  height: 100%!important;
-}
-.testimonial-slide{
-  justify-content: space-evenly;
-  align-items: center;
-  height: 100%;
-}
-@media screen and (max-width: 1024px) {
-  .heading-event{
-    line-height: 4rem;
-    word-break: keep-all;
-  }
-}
+
 @media only screen and (max-width: 768px) {
-  .heading-event {
-    font-size: 48px;
-    font-weight: 500;
-    margin-bottom: 25px !important;
-    margin-top: 25px !important;
-  }
   .DontBreakWords {
     text-align: center;
     font-size: 30px;
