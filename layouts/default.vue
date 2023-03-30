@@ -352,14 +352,6 @@ export default {
           Name: "Home",
           To: "/",
         },
-        // {
-        //   Name: "WIE",
-        //   To: "/wie",
-        // },
-        // {
-        //   Name: "CS",
-        //   To: "/cs",
-        // },
         {
           Name: "Events",
           To: "/events",
@@ -502,16 +494,6 @@ body {
   background-color: #ffffff00 !important;
   border-color: #ffffff00 !important;
 }
-
-/* .v-btn{
-  font-weight: bold !important;
-  font-family: "Roboto", sans-serif !important;
-}
-*/
-
-/* .v-tab{
-  font-size: 18px!important;
-}  */
 
 .IEEE {
   background-color: #F3FBFF !important;

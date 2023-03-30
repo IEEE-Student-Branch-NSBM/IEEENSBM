@@ -16,7 +16,6 @@
         <v-row class="testimonial-body">
           <p class="description">
             {{ dataObj.description }}
-            <!--      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim diam, tempus vel ultricies viverra, luctus in elit. Aliquam tempus blandit velit, in pharetra ex volutpat a. Cras eu augue ac nisl tempor commodo.-->
           </p>
         </v-row>
       </div>

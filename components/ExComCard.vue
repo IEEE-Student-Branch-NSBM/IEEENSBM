@@ -30,11 +30,6 @@
                   <v-icon size="25" color="#2F234F">mdi-facebook</v-icon>
                 </v-btn></a>
               </div>
-              <!-- <div class="mt-5">
-                <a :href="'mailto:name@'+email"><v-btn color="primary" outlined>
-                  Email
-                </v-btn></a>
-              </div> -->
             </v-card-actions>
           </div>
         </v-card>
