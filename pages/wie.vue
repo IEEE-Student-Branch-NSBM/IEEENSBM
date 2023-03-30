@@ -115,6 +115,19 @@
             Executive Committee 2020/21
           </span>
         </v-row>
+        
+        <v-row no-gutters justify="center">
+          <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
+            Newly Appointed Executive Committee 2022/23
+          </span>
+        </v-row>
+        
+        <v-row no-gutters justify="center">
+          <span class="text-h4 text-center font-weight-bold mt-6 mb-10">
+            Past Executive Committee
+          </span>
+        </v-row>
+        
         <v-row justify="center" no-gutters class="DontBreakWords mt-8">
           <v-card
             class="mb-5 mx-3"

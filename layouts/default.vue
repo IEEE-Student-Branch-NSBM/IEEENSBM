@@ -40,6 +40,7 @@
           :background-color="BackColor"
           dark
           slider-size="4"
+          class="justify-center d-md-flex"
         >
           <v-tab
             :key="MenuItem.Name"
@@ -114,7 +115,7 @@
       </v-app-bar>
     </header>
 
-    <v-main class="white lighten-2">
+    <v-main class="lighten-2" style="background-color: #F3FBFF;">
       <v-card :color="BackColor" class="rounded-0">
         <v-card-title class="hidden-sm-and-down pt-2">
           <v-row no-gutters justify="space-between" align="center">
@@ -144,7 +145,7 @@
           :background-color="BackColor"
           dark
           slider-size="4"
-          class="hidden-sm-and-down"
+          class="hidden-sm-and-down justify-center d-md-flex"
         >
           <v-tab
             :key="MenuItem.Name"
@@ -352,14 +353,6 @@ export default {
           To: "/",
         },
         {
-          Name: "WIE",
-          To: "/wie",
-        },
-        {
-          Name: "CS",
-          To: "/cs",
-        },
-        {
           Name: "Events",
           To: "/events",
         },
@@ -501,18 +494,8 @@ body {
   border-color: #ffffff00 !important;
 }
 
-/* .v-btn{
-  font-weight: bold !important;
-  font-family: "Roboto", sans-serif !important;
-}
-
-.v-tab{
-  font-weight: bold !important;
-  font-family: "Roboto", sans-serif !important;
-} */
-
 .IEEE {
-  background-color: #00629b !important;
+  background-color: #F3FBFF !important;
 }
 
 .IEEEFont {

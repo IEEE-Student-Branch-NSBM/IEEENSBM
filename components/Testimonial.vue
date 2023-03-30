@@ -1,69 +1,105 @@
 <template>
-  <div class="testimonial">
-    <div class="pic">
-      <nuxt-img :src="dataObj.img" alt=""> </nuxt-img>
-    </div>
-    <h3 class="testimonial-title">
-      {{ dataObj.name }} <br/> <small>{{ dataObj.title }}</small>
-    </h3>
-    <p class="description">
-      <v-icon color="orange" large>mdi-format-quote-open-outline</v-icon>
-      {{ dataObj.description }}
-<!--      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim diam, tempus vel ultricies viverra, luctus in elit. Aliquam tempus blandit velit, in pharetra ex volutpat a. Cras eu augue ac nisl tempor commodo.-->
-      <v-icon color="orange" large>mdi-format-quote-close-outline</v-icon>
-    </p>
+  <div class="testimonial-card-container">
+    <v-icon color="primary" style="top: -30px;left:-20px;">mdi-format-quote-open</v-icon>
+    <v-card class="testimonial-card">
+      <div class="testimonial-content">
+        <v-row class="testimonial-profile">
+          <div class="pic">
+            <nuxt-img :src="dataObj.img" alt=""> </nuxt-img>
+          </div>
+          <div>
+            <h3 class="testimonial-title">
+              {{ dataObj.name }} <br /> <small>{{ dataObj.title }}</small>
+            </h3>
+          </div>
+        </v-row>
+        <v-row class="testimonial-body">
+          <p class="description">
+            {{ dataObj.description }}
+          </p>
+        </v-row>
+      </div>
+    </v-card>
+    <v-icon color="primary" style="bottom: -30px;right:-20px;">mdi-format-quote-close</v-icon>
   </div>
 </template>
 
 <style scoped>
-.testimonial{
-  text-align: center;
+.testimonial-card-container {
+  position: relative;
+  margin-block: 30px;
+}
+.testimonial-card-container > .v-icon{
+  position: absolute;
+  z-index: 10;
+  font-size: 64px;
+}
+.testimonial-card {
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 15px;
+  width: 600px;
+  min-height: 300px;
 }
 
-.testimonial .pic{
-  width: 120px;
-  height: 120px;
+.testimonial-card .row {
+  margin: 0;
+}
+
+.testimonial-content {
+  padding: 30px 50px;
+  width: 100%;
+  height: 300px;
+}
+
+.testimonial-profile {
+  height: 25%;
+}
+
+.testimonial-card .pic {
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  margin: 0 auto;
-  margin-bottom: 15px;
+  margin-right: 15px;
 }
 
-.testimonial .pic img{
+.testimonial-card .pic img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
 
-.testimonial .testimonial-title{
-  display: inline-block;
-  font-size: 22px;
+.testimonial-card .testimonial-title {
+  display: block;
+  font-size: 18px;
   font-weight: 600;
-  color: #0c4767;
+  color: black;
 }
 
-.testimonial .testimonial-title small{
-  font-size: 15px;
-  font-weight: 600;
-  color: #787878;
+.testimonial-card .testimonial-title small {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5E5E5E;
 }
 
-.testimonial .description{
+.testimonial-body {
+  height: 75%;
+  align-items: center;
+}
+
+.testimonial-card .description {
   font-size: 14px;
   color: #787878;
   line-height: 27px;
   position: relative;
   margin: 0;
 }
-
-
-
 </style>
 
 <script>
 export default {
   name: "Testimonial",
-  props:{
-    dataObj:Object,
+  props: {
+    dataObj: Object,
   },
 }
 </script>
