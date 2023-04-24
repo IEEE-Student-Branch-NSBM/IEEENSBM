@@ -4,6 +4,11 @@
     "es2021": true
   },
   "extends": ["plugin:react/recommended", "plugin:prettier/recommended"],
+  "settings": {
+    "react": {
+      "version": "18.2.0"
+    }
+  },
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
