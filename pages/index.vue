@@ -1,4 +1,4 @@
-l<template>
+<template>
   <div>
     <div class="CSSOverlay"></div>
     <v-carousel
@@ -30,7 +30,7 @@ l<template>
             >Welcome to IEEE Student Branch of NSBM
           </v-card-title>
           <v-card-text class="headingPara pa-0 py-4">
-            The IEEE Student Branch of NSBM Green University was started in the
+            The IEEE Student Branch of <a href="https://www.nsbm.ac.lk/" target="_blank" rel="noopener">NSBM Green University</a> was started in the
             year 2015 and consists of IEEE members from the Faculty of Computing
             and the Faculty of Engineering.
           </v-card-text>
