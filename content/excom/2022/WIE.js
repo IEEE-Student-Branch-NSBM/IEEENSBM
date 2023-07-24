@@ -6,7 +6,7 @@ export const excom_wie_2022 = [
     },
     {
         name: "DEWMI HATHURUSINGHA",
-        image_path: '/Assets/Excom/Dewmi Hathurusingha.png',
+        image_path: '/Assets/Excom/Dewmi Hathurusingha.jpg',
         position: "Vice Chairperson - FOC",
     },
     {
