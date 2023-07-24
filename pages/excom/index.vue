@@ -37,43 +37,15 @@
           <v-tab :value="22">2022/23</v-tab>
           <v-tab :value="21">2021/22</v-tab>
           <v-tab :value="20">2020/21</v-tab>
-          <v-tab :value="19">2019/20</v-tab>
-          <v-tab :value="18">2018/19</v-tab>
+          <!-- <v-tab :value="19">2019/20</v-tab>
+          <v-tab :value="18">2018/19</v-tab> -->
         </v-tabs>
       </v-row>
       <v-row class="justify-center">
         <v-tabs-items v-model="sb_tabs" class="w-100">
           <v-tab-item>
             <v-row class="d-flex justify-center my-15 bg-surface-variant">
-              <div v-for="(excom, i) in sb_Excom18">
-                <ExComCard 
-                :key="i" 
-                :name="excom.name" 
-                :position="excom.position" 
-                :image="excom.image_path"
-                :linkedin="excom.linkedin" 
-                :facebook="excom.facebook" 
-                :email="excom.email"/>
-              </div>
-            </v-row>
-          </v-tab-item> 
-          <v-tab-item>
-            <v-row class="d-flex justify-center my-15 bg-surface-variant">
-              <div v-for="(excom, i) in sb_Excom19">
-                <ExComCard 
-                :key="i" 
-                :name="excom.name" 
-                :position="excom.position" 
-                :image="excom.image_path"
-                :linkedin="excom.linkedin" 
-                :facebook="excom.facebook" 
-                :email="excom.email"/>
-              </div>
-            </v-row>
-          </v-tab-item> 
-          <v-tab-item>
-            <v-row class="d-flex justify-center my-15 bg-surface-variant">
-              <div v-for="(excom, i) in sb_Excom20">
+              <div v-for="(excom, i) in sb_Excom22">
                 <ExComCard 
                 :key="i" 
                 :name="excom.name" 
@@ -101,7 +73,7 @@
           </v-tab-item> 
           <v-tab-item>
             <v-row class="d-flex justify-center my-15 bg-surface-variant">
-              <div v-for="(excom, i) in sb_Excom22">
+              <div v-for="(excom, i) in sb_Excom20">
                 <ExComCard 
                 :key="i" 
                 :name="excom.name" 
@@ -113,6 +85,34 @@
               </div>
             </v-row>
           </v-tab-item> 
+          <!-- <v-tab-item>
+            <v-row class="d-flex justify-center my-15 bg-surface-variant">
+              <div v-for="(excom, i) in sb_Excom19">
+                <ExComCard 
+                :key="i" 
+                :name="excom.name" 
+                :position="excom.position" 
+                :image="excom.image_path"
+                :linkedin="excom.linkedin" 
+                :facebook="excom.facebook" 
+                :email="excom.email"/>
+              </div>
+            </v-row>
+          </v-tab-item> 
+          <v-tab-item>
+            <v-row class="d-flex justify-center my-15 bg-surface-variant">
+              <div v-for="(excom, i) in sb_Excom18">
+                <ExComCard 
+                :key="i" 
+                :name="excom.name" 
+                :position="excom.position" 
+                :image="excom.image_path"
+                :linkedin="excom.linkedin" 
+                :facebook="excom.facebook" 
+                :email="excom.email"/>
+              </div>
+            </v-row>
+          </v-tab-item>  -->
         </v-tabs-items>
       </v-row>
     </v-container>
