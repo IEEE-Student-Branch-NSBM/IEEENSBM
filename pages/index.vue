@@ -155,12 +155,12 @@
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <v-slide-group show-arrows class="mb-10">
           <template v-slot:next>
@@ -227,12 +227,12 @@
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <!-- <ChairCard /> -->
         <v-row class="justify-center flex-wrap">
@@ -266,12 +266,12 @@
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <v-row justify="center" no-gutters>
           <v-col class="hidden-sm-and-down">

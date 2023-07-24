@@ -8,7 +8,7 @@ export const chairs = [
         email: "#",
       },
       {
-        name: "Lihini Nisansala",
+        name: "Nirasha Herath",
         chair_role: "Chairperson - IEEE Women In Engineering",
         image: "/Assets/Chair/Nirasha.jpg",
         facebook: "#",
@@ -16,9 +16,9 @@ export const chairs = [
         email: "#",
       },
       {
-        name: "Sanjula De Alwis",
+        name: "Dasanjith Gunarathna",
         chair_role: "Chairperson - IEEE Computer Society",
-        image: "/Assets/Chair/Dasanjith Gunarathna.jpg",
+        image: "/Assets/Chair/Dasanjith Gunarathne.jpg",
         facebook: "#",
         linkedin: "#",
         email: "#",
