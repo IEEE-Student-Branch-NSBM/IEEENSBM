@@ -63,7 +63,7 @@
               <v-icon size="25" color="#2F234F">mdi-bullseye-arrow</v-icon>Our&nbsp;<span>Mission</span>
             </v-card-title>
             <v-card-text class="sm:text-center md:text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
+              The Student Chapter of IEEE NSBM advises the community on ethics policy and concerns as well as fostering awareness on ethical issues and promoting ethical behavior amongst individuals and organizations working within the IEEE fields of interest.
             </v-card-text>
           </v-row>
         </v-card>
@@ -73,7 +73,7 @@
               <v-icon size="25" color="#2F234F">mdi-eye</v-icon>Our&nbsp;<span>Vision</span>
             </v-card-title>
             <v-card-text class="sm:text-center md:text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
+              A world in which engineers and scientists are respected for their exemplary ethical behavior and the IEEE and its Ethics & Member Conduct Committee are recognized as a major drive in this regard.
             </v-card-text>
           </v-row>
         </v-card>
@@ -155,12 +155,12 @@
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <v-slide-group show-arrows class="mb-10">
           <template v-slot:next>
@@ -227,12 +227,12 @@
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <!-- <ChairCard /> -->
         <v-row class="justify-center flex-wrap">
@@ -266,12 +266,12 @@
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <v-row justify="center" no-gutters>
           <v-col class="hidden-sm-and-down">

@@ -1,68 +1,43 @@
 export const excom_wie_2021 = [
     {
-        name: "Sunali Rambukwella",
-        image_path: '/Assets/Excom/Secretary.jpg',
-        position: "Chairperson",
-    },
-    {
-        name: "Yasmitha Pethtanayake",
-        image_path: '/Assets/Excom/yasmitha.png',
-        position: "Co-Chairperson",
-    },
-    {
-        name: "Geethama Ramanayaka",
-        image_path: '/Assets/Excom/Geethmi.png',
-        position: "Co-Chairperson",
-    },
-    {
-        name: "Gangadara Athukorala",
-        image_path: '/Assets/Excom/AsstSecretary.jpg',
-        position: "Secretary",
-    },
-    {
-        name: "Shehani Kotandeniya",
-        image_path: '/Assets/Excom/shehani.jpg',
-        position: "Asst. Secretary",
-    },
-    {
-        name: "Shameera Carrim",
-        image_path: '/Assets/Excom/Shameera.jpg',
-        position: "Asst. Secretary",
-    },
-    {
-        name: "Sewmini Amasha",
-        image_path: '/Assets/Excom/Sewmini.png',
-        position: "Treasurer",
-    },
-    {
-        name: "Isuri Mayadunne",
-        image_path: '/Assets/Excom/Isuri Mayadunne.jpg',
-        position: "PR Manager",
-    },
-    {
         name: "Lihini Nisansala",
-        image_path: '/Assets/Excom/Lihini Nisansala.jpg',
-        position: "Event Coodinator",
+        image_path: '/Assets/Chair/Lihini.png',
+        position: "Chairperson",
     },
     {
         name: "Vinuri Prabodhya",
         image_path: '/Assets/Excom/Vinuri Prabodhya.jpg',
-        position: "Director of Logistics",
+        position: "Co-Chairperson - FOC",
     },
     {
-        name: "Imandi Dahanayake",
-        image_path: '/Assets/Excom/Imandi Dahanayake.jpg',
-        position: "Director of Media",
+        name: "Gayara Alahakoon",
+        image_path: '/Assets/Excom/Gayara.jpg',
+        position: "Co-Chairperson - FOE",
     },
     {
-        name: "Vihangi Senadheera",
-        image_path: '/Assets/Excom/Vihangi Senadheera.jpg',
-        position: "Volunteer Coordinator",
+        name: "Rashenka Savindi",
+        image_path: '/Assets/Excom/RashenkaS.jpg',
+        position: "Secretary",
     },
     {
-        name: "Spana Sangeethika ",
-        image_path: '/Assets/Excom/Sapna Sangeethika.jpg',
-        position: "Member Development",
+        name: "Dewmi Hathurusinghe",
+        image_path: '/Assets/Excom/DewmiH.png',
+        position: "Asst. Secretary",
+    },
+    {
+        name: "Piyumi Prasndika",
+        image_path: '/Assets/Excom/PiyumiP.png',
+        position: "Designer",
+    },
+    {
+        name: "Nirasha Herath",
+        image_path: '/Assets/Excom/NirashaH.jpg',
+        position: "Event Coodinator",
+    },
+    {
+        name: "Tania Wickramarathna",
+        image_path: '/Assets/Excom/TaniaW.jpg',
+        position: "Event Coodinator",
     }
 ]
 
