@@ -27,9 +27,9 @@
         </v-row>
         <v-row class="excom-swap-tab-chapter">
           <v-btn-toggle v-model="toggle_multiple">
-            <a href="."><v-btn color="#00629B">IEEE Student Branch</v-btn></a>
+            <a href="../"><v-btn color="#00629B">IEEE Student Branch</v-btn></a>
             <v-btn color="#702F8A">WIE Affinity Group</v-btn>
-            <a href="cs"><v-btn color="#FFA300">CS Student Chapter</v-btn></a>
+            <a href="../cs"><v-btn color="#FFA300">CS Student Chapter</v-btn></a>
           </v-btn-toggle>
         </v-row>
         <v-row>
