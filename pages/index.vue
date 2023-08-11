@@ -1,4 +1,4 @@
-l<template>
+<template>
   <div>
     <div class="CSSOverlay"></div>
     <v-carousel
@@ -30,7 +30,7 @@ l<template>
             >Welcome to IEEE Student Branch of NSBM
           </v-card-title>
           <v-card-text class="headingPara pa-0 py-4">
-            The IEEE Student Branch of NSBM Green University was started in the
+            The IEEE Student Branch of <a href="https://www.nsbm.ac.lk/" target="_blank" rel="noopener">NSBM Green University</a> was started in the
             year 2015 and consists of IEEE members from the Faculty of Computing
             and the Faculty of Engineering.
           </v-card-text>
@@ -63,7 +63,7 @@ l<template>
               <v-icon size="25" color="#2F234F">mdi-bullseye-arrow</v-icon>Our&nbsp;<span>Mission</span>
             </v-card-title>
             <v-card-text class="sm:text-center md:text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
+              The Student Chapter of IEEE NSBM advises the community on ethics policy and concerns as well as fostering awareness on ethical issues and promoting ethical behavior amongst individuals and organizations working within the IEEE fields of interest.
             </v-card-text>
           </v-row>
         </v-card>
@@ -73,7 +73,7 @@ l<template>
               <v-icon size="25" color="#2F234F">mdi-eye</v-icon>Our&nbsp;<span>Vision</span>
             </v-card-title>
             <v-card-text class="sm:text-center md:text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit tortor, sagittis quis eros quis, mattis viverra lorem. Aliquam interdum nibh non sem tristique rutrum. 
+              A world in which engineers and scientists are respected for their exemplary ethical behavior and the IEEE and its Ethics & Member Conduct Committee are recognized as a major drive in this regard.
             </v-card-text>
           </v-row>
         </v-card>
@@ -155,12 +155,12 @@ l<template>
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <v-slide-group show-arrows class="mb-10">
           <template v-slot:next>
@@ -227,12 +227,12 @@ l<template>
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <!-- <ChairCard /> -->
         <v-row class="justify-center flex-wrap">
@@ -266,12 +266,12 @@ l<template>
           </v-card-title>
         </v-row>
         <v-row justify="center" no-gutters>
-          <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
+          <!-- <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
             Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim 
             velit mollit. Exercitation veniam consequat sunt nostrud 
             amet.
-          </v-card-text>
+          </v-card-text> -->
         </v-row>
         <v-row justify="center" no-gutters>
           <v-col class="hidden-sm-and-down">
