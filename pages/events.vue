@@ -10,9 +10,6 @@
         <v-tab>2020</v-tab>
         <v-tab>2019</v-tab>
         <v-tab>2018</v-tab>
-        <v-tab>2017</v-tab>
-        <v-tab>2016</v-tab>
-        <v-tab>WIE Inoguration </v-tab>
       </v-tabs>
 
       <v-tabs-items v-model="tabs" style="background-color: transparent;">
@@ -77,21 +74,6 @@
             <v-row>
               <v-col
                 v-for="(event, i) in PrevEvents_2018"
-                :key="i"
-                cols="12"
-                md="4"
-              >
-                <AllEvents :event="event"></AllEvents>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-tab-item>
-        
-         <v-tab-item>
-          <v-container fluid>
-            <v-row>
-              <v-col
-                v-for="(event, i) in PrevEvents_2017"
                 :key="i"
                 cols="12"
                 md="4"

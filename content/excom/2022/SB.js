@@ -17,7 +17,7 @@ export const excom_sb_2022 = [
     },
     {
         name: "Gayara Alahakoon",
-        image_path: '/Assets/Chair/Nirasha.jpg',
+        image_path: '/Assets/Excom/Gayara.jpg',
         position: "Vice Chairman - FOE",
         linkedin: '#',
         facebook: '#',

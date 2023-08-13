@@ -7,7 +7,7 @@
             <span class="titles pa-0"
               >Our <span style="color: #00629b"> Vision</span>
             </span>
-            <v-card-text class="pa-0 pb-2 mt-4 text-justify">
+            <v-card-text class="pa-0 pb-2 mt-4 text-justify font-weight-regular">
               A world in which engineers and scientists are respected for their
               exemplary ethical behavior and the IEEE and its Ethics & Member
               Conduct Committee are recognized as a major drive in this regard.
@@ -18,7 +18,7 @@
               quality="98"
               format="webp"
               fit="contain"
-              class=""
+              class="rounded-lg"
               height="350"
               width="800"
               alt="Brand Logo"
@@ -43,7 +43,7 @@
             <span class="titles pa-0"
               >Our <span style="color: #00629b">Mission</span>
             </span>
-            <v-card-text class="pa-0 pb-2 text-justify mt-4">
+            <v-card-text class="pa-0 pb-2 text-justify mt-4 font-weight-regular">
               The Student Chapter of IEEE NSBM advises the community on ethics
               policy and concerns as well as fostering awareness on ethical
               issues and promoting ethical behavior amongst individuals and
@@ -201,6 +201,7 @@ export default {
 <style scoped>
 .vsheet {
   padding-top: auto;
+  background-color: transparent;
 }
 .titles {
   font-size: 60px;

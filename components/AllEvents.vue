@@ -16,7 +16,7 @@
           {{ event.title }}
         </v-card-title>
         <v-card-subtitle> {{ event.date }} </v-card-subtitle>
-        <v-card-text>
+        <v-card-text class="font-weight-regular">
           {{ event.description }}
         </v-card-text>
       </v-row>
