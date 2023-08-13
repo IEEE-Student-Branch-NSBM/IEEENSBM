@@ -8,6 +8,15 @@ export const CurrentEvent = null; /// Put null if there is none.
 */
 
 export const PrevEvents = [
+
+  {
+    title: "IEEE DAY 2022",
+    image: "/events/2022/ieeday2022.jpg",
+    date: "06th October, 2022",
+    description:
+      "IEEE Day is the most glamorous celebration for every IEEEian around the globe, which is held annually in the month of October.",
+    link: "https://www.facebook.com/events/1094920764470705"
+  },
   {
     title: "ආයුබෝවන් IEEE",
     image: "/events/2022/ayubovn_2022.jpg",

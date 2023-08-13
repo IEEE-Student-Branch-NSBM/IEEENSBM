@@ -29,8 +29,8 @@
           <v-card-title class="DontBreakWords pa-0 font-weight-bold"
             >Welcome to IEEE Student Branch of NSBM
           </v-card-title>
-          <v-card-text class="headingPara pa-0 py-4">
-            The IEEE Student Branch of <a href="https://www.nsbm.ac.lk/" target="_blank" rel="noopener">NSBM Green University</a> was started in the
+          <v-card-text class="headingPara pa-0 py-4 font-weight-regular">
+            The IEEE Student Branch of <a href="https://www.nsbm.ac.lk/" target="_blank" rel="noopener" style="color: #FFFFFF!important;font-weight: 600;">NSBM Green University</a> was started in the
             year 2015 and consists of IEEE members from the Faculty of Computing
             and the Faculty of Engineering.
           </v-card-text>
@@ -79,74 +79,6 @@
         </v-card>
       </v-row>
     </v-sheet>
-    <!-- <v-sheet color="#F3FBFF" class="vsheet">
-      <v-container fluid class="joinus-topBanner">
-        <v-row align="center" no-gutters class="DontBreakWords mt-8">
-          <v-col class="px-10 firstCard">
-            <v-card-title
-              class="pa-0 pb-2 text-sm-h2 text-h4 font-weight-bold topic-one"
-              >Team Work</v-card-title
-            >
-            <v-card-title
-              class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
-              >We are all in this together</v-card-title
-            >
-            <v-card-text class="pa-0 pb-2 mt-4 text-justify topic-description">
-              This is a very active Student Branch in the Sri Lanka section with
-              many activities throughout the year. And the best thing is some of
-              these projects are conducted for not only the Undergraduates of
-              NSBM but also for all the other undergraduates from other State
-              and non-State universities. Also, IEEE Student Branch of NSBM
-              conducts many valuable national and international projects
-              throughout the year.
-            </v-card-text>
-          </v-col>
-          <v-col>
-            <v-img
-              quality="98"
-              format="webp"
-              fit="contain"
-              class="rounded-lg"
-              height="400"
-              width="700"
-              alt="Brand Logo"
-              src="/Assets/Update/One.jpg"
-            />
-          </v-col>
-        </v-row>
-        <v-row align="center" no-gutters class="DontBreakWords mt-8 mb-8">
-          <v-col class="order-last order-md-first">
-            <v-img
-              quality="98"
-              format="webp"
-              fit="contain"
-              class="rounded-lg"
-              height="400"
-              width="700"
-              alt="Brand Logo"
-              src="/Assets/Update/Two.jpg"
-            />
-          </v-col>
-          <v-col class="ml-4 px-10">
-            <v-card-title
-              class="pa-0 pb-2 text-h4 text-sm-h2 font-weight-bold topic-one"
-              >Volunteering</v-card-title
-            >
-            <v-card-title
-              class="pa-0 pb-2 text-h5 font-weight-regular topic-two"
-              >We rise by lifting others
-            </v-card-title>
-            <v-card-text class="pa-0 pb-2 text-justify mt-4 topic-description">
-              Volunteering is an act of an individual or group freely offering
-              up their time and service to help. The role of volunteers is
-              working for a specific task or Aim in the allocated team with the
-              assistance of the team members.
-            </v-card-text>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-sheet> -->
-
     <v-sheet>
       <v-container fluid class="my-10">
         <v-row justify="center" no-gutters>
