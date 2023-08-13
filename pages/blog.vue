@@ -5,14 +5,6 @@
           Blog
       </v-card-title>
     </v-row>
-    <v-row justify="center" no-gutters>
-        <v-card-text class="para-event mx-sm-16 mx-0 mb-6">
-          Amet minim mollit non deserunt ullamco est sit aliqua 
-          dolor do amet sint. Velit officia consequat duis enim 
-          velit mollit. Exercitation veniam consequat sunt nostrud 
-          amet.
-        </v-card-text>
-      </v-row>
     <v-row no-gutters justify="center" class="py-6" >
       <BlogCard
         :blog="blog"

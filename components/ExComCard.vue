@@ -11,7 +11,7 @@
                 height="200"
                 width="200"
                 class=" rounded-circle mx-auto"
-                contain></v-img>
+                cover></v-img>
             </div>
             <v-card-title class="excom_name justify-center">
               {{ name }}

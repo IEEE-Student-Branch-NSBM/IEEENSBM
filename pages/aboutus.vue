@@ -111,21 +111,14 @@
       </v-row>
       <v-row align="center" no-gutters class="DontBreakWords mt-8">
         <v-col class="px-5 chapter-section">
-          <v-card-text class="pa-0 pb-2 text-justify mt-4">
-            IEEE Computer Society (sometimes abbreviated as the Computer Society
-            or CS) is a professional society of the Institute of Electrical and
-            Electronics Engineers (IEEE). Its purpose and scope are "to advance
-            the theory, practice, and application of computer and information
-            processing science and technology" and the "professional standing of
-            its members". The CS is the largest of 39 technical societies
-            organized under the IEEE Technical Activities Board. <br /><br />
-            The IEEE Computer Society sponsors workshops and conferences,
-            publishes a variety of peer-reviewed literature, operates technical
-            committees, and develops IEEE computing standards. It supports more
-            than 200 chapters worldwide and participates in educational
-            activities at all levels of the profession, including distance
-            learning, accreditation of higher education programs in computer
-            science, and professional certification in software engineering.
+          <v-card-text class="pa-0 pb-2 text-justify mt-4 font-weight-regular">
+            The IEEE Student Branch of NSBM Green University was established in 2015
+            and is composed of IEEE members from the Computing and Engineering faculty. 
+            In the Sri Lanka section, there is a very active Student Branch with several 
+            activities throughout the year. The greatest part is that some of these projects
+            are conducted not just for NSBM undergraduates, but also for undergraduates from 
+            other State and non-State universities. Throughout the year, the IEEE Student Branch 
+            of NSBM constantly performs numerous valuable national and international projects.
           </v-card-text>
           <v-card-text
             class="pa-0 text-justify mt-4 SBmoreDetails pl-4"
@@ -195,13 +188,13 @@
             quality="98"
             format="webp"
             fit="contain"
-            sizes="sm:70vw md:60vw lg:25vw"
+            sizes="sm:75vw md:60vw lg:15vw"
             alt="WIE Brand Logo"
             :src="'/Assets/Logos/WIE_Logo.png'"
           />
         </v-col>
         <v-col class="ml-4 px-10 chapter-section">
-          <v-card-text class="pa-0 pb-2 text-justify mt-4">
+          <v-card-text class="pa-0 pb-2 text-justify mt-4 font-weight-regular">
             IEEE Women in Engineering (WIE) is a global platform of IEEE members
             and volunteers dedicated to advancing women engineers and scientists
             and empowering young girls throughout the world to pursue academic
@@ -263,7 +256,7 @@
       </v-row>
       <v-row align="center" no-gutters class="DontBreakWords mt-8">
         <v-col class="px-5 chapter-section">
-          <v-card-text class="pa-0 pb-2 text-justify mt-4">
+          <v-card-text class="pa-0 pb-2 text-justify mt-4 font-weight-regular">
             IEEE Computer Society (sometimes abbreviated as the Computer Society
             or CS) is a professional society of the Institute of Electrical and
             Electronics Engineers (IEEE). Its purpose and scope are "to advance
@@ -300,13 +293,6 @@
               target="_blank"
               ><v-icon>mdi-linkedin</v-icon></v-btn
             >
-            <!-- <v-btn
-              class="cs-btn-icon"
-              icon
-              href="https://twitter.com/nsbmieee"
-              target="_blank"
-              ><v-icon>mdi-twitter</v-icon></v-btn
-            > -->
             <v-btn
               icon
               class="cs-btn-icon"
@@ -316,12 +302,12 @@
             >
           </v-card-actions>
         </v-col>
-        <v-col class="d-flex">
+        <v-col class="d-flex justify-center">
           <nuxt-img
             quality="98"
             format="webp"
             fit="contain"
-            sizes="sm:70vw md:60vw lg:25vw"
+            sizes="sm:80vw md:60vw lg:25vw"
             alt="CS Brand Logo"
             :src="'/Assets/Logos/CS_Logo_transparent.png'"
             class="mx-auto"

@@ -62,7 +62,7 @@
             <v-card-title class="text-h5 font-weight-bold">
               <v-icon size="25" color="#2F234F">mdi-bullseye-arrow</v-icon>Our&nbsp;<span>Mission</span>
             </v-card-title>
-            <v-card-text class="sm:text-center md:text-justify">
+            <v-card-text class="sm:text-center md:text-justify font-weight-regular">
               The Student Chapter of IEEE NSBM advises the community on ethics policy and concerns as well as fostering awareness on ethical issues and promoting ethical behavior amongst individuals and organizations working within the IEEE fields of interest.
             </v-card-text>
           </v-row>
