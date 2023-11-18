@@ -275,14 +275,6 @@
               <h3 style="width: 75%; text-align: left">Contact Us</h3>
               <table style="width: 75%">
                 <tr>
-                  <td><v-icon>mdi-phone</v-icon></td>
-                  <td class="pl-1">
-                    <a class="mailSection" href="tel:+94769872270"
-                      >+94 76 987 2270</a
-                    >
-                  </td>
-                </tr>
-                <tr>
                   <td><v-icon>mdi-email</v-icon></td>
                   <td class="pl-1">
                     <a href="mailto:name@nsbmieee@gmail.com" class="mailSection"
