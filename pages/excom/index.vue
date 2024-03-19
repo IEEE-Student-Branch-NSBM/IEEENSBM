@@ -34,6 +34,7 @@
       </v-row>
       <v-row>
         <v-tabs v-model="sb_tabs" centered class="mb-4" height="40" slider-size="3" color="#00273E">
+          <v-tab :value="24">2024/25</v-tab>
           <v-tab :value="22">2022/23</v-tab>
           <v-tab :value="21">2021/22</v-tab>
           <v-tab :value="20">2020/21</v-tab>
@@ -43,6 +44,20 @@
       </v-row>
       <v-row class="justify-center">
         <v-tabs-items v-model="sb_tabs" class="w-100">
+          <v-tab-item>
+            <v-row class="d-flex justify-center my-15 bg-surface-variant">
+              <div v-for="(excom, i) in sb_Excom24">
+                <ExComCard 
+                :key="i" 
+                :name="excom.name" 
+                :position="excom.position" 
+                :image="excom.image_path"
+                :linkedin="excom.linkedin" 
+                :facebook="excom.facebook" 
+                :email="excom.email"/>
+              </div>
+            </v-row>
+          </v-tab-item>
           <v-tab-item>
             <v-row class="d-flex justify-center my-15 bg-surface-variant">
               <div v-for="(excom, i) in sb_Excom22">
@@ -125,6 +140,7 @@ import { excom_sb_2019 } from "~/content/excom/2019/SB";
 import { excom_sb_2020 } from "~/content/excom/2020/SB";
 import { excom_sb_2021 } from "~/content/excom/2021/SB";
 import { excom_sb_2022 } from "~/content/excom/2022/SB";
+import { excom_sb_2024 } from "~/content/excom/2024/SB";
 import ExComCard from "~/components/ExComCard.vue";
 
 export default {
@@ -138,6 +154,7 @@ export default {
     sb_Excom20: excom_sb_2020,
     sb_Excom21: excom_sb_2021,
     sb_Excom22: excom_sb_2022,
+    sb_Excom24: excom_sb_2024,
     sb_tabs: null,
     toggle_multiple: null,
   }),
