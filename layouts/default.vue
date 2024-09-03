@@ -302,7 +302,7 @@
           justify="end"
         >
           <v-col cols="12" sm="6" md="4" lg="4" align="center">
-            <p>© Copyright 2021 | All rights reserved</p>
+            <p>© Copyright 2024 | All rights reserved</p>
           </v-col>
 
           <v-col cols="12" sm="6" md="4" lg="4" align="right">

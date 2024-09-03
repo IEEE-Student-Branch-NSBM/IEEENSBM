@@ -1,4 +1,4 @@
-export const excom_wie_2022 = [
+export const excom_wie_2024 = [
     {
         name: "NIRASHA HERATH",
         image_path: '/Assets/Chair/Nirasha.jpg',
